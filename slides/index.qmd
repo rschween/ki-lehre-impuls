@@ -63,7 +63,13 @@ Wo ist der Fehler?
 :::
 :::
 
-<!-- TODO: auch an Schach-Expertise-Studie anknüpfen. Überleitung zu was ist expertise bereits hier? -->
+## Lernen braucht kognitive Anstrengung - Begründung 2
+
+Eine Erklärung, warum Experten Fehler besser identifizieren können, als Novizen, ist, dass sie auf Basis strukturierten Wissens Vorhersagen generieren. 
+Diese Vorhersagegenese ist kognitiv anstrengend. 
+
+> Studie von Simon & Chase (1973)
+> Erfahrene Schachspieler erinnerten visuell präsentierte Schachkonstellatoinen zuverlässiger als Novizen - dieser Vorteil verschwand bei zufälligen Anordnungen von Schachfiguren auf dem Feld. 
 
 ## Cognitive Load Theory in 60 Sekunden {.smaller}
 
@@ -101,7 +107,7 @@ bottleneck_fig = {
   });
 
   // Arrows
-  svg.append("defs").append("marker").attr("id", "arr-bn")
+  svg.append("defs").appe--nd("marker").attr("id", "arr-bn")
     .attr("viewBox", "0 0 10 10").attr("refX", 9).attr("refY", 5)
     .attr("markerWidth", 7).attr("markerHeight", 7).attr("orient", "auto")
     .append("path").attr("d", "M 0 0 L 10 5 L 0 10 Z").attr("fill", "#666");
