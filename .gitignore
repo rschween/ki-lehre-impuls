@@ -45,3 +45,6 @@ pages/config.yaml
 /assets/ppt/~*
 
 /.luarc.json
+
+# Generated files
+/docs/*
