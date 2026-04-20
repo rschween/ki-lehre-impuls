@@ -65,8 +65,8 @@ Wo ist der Fehler?
 
 ## Lernen braucht kognitive Anstrengung - Begründung 2
 
-Eine Erklärung, warum Experten Fehler besser identifizieren können, als Novizen, ist, dass sie auf Basis strukturierten Wissens Vorhersagen generieren. 
-Diese Vorhersagegenese ist kognitiv anstrengend. 
+Eine Erklärung, warum Experten Fehler besser identifizieren können, als Novizen, ist, dass sie auf Basis strukturierten Wissens Vorhersagen generieren und somit Abweichungen besser wahrnehmen. 
+Die Vorhersagetätigkeit ist kognitiv anstrengend. 
 
 > Studie von Simon & Chase (1973)
 > Erfahrene Schachspieler erinnerten visuell präsentierte Schachkonstellatoinen zuverlässiger als Novizen - dieser Vorteil verschwand bei zufälligen Anordnungen von Schachfiguren auf dem Feld. 
