@@ -13,11 +13,10 @@ project:
   render:
     - index.qmd
     - slides/**/*.qmd
-    - slides/archive/**/*.qmd
 
 website:
-  title: "KI in der Lehre: Refresher"
-  site-url: https://virtuelleakademie.github.io/ki-lehre-refresher/
+  title: "KI in der Lehre: Impuls"
+  site-url: https://virtuelleakademie.github.io/ki-lehre-impuls/
   favicon: /assets/robot.png
   open-graph: true
   search:
@@ -33,10 +32,6 @@ website:
     right:
       - icon: archive
         text: Archiv
-        menu:
-          - text: "Refresher 17.12.2025"
-            href: slides/archive/refresher-20251217/index.qmd
-
     tools:
       - icon: mortarboard-fill
         text: "BFH Weiterbildung: KI in der Lehre"
@@ -50,7 +45,7 @@ website:
 page-footer:
     right:
     - icon: github
-      href: https://github.com/virtuelleakademie/ki-lehre-refresher/
+      href: https://github.com/virtuelleakademie/ki-lehre-impuls/
 
 lang: de
 
