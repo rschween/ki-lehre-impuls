@@ -6,7 +6,7 @@ title: "Präsentation"
 
 Input (30 Min) mit anschliessender Diskussion (30 Min).
 
-{{< revealjs file="../slides/refresher-20260312/index.html" height="500px" class="ratio ratio-16x9" >}}
+{{< revealjs file="../slides/index.html" height="500px" class="ratio ratio-16x9" >}}
 
 
 Nutze die Pfeiltasten oder die Leertaste um durch die Präsentation zu navigieren. Drücke `F` für Vollbild.

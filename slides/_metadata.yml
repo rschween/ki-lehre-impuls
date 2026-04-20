@@ -7,7 +7,7 @@ author:
 format:
   revealjs:
     theme: [simple, ../styles/custom-reveal.scss]
-    footer: <a href="../../index.html"> Zur Website{{< bi box-arrow-up-left >}} </a>
+    footer: <a href="../index.html"> Zur Website{{< bi box-arrow-up-left >}} </a>
     slide-number: true
     preview-links: auto
     navigation-mode: linear
