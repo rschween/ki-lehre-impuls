@@ -1,0 +1,713 @@
+/*-- scss:defaults --*/
+
+// =============================================================================
+// DESIGN TOKENS - Warm Paper Editorial Design System
+// =============================================================================
+
+// Typography
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Literata:ital,opsz,wght@0,7..72,300;0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400;1,7..72,500&family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&display=swap');
+
+$font-family-base:       "Space Grotesk", -apple-system, BlinkMacSystemFont, sans-serif;
+$font-family-serif:      "Literata", Georgia, "Times New Roman", serif;
+$font-family-sans-serif: "Space Grotesk", -apple-system, BlinkMacSystemFont, sans-serif;
+$font-family-monospace:  "IBM Plex Mono", "Fira Code", monospace;
+$headings-font-family:   "Space Grotesk", sans-serif;
+
+// Font sizes
+$font-size-base:      1.0rem;
+$font-size-sm:        0.875rem;
+$font-size-xs:        0.75rem;
+$font-size-h1:        2.5rem;
+$font-size-h2:        1.75rem;
+$font-size-h3:        1.35rem;
+$font-size-h1-mobile: 1.85rem;
+$font-size-h2-mobile: 1.4rem;
+
+// Font weights
+$font-weight-light:     300;
+$font-weight-normal:    400;
+$font-weight-medium:    500;
+$font-weight-semibold:  600;
+$font-weight-bold:      700;
+
+// Line heights
+$line-height-base:    1.55;
+$line-height-tight:   1.2;
+$line-height-relaxed: 1.75;
+
+// --- PALETTE --- warm paper + three-color editorial
+$color-background:      #F5F0E8;
+$color-surface:         #EDE7DA;
+$color-border:          #C8C2B8;
+$color-border-subtle:   #D8D2CA;
+
+// Text
+$color-text:            #1A1714;
+$color-text-secondary:  #6E6560;
+$color-text-muted:      #9A9490;
+
+// Deep terracotta — interactive
+$color-accent:          #A63D2F;
+$color-accent-dark:     #8A3226;
+$color-accent-light:    rgba(#A63D2F, 0.08);
+
+// Ink navy — structural
+$color-navy:            #1E3A5F;
+$color-navy-light:      rgba(#1E3A5F, 0.07);
+
+// Warm gold — ornamental
+$color-gold:            #B8821A;
+$color-gold-light:      rgba(#B8821A, 0.1);
+
+$color-white: #FFFFFF;
+$color-black: #000000;
+
+// Quarto theme variable overrides
+$body-bg:    $color-background;
+$body-color: $color-text;
+$primary:    $color-navy;
+$secondary:  $color-text-secondary;
+$light:      $color-surface;
+$link-color: $color-text;
+
+// Borders
+$border-width:       1px;
+$border-width-thick: 2px;
+$border-style:       solid;
+$border-color:       $color-border;
+$border:             $border-width $border-style $border-color;
+
+// Spacing
+$spacing-xs:  0.25rem;
+$spacing-sm:  0.5rem;
+$spacing-md:  1rem;
+$spacing-lg:  1.5rem;
+$spacing-xl:  2rem;
+$spacing-2xl: 3rem;
+$spacing-3xl: 4rem;
+
+// Transitions
+$transition-fast:     0.15s;
+$transition-base:     0.25s;
+$transition-ease:     cubic-bezier(0.25, 0.1, 0.25, 1.0);
+$transition-ease-out: cubic-bezier(0.0, 0.0, 0.2, 1.0);
+
+$transition-color:     color $transition-fast $transition-ease,
+                       border-color $transition-fast $transition-ease;
+
+// Breakpoints
+$breakpoint-mobile: 900px;
+
+
+/*-- scss:rules --*/
+
+// =============================================================================
+// MIXINS
+// =============================================================================
+
+@mixin surface-background {
+  background-color: $color-surface;
+}
+
+@mixin transition-color {
+  transition: $transition-color;
+}
+
+@mixin text-secondary {
+  color: $color-text-secondary;
+  font-size: $font-size-sm;
+  font-family: $font-family-base;
+}
+
+@mixin label-caps {
+  font-family: $font-family-monospace;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-normal;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $color-text-muted;
+}
+
+@mixin active-indicator {
+  border-left: $border-width-thick solid $color-accent;
+  padding-left: calc($spacing-md - $border-width-thick);
+}
+
+// =============================================================================
+// GLOBAL RESET - Sharp corners everywhere
+// =============================================================================
+
+* {
+  border-radius: 0 !important;
+}
+
+// Global reduced-motion
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+// =============================================================================
+// BASE STYLES
+// =============================================================================
+
+body {
+  background-color: $color-background;
+  color: $color-text;
+  font-family: $font-family-base;
+  line-height: $line-height-base;
+  font-size: $font-size-base;
+  font-weight: $font-weight-normal;
+}
+
+// =============================================================================
+// TYPOGRAPHY
+// =============================================================================
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headings-font-family;
+  color: $color-text;
+  font-weight: $font-weight-bold;
+  margin-top: $spacing-xl;
+  margin-bottom: $spacing-md;
+  letter-spacing: -0.025em;
+}
+
+h1 {
+  font-size: $font-size-h1;
+  margin-top: 0;
+  margin-bottom: $spacing-lg;
+  letter-spacing: -0.035em;
+  line-height: 0.95;
+}
+
+h2 {
+  font-size: $font-size-h2;
+  font-weight: $font-weight-bold;
+  margin-top: $spacing-2xl;
+  letter-spacing: -0.025em;
+}
+
+h3 {
+  font-size: $font-size-h3;
+  font-weight: $font-weight-semibold;
+  margin-top: $spacing-xl;
+}
+
+p {
+  margin-bottom: $spacing-lg;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  font-weight: $font-weight-normal;
+  color: $color-text;
+}
+
+// Prose content — restore serif for readability
+#quarto-document-content p,
+#quarto-document-content li,
+#quarto-document-content blockquote {
+  font-family: $font-family-serif;
+  font-size: 1rem;
+  font-weight: $font-weight-normal;
+  line-height: $line-height-relaxed;
+}
+
+// =============================================================================
+// LINKS
+// =============================================================================
+
+a {
+  color: $color-navy;
+  text-decoration: none;
+  font-weight: $font-weight-normal;
+  border-bottom: 1px solid transparent;
+  transition: color $transition-fast $transition-ease,
+              border-color $transition-base $transition-ease;
+
+  &:hover {
+    color: $color-accent;
+    border-bottom-color: $color-accent;
+  }
+}
+
+// =============================================================================
+// NAVBAR
+// =============================================================================
+
+.navbar {
+  background-color: $color-background;
+  border-bottom: 1px solid $color-border;
+  padding: $spacing-sm 0;
+  box-shadow: none !important;
+}
+
+.navbar-brand {
+  font-family: $font-family-base;
+  font-weight: $font-weight-medium;
+  color: $color-navy !important;
+  font-size: $font-size-sm;
+  letter-spacing: 0.02em;
+}
+
+.navbar-nav .nav-link {
+  color: $color-text-secondary !important;
+  font-family: $font-family-base;
+  font-weight: $font-weight-medium;
+  font-size: $font-size-sm;
+  letter-spacing: 0.02em;
+  padding: $spacing-xs $spacing-sm !important;
+  border-bottom: 1px solid transparent;
+  transition: color $transition-fast $transition-ease,
+              border-color $transition-base $transition-ease;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 $spacing-xs;
+}
+
+.navbar-nav .nav-link:hover {
+  color: $color-navy !important;
+  border-bottom-color: $color-accent;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link[aria-current="page"] {
+  color: $color-navy !important;
+  border-bottom-color: $color-accent;
+}
+
+// Navbar tools
+.quarto-navbar-tools .quarto-navigation-tool {
+  color: $color-text-secondary !important;
+  font-size: 0.9rem;
+  padding: $spacing-sm !important;
+  background: none;
+  transition: color $transition-fast $transition-ease;
+
+  &:hover {
+    color: $color-navy !important;
+    background: none;
+  }
+}
+
+// Search
+#quarto-search .aa-DetachedSearchButtonIcon {
+  color: $color-text-secondary !important;
+}
+
+#quarto-search:hover .aa-DetachedSearchButtonIcon {
+  color: $color-navy !important;
+}
+
+.navbar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.navbar li {
+  padding-left: 0;
+}
+
+// =============================================================================
+// SIDEBAR
+// =============================================================================
+
+#quarto-sidebar {
+  background-color: $color-background;
+}
+
+#quarto-sidebar .sidebar-item a {
+  color: $color-text-secondary;
+  padding: $spacing-sm $spacing-md;
+  font-weight: $font-weight-medium;
+  font-size: $font-size-sm;
+  font-family: $font-family-base;
+  display: block;
+  transition: color $transition-fast $transition-ease,
+              background-color $transition-base $transition-ease,
+              border-color $transition-fast $transition-ease;
+}
+
+#quarto-sidebar .sidebar-item a:hover {
+  color: $color-navy;
+  background-color: $color-navy-light;
+}
+
+#quarto-sidebar .sidebar-item a.active,
+#quarto-sidebar .sidebar-link.active {
+  color: $color-navy;
+  font-weight: $font-weight-bold;
+  background-color: transparent;
+  @include active-indicator;
+}
+
+// =============================================================================
+// BUTTONS
+// =============================================================================
+
+.btn-primary {
+  background-color: $color-navy;
+  border: 1px solid $color-navy;
+  color: $color-background;
+  padding: $spacing-xs $spacing-md;
+  font-weight: $font-weight-medium;
+  font-size: $font-size-sm;
+  border-radius: 0;
+  transition: background-color $transition-fast $transition-ease,
+              border-color $transition-fast $transition-ease,
+              color $transition-fast $transition-ease;
+
+  &:hover,
+  &:focus {
+    background-color: $color-accent;
+    border-color: $color-accent;
+    color: $color-white;
+  }
+}
+
+// =============================================================================
+// CARDS
+// =============================================================================
+
+.card, .feature-card, .section-card {
+  background-color: transparent;
+  border-radius: 0;
+  border: none;
+  border-top: 1px solid $color-border;
+  padding: $spacing-xl 0;
+  margin-bottom: 0;
+  box-shadow: none !important;
+}
+
+.card, .feature-card {
+  transition: border-color $transition-base $transition-ease;
+}
+
+.card:hover, .feature-card:hover {
+  transform: none;
+  border-top-color: $color-navy;
+  box-shadow: none !important;
+}
+
+// =============================================================================
+// CALLOUTS - Sharp corners, keep semantic colors
+// =============================================================================
+
+.callout {
+  border-radius: 0 !important;
+  border-left-width: 4px;
+}
+
+.callout-header {
+  border-radius: 0 !important;
+}
+
+.callout-body-container {
+  border-radius: 0 !important;
+}
+
+.callout .callout-body {
+  border-radius: 0 !important;
+}
+
+// =============================================================================
+// TABLES — three differentiators only: header, alternating rows, hover
+// =============================================================================
+
+table,
+table.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: $spacing-lg 0;
+  font-size: $font-size-sm;
+  line-height: 1.5;
+}
+
+th, td {
+  padding: 0.65rem 0.85rem;
+  text-align: left;
+  border-bottom: 1px solid $color-border-subtle;
+  vertical-align: top;
+}
+
+// Header: navy on surface, uppercase label style
+th,
+.quarto-table-container table thead th,
+table.table thead th {
+  background-color: $color-surface;
+  color: $color-navy;
+  font-family: $font-family-base;
+  font-weight: $font-weight-semibold;
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  border-bottom: $border-width-thick solid $color-navy;
+  padding: 0.55rem 0.85rem;
+}
+
+// Alternating rows
+tbody tr:nth-child(even) {
+  background-color: rgba($color-navy, 0.03);
+}
+
+// Hover
+tbody tr:hover {
+  background-color: rgba($color-navy, 0.06);
+}
+
+// =============================================================================
+// TITLE BLOCKS
+// =============================================================================
+
+.quarto-title-block {
+  padding-bottom: $spacing-xl;
+  margin-bottom: $spacing-xl;
+  border-bottom: $border-width-thick solid $color-navy;
+}
+
+.quarto-title-block .quarto-title .title {
+  margin-bottom: $spacing-md;
+  font-weight: $font-weight-bold;
+  color: $color-text;
+}
+
+// =============================================================================
+// CODE BLOCKS
+// =============================================================================
+
+pre {
+  background-color: $color-surface;
+  border: 1px solid $color-border;
+  padding: $spacing-md $spacing-lg;
+  border-radius: 0;
+  font-size: 0.875em;
+}
+
+code {
+  font-family: $font-family-monospace;
+  font-size: 0.875em;
+  color: $color-navy;
+  background-color: $color-navy-light;
+  padding: 0.15em 0.4em;
+  border-radius: 0;
+}
+
+pre code {
+  color: $color-text;
+  background-color: transparent;
+  padding: 0;
+}
+
+// =============================================================================
+// BLOCKQUOTES
+// =============================================================================
+
+blockquote {
+  border-left: 3px solid $color-navy;
+  padding: $spacing-md $spacing-lg;
+  margin: $spacing-xl 0;
+  font-style: normal;
+  color: $color-text-secondary;
+  background-color: $color-navy-light;
+}
+
+// =============================================================================
+// LISTS
+// =============================================================================
+
+ul {
+  list-style: disc;
+  padding-left: $spacing-lg;
+}
+
+li {
+  margin-bottom: $spacing-sm;
+  padding-left: $spacing-xs;
+}
+
+li::marker {
+  color: $color-text-secondary;
+}
+
+// =============================================================================
+// FOOTER
+// =============================================================================
+
+.page-footer {
+  background-color: transparent;
+  border-top: $border-width-thick solid $color-navy;
+  color: $color-text-secondary;
+  font-size: $font-size-sm;
+  padding: $spacing-xl 0;
+  margin-top: $spacing-3xl;
+}
+
+.page-footer a {
+  color: $color-text-secondary;
+  text-decoration: none;
+  border-bottom: none;
+  transition: color $transition-fast $transition-ease;
+
+  &:hover {
+    color: $color-accent;
+    border-bottom: none;
+  }
+}
+
+// =============================================================================
+// TIMER - Clean minimal styling with accent
+// =============================================================================
+
+.base-timer {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.base-timer__svg {
+  stroke: $color-accent;
+}
+
+.base-timer__path-remaining {
+  stroke: $color-accent !important;
+}
+
+// =============================================================================
+// TABSETS - Minimal tabs with accent
+// =============================================================================
+
+.nav-tabs {
+  border-bottom: 1px solid $color-border;
+  gap: 0;
+}
+
+.nav-tabs .nav-link {
+  border: none !important;
+  border-bottom: 3px solid transparent !important;
+  background: none !important;
+  color: $color-text-secondary;
+  font-weight: $font-weight-medium;
+  padding: $spacing-sm $spacing-md;
+  margin-bottom: -1px;
+  transition: $transition-color;
+}
+
+.nav-tabs .nav-link:hover {
+  color: $color-text;
+  border-bottom-color: $color-border !important;
+}
+
+.nav-tabs .nav-link.active {
+  color: $color-text !important;
+  border-bottom-color: $color-accent !important;
+  font-weight: $font-weight-semibold;
+  background: none !important;
+}
+
+.tab-content {
+  border: none !important;
+  padding: $spacing-lg 0;
+}
+
+.tab-pane {
+  border: none !important;
+}
+
+// =============================================================================
+// HR
+// =============================================================================
+
+hr {
+  border: none;
+  border-top: 1px solid $color-border;
+  margin: $spacing-2xl 0;
+}
+
+// =============================================================================
+// UTILITIES
+// =============================================================================
+
+.card, .btn, .navbar, pre, .sidebar {
+  border-radius: 0 !important;
+}
+
+// =============================================================================
+// Q&A DISCIPLINE CATEGORIES
+// =============================================================================
+
+// Discipline-specific colors for visual scanning
+$discipline-gesundheit: #2E7D32;    // Green - Health/Nursing
+$discipline-technik: #1565C0;       // Blue - IT/Tech
+$discipline-wirtschaft: #6A1B9A;    // Purple - Business
+$discipline-soziales: #C62828;      // Red - Social Work
+$discipline-kuenste: #EF6C00;       // Orange - Arts
+$discipline-hafl: #558B2F;          // Olive - Agriculture
+
+// Base styles for discipline sections
+.discipline-section {
+  padding-left: $spacing-md;
+  margin-bottom: $spacing-xl;
+  border-left: $border-width-thick solid $color-border;
+}
+
+.discipline-section h3 {
+  margin-top: 0;
+}
+
+// Specific discipline colors
+.discipline-gesundheit {
+  border-left-color: $discipline-gesundheit;
+}
+
+.discipline-technik {
+  border-left-color: $discipline-technik;
+}
+
+.discipline-wirtschaft {
+  border-left-color: $discipline-wirtschaft;
+}
+
+.discipline-soziales {
+  border-left-color: $discipline-soziales;
+}
+
+.discipline-kuenste {
+  border-left-color: $discipline-kuenste;
+}
+
+.discipline-hafl {
+  border-left-color: $discipline-hafl;
+}
+
+.discipline-architektur {
+  border-left-color: $discipline-kuenste;  // Use same as arts
+}
+
+// Navigation link styling
+.qa-nav-link {
+  display: inline-block;
+  margin-bottom: $spacing-lg;
+  font-size: $font-size-sm;
+  color: $color-text-secondary;
+
+  &:hover {
+    color: $color-text;
+  }
+}
+
+// =============================================================================
+// RESPONSIVE
+// =============================================================================
+
+@media (max-width: $breakpoint-mobile) {
+  h1 { font-size: $font-size-h1-mobile; }
+  h2 { font-size: $font-size-h2-mobile; }
+
+  .navbar-nav .nav-item {
+    margin: 0 $spacing-xs;
+  }
+}

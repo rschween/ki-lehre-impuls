@@ -1,0 +1,24 @@
+author:
+  - name: Andrew Ellis
+    url: https://github.com/awellis
+    affiliation: Virtuelle Akademie, Berner Fachhochschule
+    affiliation-url: https://virtuelleakademie.ch
+    orcid: 0000-0002-2788-936X
+format:
+  revealjs:
+    theme: [simple, ../styles/custom-reveal.scss]
+    footer: <a href="../../index.html"> Zur Website{{< bi box-arrow-up-left >}} </a>
+    slide-number: true
+    preview-links: auto
+    navigation-mode: linear
+    controls: true
+    progress: true
+    hash: true
+    center: false
+    transition: fade
+    width: 1600
+    height: 900
+    margin: 0.1
+    callout-appearance: minimal
+filters:
+  - timer

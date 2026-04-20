@@ -1,0 +1,25 @@
+color:
+  palette:
+    # Core palette
+    black: "#000000"
+    white: "#FFFFFF"
+    light-grey: "#F5F5F5"
+    medium-grey: "#666666"
+    dark-grey: "#333333"
+    # Accent colors (also update in custom.scss, _quarto.yml, styles.css)
+    accent-gold: "#D4A03E"      # Link hovers, insight callouts
+    accent-magenta: "#A3195B"   # Active states, action callouts
+  background: white
+  foreground: black
+  primary: black
+  secondary: medium-grey
+
+# logo:
+#   large: assets/bfh-logo.png
+
+typography:
+  fonts:
+    - family: Urbanist
+      source: google
+  base: Urbanist
+  headings: Urbanist

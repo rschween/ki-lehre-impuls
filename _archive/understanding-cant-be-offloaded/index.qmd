@@ -1,0 +1,1057 @@
+---
+title: "Verstehen kann man nicht auslagern"
+subtitle: "Was Kognitionswissenschaft über Wissen, KI und Lernen sagt"
+format:
+  revealjs:
+    footer: "Verstehen kann man nicht auslagern"
+bibliography:
+  - ../../bibliography.bib
+  - ../../missing-refs.bib
+---
+
+
+# Wo wir stehen
+
+
+## Kurs 1: Was ist KI? {.smaller}
+
+**Beginner: Grundlagen für Lehrende**
+
+<br>
+
+1. **Kontext bestimmt das Ergebnis.** Sprachmodelle arbeiten durch statistische Mustervervollständigung. Wenn das Ergebnis nicht passt, fehlt meistens Kontext im Prompt.
+
+2. **Vielseitig, aber fehleranfällig.** Chatbots haben keine eingebaute Faktenprüfung. Kritische Evaluation ist immer notwendig.
+
+3. **Expert:innen profitieren. Lernende riskieren Lernverlust.** Lernen erfordert kognitive Anstrengung, die KI zu übernehmen droht.
+
+::: {.notes}
+Im Beginner-Kurs haben wir drei Grundfragen beantwortet: Was ist KI, was kann sie, und wann sollte man sie einsetzen? Die zentrale Einsicht: Sprachmodelle sind statistische Muster-Vervollständiger. Sie sind vielseitig, aber fehleranfällig. Und die entscheidende Unterscheidung: Expert:innen profitieren, weil sie Ergebnisse evaluieren können. Lernende riskieren, dass die kognitive Arbeit, die das Lernen ausmacht, an die KI delegiert wird.
+:::
+
+
+## Kurs 2: Wie funktioniert Lernen? {.smaller}
+
+**Intermediate: Kognitive Architektur und KI**
+
+<br>
+
+1. **Lernen = Schemabildung durch produktive kognitive Verarbeitung.** Arbeitsgedächtnis ist das Nadelöhr: ~4 Elemente gleichzeitig. Was nicht aktiv verarbeitet wird, wird nicht gelernt.
+
+2. **Das Evaluationsparadox.** Um KI-Output kritisch zu beurteilen, braucht man genau die Kompetenz, die die Aufgabe aufbauen sollte. Kompetente KI-Nutzung setzt Kompetenz voraus.
+
+3. **Die Reihenfolge entscheidet.** Eigener Versuch *vor* dem KI-Einsatz. Fünf Leitfragen schützen die kognitiven Operationen, die Schemata aufbauen.
+
+::: {.notes}
+Der Intermediate-Kurs war der umfangreichste. Drei Kernbotschaften: Erstens, Lernen bedeutet Schemabildung, und das Arbeitsgedächtnis ist das Nadelöhr. Alles muss durch diesen Engpass, keine KI kann das umgehen. Zweitens, das Evaluationsparadox: Um zu beurteilen, ob ein KI-Output stimmt, braucht man die Expertise, die man gerade erst aufbauen sollte. Drittens, die Reihenfolge ist entscheidend: Eigener Versuch zuerst, dann KI-Feedback. Die fünf Leitfragen helfen, Aufgaben so zu gestalten, dass die lernrelevante kognitive Arbeit bei den Studierenden bleibt.
+:::
+
+
+## Kurs 3: Wie gestalten wir Aufgaben? {.smaller}
+
+**Advanced: KI-Tools für die Lehre bauen**
+
+<br>
+
+1. **Der Worked-Example-Effekt.** Lernende, die durchgearbeitete Beispiele studieren, lernen besser als solche, die unangeleitet Probleme lösen. Grund: weniger kognitive Belastung, mehr Kapazität für Schemabildung.
+
+2. **Personalisierung senkt extrinsische Last.** Vertraute Kontexte reduzieren unnötige kognitive Belastung und erhöhen die Motivation. Bessere Schemabildung und Transfer.
+
+3. **Strukturierte KI-Outputs als Werkzeug.** Personalisierte Worked-Example-Generatoren bauen: Lernprofil erfassen, Beispiele anpassen, Scaffolding bereitstellen, schrittweise Lösungen anbieten.
+
+::: {.notes}
+Im Advanced-Kurs haben wir die Theorie in die Praxis umgesetzt. Der Kurs selbst war ein Worked Example: Wir haben gezeigt, wie man personalisierte Worked-Example-Generatoren mit KI baut. Die drei Botschaften: Der Worked-Example-Effekt ist einer der robustesten Befunde der Lernforschung. Personalisierung senkt die extrinsische Last und erhöht die Motivation. Und mit strukturierten KI-Outputs kann man diese Prinzipien skalieren.
+:::
+
+
+## Das Schlüsselkonzept: Offloading vs. Outsourcing {.smaller}
+
+::::{.columns}
+:::{.column width="50%"}
+### Offloading
+
+KI **entlastet**, aber eigenes Denken bleibt aktiv
+
+- KI fasst Quellen zusammen, Studierende analysieren selbst
+- Chirurg:in nutzt Checkliste, Urteilsvermögen bleibt
+- Taschenrechner für Arithmetik *während* Problemlösen
+
+[Extrinsische Last wird reduziert]{style="color: #B8821A; font-weight: bold;"}
+:::
+
+:::{.column width="50%"}
+### Outsourcing
+
+KI **ersetzt** das Denken
+
+- KI schreibt die Analyse, Studierende überarbeiten Formulierungen
+- Student:in übernimmt KI-Antwort ohne eigenen Versuch
+- KI schreibt den Essay komplett
+
+[Intrinsische Verarbeitung wird übersprungen]{style="color: #A63D2F; font-weight: bold;"}
+:::
+::::
+
+<br>
+
+::: {style="text-align: center; font-size: 1.05em;"}
+Dasselbe Tool, aber verschiedene Wirkungen. Der Unterschied liegt im Aufgabendesign.
+:::
+
+::: {.notes}
+Das ist das Schlüsselkonzept aus dem Intermediate-Kurs, und es wird heute unser Ausgangspunkt sein. Offloading reduziert extrinsische Last, das Denken bleibt bei den Lernenden. Outsourcing delegiert die intrinsische Verarbeitung, die eigentlich das Lernen ausmacht. Die entscheidende Frage ist immer: Welche kognitiven Operationen bleiben bei den Studierenden? Heute wollen wir diese Unterscheidung nutzen, um eine Frage zu beantworten, die in fast jedem Strategiepapier auftaucht: Welche Kompetenzen brauchen Lernende in Zukunft?
+:::
+
+
+# Welche Kompetenzen braucht die Zukunft?
+
+
+## {.center}
+
+<br><br><br>
+
+::: {style="font-size: 1.4em; text-align: center; max-width: 85%; margin: 0 auto; line-height: 1.6;"}
+"Weil KI Wissen jederzeit verfügbar macht, wird *Wissen haben*
+[weniger wichtig."]{style="color: #A63D2F; font-weight: bold;"}
+:::
+
+. . .
+
+<br>
+
+::: {style="font-size: 1.1em; text-align: center; color: #6E6560;"}
+Stattdessen: Kreativität, kritisches Denken, Kollaboration.
+:::
+
+. . .
+
+<br>
+
+::: {style="text-align: center; color: #999; font-size: 0.9em;"}
+Strategiepapiere, "Future Skills"-Frameworks, Keynotes
+:::
+
+::: {.notes}
+Das ist die Position, die man in fast jedem Strategiepapier, jedem Future-Skills-Framework und auf jeder Konferenz hört: Weil KI Wissen jederzeit verfügbar macht, wird eigenes Wissen weniger wichtig. Die Hochschule sollte stattdessen Kreativität, kritisches Denken und Kollaboration priorisieren. Diese Position ist weit verbreitet, oft institutionell verankert, und wird selten im Detail begründet. Heute möchte ich zeigen, warum sie auf einem Denkfehler beruht.
+:::
+
+
+## Der Denkfehler {.center}
+
+<br>
+
+```{ojs}
+//| echo: false
+
+conflation_diagram = {
+  const w = 700;
+  const h = 350;
+
+  const svg = d3.create("svg")
+    .attr("viewBox", [0, 0, w, h])
+    .attr("width", w)
+    .attr("height", h)
+    .style("background", "transparent")
+    .style("font-family", "system-ui, sans-serif");
+
+  // Left box: Information
+  const g1 = svg.append("g").attr("transform", "translate(30, 40)");
+  g1.append("rect")
+    .attr("width", 280).attr("height", 220).attr("rx", 10)
+    .attr("fill", "#D55E00").attr("opacity", 0.1)
+    .attr("stroke", "#D55E00").attr("stroke-width", 2);
+  g1.append("text").attr("x", 140).attr("y", 35)
+    .attr("text-anchor", "middle").attr("font-size", "20px").attr("font-weight", "bold").attr("fill", "#D55E00")
+    .text("Information");
+  g1.append("text").attr("x", 140).attr("y", 70)
+    .attr("text-anchor", "middle").attr("font-size", "14px").attr("fill", "#64748b")
+    .text("Extern gespeichert");
+
+  const info_items = ["Abrufbar", "Übertragbar", "Auslagerbar"];
+  for (let i = 0; i < info_items.length; i++) {
+    g1.append("text").attr("x", 140).attr("y", 110 + i * 32)
+      .attr("text-anchor", "middle").attr("font-size", "15px").attr("fill", "#1A1714")
+      .text(info_items[i]);
+  }
+
+  // Right box: Knowledge
+  const g2 = svg.append("g").attr("transform", "translate(390, 40)");
+  g2.append("rect")
+    .attr("width", 280).attr("height", 220).attr("rx", 10)
+    .attr("fill", "#0072B2").attr("opacity", 0.1)
+    .attr("stroke", "#0072B2").attr("stroke-width", 2);
+  g2.append("text").attr("x", 140).attr("y", 35)
+    .attr("text-anchor", "middle").attr("font-size", "20px").attr("font-weight", "bold").attr("fill", "#0072B2")
+    .text("Wissen");
+  g2.append("text").attr("x", 140).attr("y", 70)
+    .attr("text-anchor", "middle").attr("font-size", "14px").attr("fill", "#64748b")
+    .text("Intern integriert");
+
+  const know_items = ["Formt Wahrnehmung", "Ermöglicht Urteile", "Nicht auslagerbar"];
+  for (let i = 0; i < know_items.length; i++) {
+    g2.append("text").attr("x", 140).attr("y", 110 + i * 32)
+      .attr("text-anchor", "middle").attr("font-size", "15px").attr("fill", "#1A1714")
+      .text(know_items[i]);
+  }
+
+  // ≠ sign in the middle
+  svg.append("text").attr("x", 350).attr("y", 160)
+    .attr("text-anchor", "middle").attr("font-size", "36px").attr("font-weight", "bold").attr("fill", "#A63D2F")
+    .text("≠");
+
+  // Bottom text
+  svg.append("text").attr("x", w / 2).attr("y", 310)
+    .attr("text-anchor", "middle").attr("font-size", "15px").attr("font-weight", "600").attr("fill", "#1A1714")
+    .text("\"Future Skills\" verwechseln die zwei.");
+
+  return svg.node();
+}
+```
+
+::: {.notes}
+Der Denkfehler liegt in einer Verwechslung. Information ist etwas, das in einem externen System gespeichert ist. Man kann sie abrufen, übertragen, auslagern. Wissen ist etwas anderes: Es ist in den Kopf integriert, es formt, was man wahrnimmt und wie man urteilt. Und genau das kann man nicht auslagern. Die Future-Skills-Debatte behandelt den Kopf wie einen Aktenschrank: Wenn die Fakten woanders gespeichert sind, braucht man den Schrank nicht mehr. Aber Wissen sitzt nicht im Gedächtnis und wartet darauf, abgerufen zu werden. Es formt, was man überhaupt bemerkt und wie man darüber nachdenkt.
+:::
+
+
+# Wissen als internes Modell
+
+
+## Was Expert:innen wirklich tun {.center}
+
+<br>
+
+```{ojs}
+//| echo: false
+
+chess_diagram = {
+  const w = 700;
+  const h = 380;
+
+  const svg = d3.create("svg")
+    .attr("viewBox", [0, 0, w, h])
+    .attr("width", w)
+    .attr("height", h)
+    .style("background", "transparent")
+    .style("font-family", "system-ui, sans-serif");
+
+  // Novice side
+  const g1 = svg.append("g").attr("transform", "translate(30, 20)");
+  g1.append("text").attr("x", 140).attr("y", 25)
+    .attr("text-anchor", "middle").attr("font-size", "18px").attr("font-weight", "bold").attr("fill", "#D55E00")
+    .text("Noviz:in");
+
+  // Scattered pieces (random arrangement)
+  const novice_pieces = ["♟","♜","♞","♝","♛","♟","♟","♜"];
+  const novice_pos = [
+    [40,70],[90,110],[180,60],[230,120],[60,160],[140,140],[200,170],[120,80]
+  ];
+  for (let i = 0; i < novice_pieces.length; i++) {
+    g1.append("text").attr("x", novice_pos[i][0]).attr("y", novice_pos[i][1])
+      .attr("text-anchor", "middle").attr("font-size", "28px").attr("fill", "#64748b").attr("opacity", 0.6)
+      .text(novice_pieces[i]);
+  }
+  g1.append("text").attr("x", 140).attr("y", 220)
+    .attr("text-anchor", "middle").attr("font-size", "14px").attr("fill", "#D55E00")
+    .text("Sieht: einzelne Figuren");
+
+  // Expert side
+  const g2 = svg.append("g").attr("transform", "translate(390, 20)");
+  g2.append("text").attr("x", 140).attr("y", 25)
+    .attr("text-anchor", "middle").attr("font-size", "18px").attr("font-weight", "bold").attr("fill", "#0072B2")
+    .text("Expert:in");
+
+  // Clustered pieces (structured patterns)
+  // Cluster 1
+  g2.append("rect").attr("x", 20).attr("y", 45).attr("width", 110).attr("height", 90).attr("rx", 8)
+    .attr("fill", "#0072B2").attr("opacity", 0.08).attr("stroke", "#0072B2").attr("stroke-width", 1).attr("stroke-dasharray", "4,3");
+  const expert_c1 = ["♜","♟","♟"];
+  const expert_p1 = [[45,85],[75,100],[105,75]];
+  for (let i = 0; i < expert_c1.length; i++) {
+    g2.append("text").attr("x", expert_p1[i][0]).attr("y", expert_p1[i][1])
+      .attr("text-anchor", "middle").attr("font-size", "28px").attr("fill", "#0072B2")
+      .text(expert_c1[i]);
+  }
+
+  // Cluster 2
+  g2.append("rect").attr("x", 150).attr("y", 45).attr("width", 110).attr("height", 90).attr("rx", 8)
+    .attr("fill", "#0072B2").attr("opacity", 0.08).attr("stroke", "#0072B2").attr("stroke-width", 1).attr("stroke-dasharray", "4,3");
+  const expert_c2 = ["♞","♝","♛"];
+  const expert_p2 = [[175,85],[205,100],[235,75]];
+  for (let i = 0; i < expert_c2.length; i++) {
+    g2.append("text").attr("x", expert_p2[i][0]).attr("y", expert_p2[i][1])
+      .attr("text-anchor", "middle").attr("font-size", "28px").attr("fill", "#0072B2")
+      .text(expert_c2[i]);
+  }
+
+  // Cluster labels
+  g2.append("text").attr("x", 75).attr("y", 155)
+    .attr("text-anchor", "middle").attr("font-size", "11px").attr("fill", "#0072B2").attr("font-style", "italic")
+    .text("Bauernstruktur");
+  g2.append("text").attr("x", 205).attr("y", 155)
+    .attr("text-anchor", "middle").attr("font-size", "11px").attr("fill", "#0072B2").attr("font-style", "italic")
+    .text("Angriffsmuster");
+
+  g2.append("text").attr("x", 140).attr("y", 220)
+    .attr("text-anchor", "middle").attr("font-size", "14px").attr("fill", "#0072B2")
+    .text("Sieht: bedeutungsvolle Muster");
+
+  // Divider
+  svg.append("line").attr("x1", 350).attr("y1", 30).attr("x2", 350).attr("y2", 250)
+    .attr("stroke", "#ccc").attr("stroke-width", 1).attr("stroke-dasharray", "4,4");
+
+  // Bottom insight
+  svg.append("rect").attr("x", 100).attr("y", 270).attr("width", 500).attr("height", 50).attr("rx", 8)
+    .attr("fill", "#1A1714").attr("opacity", 0.05);
+  svg.append("text").attr("x", w / 2).attr("y", 295)
+    .attr("text-anchor", "middle").attr("font-size", "14px").attr("fill", "#1A1714")
+    .text("Schachmeister rekonstruieren sinnvolle Stellungen aus dem Gedächtnis.");
+  svg.append("text").attr("x", w / 2).attr("y", 312)
+    .attr("text-anchor", "middle").attr("font-size", "14px").attr("font-weight", "bold").attr("fill", "#A63D2F")
+    .text("Bei zufälligen Stellungen verschwindet der Vorteil.");
+
+  return svg.node();
+}
+```
+
+::: {.notes}
+Was machen Expert:innen, das Noviz:innen nicht können? Die Schachforschung zeigt es am klarsten. Schachmeister können sinnvolle Stellungen nach kurzem Hinsehen rekonstruieren, Noviz:innen nicht. Aber bei zufällig aufgestellten Figuren verschwindet der Vorteil. Die Expertise ist perzeptuell: Meister sehen Struktur, wo Noviz:innen einzelne Figuren sehen. Das gleiche Muster findet man in der Physik: Expert:innen kategorisieren Probleme nach zugrundeliegenden Prinzipien wie Energieerhaltung, Noviz:innen nach Oberflächenmerkmalen wie "Aufgaben mit schiefer Ebene". Diese Schemata sind keine Wissensspeicher. Sie sind generative Modelle: interne Modelle einer Domäne, die Vorhersagen erzeugen, kausales Denken ermöglichen und sich aktualisieren, wenn Vorhersagen scheitern.
+:::
+
+
+## Wissen formt Wahrnehmung {.center}
+
+<br>
+
+```{ojs}
+//| echo: false
+
+perception_diagram = {
+  const w = 700;
+  const h = 400;
+
+  const svg = d3.create("svg")
+    .attr("viewBox", [0, 0, w, h])
+    .attr("width", w)
+    .attr("height", h)
+    .style("background", "transparent")
+    .style("font-family", "system-ui, sans-serif");
+
+  // Shared stimulus: "Empirische Studie"
+  svg.append("rect").attr("x", 250).attr("y", 10).attr("width", 200).attr("height", 45).attr("rx", 6)
+    .attr("fill", "#64748b").attr("opacity", 0.15).attr("stroke", "#64748b").attr("stroke-width", 1.5);
+  svg.append("text").attr("x", 350).attr("y", 38)
+    .attr("text-anchor", "middle").attr("font-size", "15px").attr("font-weight", "bold").attr("fill", "#64748b")
+    .text("Dieselbe Studie");
+
+  // Arrows down
+  svg.append("line").attr("x1", 250).attr("y1", 55).attr("x2", 140).attr("y2", 95)
+    .attr("stroke", "#ccc").attr("stroke-width", 1.5);
+  svg.append("line").attr("x1", 450).attr("y1", 55).attr("x2", 560).attr("y2", 95)
+    .attr("stroke", "#ccc").attr("stroke-width", 1.5);
+
+  // Student side
+  const gs = svg.append("g").attr("transform", "translate(10, 100)");
+  gs.append("rect").attr("width", 280).attr("height", 260).attr("rx", 10)
+    .attr("fill", "#D55E00").attr("opacity", 0.06).attr("stroke", "#D55E00").attr("stroke-width", 1.5);
+  gs.append("text").attr("x", 140).attr("y", 30)
+    .attr("text-anchor", "middle").attr("font-size", "16px").attr("font-weight", "bold").attr("fill", "#D55E00")
+    .text("Student:in");
+
+  const student_sees = [
+    "✓  Signifikanter p-Wert",
+    "✓  Selbstbewusstes Abstract",
+    "✓  \"Die Ergebnisse zeigen...\"",
+  ];
+  for (let i = 0; i < student_sees.length; i++) {
+    gs.append("text").attr("x", 140).attr("y", 75 + i * 30)
+      .attr("text-anchor", "middle").attr("font-size", "13px").attr("fill", "#1A1714")
+      .text(student_sees[i]);
+  }
+  gs.append("line").attr("x1", 30).attr("y1", 170).attr("x2", 250).attr("y2", 170)
+    .attr("stroke", "#D55E00").attr("stroke-width", 0.5).attr("opacity", 0.4);
+  gs.append("text").attr("x", 140).attr("y", 200)
+    .attr("text-anchor", "middle").attr("font-size", "14px").attr("font-weight", "600").attr("fill", "#D55E00")
+    .text("Fazit: \"Klingt überzeugend.\"");
+  gs.append("text").attr("x", 140).attr("y", 235)
+    .attr("text-anchor", "middle").attr("font-size", "12px").attr("fill", "#64748b")
+    .text("Kein Modell → keine Erwartungen");
+  gs.append("text").attr("x", 140).attr("y", 250)
+    .attr("text-anchor", "middle").attr("font-size", "12px").attr("fill", "#64748b")
+    .text("→ keine Überraschung möglich");
+
+  // Researcher side
+  const gr = svg.append("g").attr("transform", "translate(410, 100)");
+  gr.append("rect").attr("width", 280).attr("height", 260).attr("rx", 10)
+    .attr("fill", "#0072B2").attr("opacity", 0.06).attr("stroke", "#0072B2").attr("stroke-width", 1.5);
+  gr.append("text").attr("x", 140).attr("y", 30)
+    .attr("text-anchor", "middle").attr("font-size", "16px").attr("font-weight", "bold").attr("fill", "#0072B2")
+    .text("Forscherin");
+
+  const researcher_sees = [
+    "⚠  Keine aktive Kontrollgruppe",
+    "⚠  Selbstbericht statt Verhalten",
+    "⚠  Konfound nicht kontrolliert",
+  ];
+  for (let i = 0; i < researcher_sees.length; i++) {
+    gr.append("text").attr("x", 140).attr("y", 75 + i * 30)
+      .attr("text-anchor", "middle").attr("font-size", "13px").attr("fill", "#1A1714")
+      .text(researcher_sees[i]);
+  }
+  gr.append("line").attr("x1", 30).attr("y1", 170).attr("x2", 250).attr("y2", 170)
+    .attr("stroke", "#0072B2").attr("stroke-width", 0.5).attr("opacity", 0.4);
+  gr.append("text").attr("x", 140).attr("y", 200)
+    .attr("text-anchor", "middle").attr("font-size", "14px").attr("font-weight", "600").attr("fill", "#0072B2")
+    .text("Fazit: \"Was fehlt hier?\"");
+  gr.append("text").attr("x", 140).attr("y", 235)
+    .attr("text-anchor", "middle").attr("font-size", "12px").attr("fill", "#64748b")
+    .text("Reiches Modell → spezifische Erwartungen");
+  gr.append("text").attr("x", 140).attr("y", 250)
+    .attr("text-anchor", "middle").attr("font-size", "12px").attr("fill", "#64748b")
+    .text("→ Verletzungen werden sichtbar");
+
+  return svg.node();
+}
+```
+
+::: {.notes}
+Was bedeutet es konkret, dass Wissen als generatives Modell funktioniert? Stellt euch eine erfahrene Forscherin vor, die eine neue empirische Studie liest. Noch bevor sie bewusst evaluiert, sieht sie die Studie anders als eine Studentin. Stichprobenzusammensetzung, Wahl des Messinstruments, welche Kovariaten kontrolliert wurden und welche nicht, die Plausibilität des vorgeschlagenen Mechanismus: All das fällt auf, weil die Forscherin ein Modell davon hat, wie Studien ihre Ergebnisse produzieren. Die Studentin liest dasselbe Paper, sieht einen signifikanten p-Wert und ein selbstbewusstes Abstract. Das Modell der Forscherin kann auch simulieren: Was wäre, wenn die Autor:innen eine aktive Kontrollgruppe eingeschlossen hätten? Was wenn sie Verhaltensmasse statt Selbstbericht verwendet hätten? Dieses kontrafaktische Denken braucht ein Modell, das reich genug ist, um vorwärts zu laufen und Vorhersagen über nie erhobene Daten zu machen. Wenn die Ergebnisse der Vorhersage widersprechen, enthält der Vorhersagefehler ein spezifisches Lernsignal. Bei der Studentin gibt es kein solches Signal, weil es keine spezifische Erwartung gibt, die verletzt werden könnte.
+:::
+
+
+## Wissen baut auf Wissen auf {.center}
+
+<br>
+
+```{ojs}
+//| echo: false
+
+hierarchy_diagram = {
+  const w = 700;
+  const h = 380;
+
+  const svg = d3.create("svg")
+    .attr("viewBox", [0, 0, w, h])
+    .attr("width", w)
+    .attr("height", h)
+    .style("background", "transparent")
+    .style("font-family", "system-ui, sans-serif");
+
+  // Three layers, bottom to top
+  const layers = [
+    {y: 260, w: 580, h: 60, label: "Einzelne Fakten", sub: "\"Die Studie hat N=30\"", color: "#64748b", opacity: 0.08},
+    {y: 170, w: 440, h: 60, label: "Domänenprinzipien", sub: "\"Kleine Stichproben produzieren instabile Effekte\"", color: "#0072B2", opacity: 0.10},
+    {y: 80,  w: 300, h: 60, label: "Overhypothesen", sub: "\"Erwarte Konfounds, bis das Gegenteil gezeigt ist\"", color: "#A63D2F", opacity: 0.12},
+  ];
+
+  for (const l of layers) {
+    const x = (w - l.w) / 2;
+    svg.append("rect").attr("x", x).attr("y", l.y).attr("width", l.w).attr("height", l.h).attr("rx", 8)
+      .attr("fill", l.color).attr("opacity", l.opacity)
+      .attr("stroke", l.color).attr("stroke-width", 1.5);
+    svg.append("text").attr("x", w / 2).attr("y", l.y + 25)
+      .attr("text-anchor", "middle").attr("font-size", "15px").attr("font-weight", "bold").attr("fill", l.color)
+      .text(l.label);
+    svg.append("text").attr("x", w / 2).attr("y", l.y + 47)
+      .attr("text-anchor", "middle").attr("font-size", "12px").attr("fill", "#64748b")
+      .text(l.sub);
+  }
+
+  // Arrows between layers
+  svg.append("text").attr("x", w / 2).attr("y", 250)
+    .attr("text-anchor", "middle").attr("font-size", "20px").attr("fill", "#ccc")
+    .text("↑");
+  svg.append("text").attr("x", w / 2).attr("y", 162)
+    .attr("text-anchor", "middle").attr("font-size", "20px").attr("fill", "#ccc")
+    .text("↑");
+
+  // Side annotation
+  svg.append("text").attr("x", w / 2).attr("y", 60)
+    .attr("text-anchor", "middle").attr("font-size", "13px").attr("fill", "#A63D2F").attr("font-weight", "600")
+    .text("Je abstrakter, desto wertvoller: schränkt den Hypothesenraum auf jeder Ebene darunter ein");
+
+  // Bottom annotation
+  svg.append("text").attr("x", w / 2).attr("y", 350)
+    .attr("text-anchor", "middle").attr("font-size", "14px").attr("font-weight", "bold").attr("fill", "#1A1714")
+    .text("Einen Konfound kann man nachschlagen. Die Disposition, Konfounds zu erwarten, muss man aufbauen.");
+
+  return svg.node();
+}
+```
+
+::: {.notes}
+Wissen ist hierarchisch organisiert. Lernende erwerben sogenannte Overhypothesen: Regularitäten höherer Ordnung, die einschränken, wie neue Konzepte in einer Domäne erworben werden können. Ein Kind, das seine ersten Wörter lernt, erfasst nicht nur einzelne Bezeichnungen, sondern das Prinzip, dass Objektnamen sich auf Formen beziehen, nicht auf Farben oder Texturen. Diese Regularität höherer Ordnung verengt den Hypothesenraum für jedes weitere Wort. Dasselbe passiert überall, wo sich Expertise entwickelt. Das kognitiv wertvollste Wissen ist das abstrakteste, weil es den Hypothesenraum auf der Ebene darunter einschränkt. Man kann einen spezifischen Konfound nachschlagen. Aber die Disposition, überhaupt Konfounds zu erwarten, muss durch Erfahrung aufgebaut werden. Und genau diese oberen Ebenen kann man nicht auslagern.
+:::
+
+
+# Warum Wissen und Denken nicht trennbar sind
+
+
+## "Kritisches Denken" ohne Wissen {.center}
+
+<br>
+
+```{ojs}
+//| echo: false
+
+composition_diagram = {
+  const w = 700;
+  const h = 380;
+
+  const svg = d3.create("svg")
+    .attr("viewBox", [0, 0, w, h])
+    .attr("width", w)
+    .attr("height", h)
+    .style("background", "transparent")
+    .style("font-family", "system-ui, sans-serif");
+
+  // Left: Novice - surface features, no composition
+  const gn = svg.append("g").attr("transform", "translate(20, 30)");
+  gn.append("text").attr("x", 140).attr("y", 20)
+    .attr("text-anchor", "middle").attr("font-size", "16px").attr("font-weight", "bold").attr("fill", "#D55E00")
+    .text("Noviz:in");
+  gn.append("text").attr("x", 140).attr("y", 42)
+    .attr("text-anchor", "middle").attr("font-size", "12px").attr("fill", "#64748b")
+    .text("Kategorisiert nach Oberfläche");
+
+  const surface = [
+    {label: "Schiefe Ebene", y: 75},
+    {label: "Feder + Masse", y: 125},
+    {label: "Pendel", y: 175},
+  ];
+  for (const s of surface) {
+    gn.append("rect").attr("x", 30).attr("y", s.y).attr("width", 220).attr("height", 35).attr("rx", 6)
+      .attr("fill", "#D55E00").attr("opacity", 0.08).attr("stroke", "#D55E00").attr("stroke-width", 1);
+    gn.append("text").attr("x", 140).attr("y", s.y + 23)
+      .attr("text-anchor", "middle").attr("font-size", "14px").attr("fill", "#D55E00")
+      .text(s.label);
+  }
+
+  gn.append("text").attr("x", 140).attr("y", 240)
+    .attr("text-anchor", "middle").attr("font-size", "12px").attr("fill", "#D55E00").attr("font-weight", "600")
+    .text("Gebunden an Oberflächenmerkmale.");
+  gn.append("text").attr("x", 140).attr("y", 258)
+    .attr("text-anchor", "middle").attr("font-size", "12px").attr("fill", "#D55E00").attr("font-weight", "600")
+    .text("Nichts zu rekombinieren.");
+
+  // Divider
+  svg.append("line").attr("x1", 340).attr("y1", 40).attr("x2", 340).attr("y2", 300)
+    .attr("stroke", "#ccc").attr("stroke-width", 1).attr("stroke-dasharray", "4,4");
+
+  // Right: Expert - deep principles, compositional
+  const ge = svg.append("g").attr("transform", "translate(380, 30)");
+  ge.append("text").attr("x", 140).attr("y", 20)
+    .attr("text-anchor", "middle").attr("font-size", "16px").attr("font-weight", "bold").attr("fill", "#0072B2")
+    .text("Expert:in");
+  ge.append("text").attr("x", 140).attr("y", 42)
+    .attr("text-anchor", "middle").attr("font-size", "12px").attr("fill", "#64748b")
+    .text("Kategorisiert nach Prinzipien");
+
+  const deep = [
+    {label: "Energieerhaltung", y: 75},
+    {label: "Newtons 2. Gesetz", y: 125},
+    {label: "Harmonische Schwingung", y: 175},
+  ];
+  for (const d of deep) {
+    ge.append("rect").attr("x", 30).attr("y", d.y).attr("width", 220).attr("height", 35).attr("rx", 6)
+      .attr("fill", "#0072B2").attr("opacity", 0.08).attr("stroke", "#0072B2").attr("stroke-width", 1);
+    ge.append("text").attr("x", 140).attr("y", d.y + 23)
+      .attr("text-anchor", "middle").attr("font-size", "14px").attr("fill", "#0072B2")
+      .text(d.label);
+  }
+
+  // Arrows showing cross-links
+  ge.append("path").attr("d", "M 250,92 C 270,92 270,142 250,142")
+    .attr("fill", "none").attr("stroke", "#0072B2").attr("stroke-width", 1.5).attr("opacity", 0.4);
+  ge.append("path").attr("d", "M 250,142 C 270,142 270,192 250,192")
+    .attr("fill", "none").attr("stroke", "#0072B2").attr("stroke-width", 1.5).attr("opacity", 0.4);
+
+  ge.append("text").attr("x", 140).attr("y", 240)
+    .attr("text-anchor", "middle").attr("font-size", "12px").attr("fill", "#0072B2").attr("font-weight", "600")
+    .text("Abstrakte Bausteine,");
+  ge.append("text").attr("x", 140).attr("y", 258)
+    .attr("text-anchor", "middle").attr("font-size", "12px").attr("fill", "#0072B2").attr("font-weight", "600")
+    .text("frei rekombinierbar auf neue Probleme.");
+
+  // Bottom insight
+  svg.append("rect").attr("x", 80).attr("y", 325).attr("width", 540).attr("height", 40).attr("rx", 8)
+    .attr("fill", "#1A1714").attr("opacity", 0.05);
+  svg.append("text").attr("x", w / 2).attr("y", 350)
+    .attr("text-anchor", "middle").attr("font-size", "14px").attr("font-weight", "bold").attr("fill", "#A63D2F")
+    .text("\"Kritisches Denken\" ist die flexible Anwendung von strukturiertem Wissen.");
+
+  return svg.node();
+}
+```
+
+::: {.notes}
+Hier kommt das Argument, das die Future-Skills-Position am stärksten untergräbt. Der Vorschlag, Bildung solle Kreativität und kritisches Denken statt Wissen priorisieren, behandelt Wissen und Denken als trennbar. Die kognitive Forschung zeigt das Gegenteil. Kompositionale Generalisierung, die Fähigkeit, bekannte Elemente in neuen Konfigurationen zu rekombinieren, braucht strukturierte Repräsentationen, über die man komponieren kann. Die Physikerin, die nach Energieerhaltung kategorisiert, hat die Domäne in abstrakte Bausteine zerlegt, die über oberflächlich verschiedene Situationen hinweg transferierbar sind. Der Novize, der nach "schiefe Ebene" kategorisiert, ist an Oberflächenmerkmale gebunden: da gibt es nichts zu rekombinieren. Kritisches Denken über einen Befund in der Molekularbiologie erfordert genug Wissen über Molekularbiologie, um zu erkennen, wenn etwas nicht stimmt, und um zu sehen, wie ein gutes Experiment aussehen würde. "Kritisches Denken" ohne Domänenwissen imitiert die Formen der Evaluation ohne die Substanz, die sie verlässlich machen würde.
+:::
+
+
+## Der Transfer-Irrtum {.center}
+
+<br>
+
+```{ojs}
+//| echo: false
+
+transfer_diagram = {
+  const w = 700;
+  const h = 360;
+
+  const svg = d3.create("svg")
+    .attr("viewBox", [0, 0, w, h])
+    .attr("width", w)
+    .attr("height", h)
+    .style("background", "transparent")
+    .style("font-family", "system-ui, sans-serif");
+
+  // Title
+  svg.append("text").attr("x", w / 2).attr("y", 30)
+    .attr("text-anchor", "middle").attr("font-size", "15px").attr("fill", "#64748b")
+    .text("Was \"Future Skills\" wollen: Transfer");
+
+  // Left: "Future Skills" view
+  const gf = svg.append("g").attr("transform", "translate(30, 60)");
+  gf.append("rect").attr("width", 280).attr("height", 110).attr("rx", 10)
+    .attr("fill", "#D55E00").attr("opacity", 0.06).attr("stroke", "#D55E00").attr("stroke-width", 1.5);
+  gf.append("text").attr("x", 140).attr("y", 30)
+    .attr("text-anchor", "middle").attr("font-size", "14px").attr("font-weight", "bold").attr("fill", "#D55E00")
+    .text("Annahme");
+  gf.append("text").attr("x", 140).attr("y", 55)
+    .attr("text-anchor", "middle").attr("font-size", "13px").attr("fill", "#1A1714")
+    .text("Generische Skills trainieren");
+  gf.append("text").attr("x", 140).attr("y", 75)
+    .attr("text-anchor", "middle").attr("font-size", "13px").attr("fill", "#1A1714")
+    .text("→ dann auf jede Domäne anwenden");
+  gf.append("text").attr("x", 140).attr("y", 100)
+    .attr("text-anchor", "middle").attr("font-size", "12px").attr("fill", "#D55E00").attr("font-weight", "600")
+    .text("Wissen optional");
+
+  // Right: Reality
+  const gr = svg.append("g").attr("transform", "translate(390, 60)");
+  gr.append("rect").attr("width", 280).attr("height", 110).attr("rx", 10)
+    .attr("fill", "#0072B2").attr("opacity", 0.06).attr("stroke", "#0072B2").attr("stroke-width", 1.5);
+  gr.append("text").attr("x", 140).attr("y", 30)
+    .attr("text-anchor", "middle").attr("font-size", "14px").attr("font-weight", "bold").attr("fill", "#0072B2")
+    .text("Realität");
+  gr.append("text").attr("x", 140).attr("y", 55)
+    .attr("text-anchor", "middle").attr("font-size", "13px").attr("fill", "#1A1714")
+    .text("Tiefes Domänenwissen aufbauen");
+  gr.append("text").attr("x", 140).attr("y", 75)
+    .attr("text-anchor", "middle").attr("font-size", "13px").attr("fill", "#1A1714")
+    .text("→ abstrakte Struktur entsteht");
+  gr.append("text").attr("x", 140).attr("y", 100)
+    .attr("text-anchor", "middle").attr("font-size", "12px").attr("fill", "#0072B2").attr("font-weight", "600")
+    .text("Wissen ist die Voraussetzung");
+
+  // Arrow between
+  svg.append("text").attr("x", 350).attr("y", 120)
+    .attr("text-anchor", "middle").attr("font-size", "24px").attr("fill", "#A63D2F").attr("font-weight", "bold")
+    .text("↔");
+
+  // Bottom: the key point
+  svg.append("rect").attr("x", 60).attr("y", 205).attr("width", 580).attr("height", 120).attr("rx", 10)
+    .attr("fill", "#A63D2F").attr("opacity", 0.06).attr("stroke", "#A63D2F").attr("stroke-width", 1.5);
+
+  const points = [
+    {text: "Transfer ist selten, und wenn er gelingt, basiert er auf", y: 235, bold: false},
+    {text: "abstrakten, rekombinierbaren Repräsentationen.", y: 255, bold: true},
+    {text: "Die entstehen nur durch tiefes strukturelles Verständnis einer Domäne.", y: 285, bold: false},
+    {text: "Der Weg zu \"Future Skills\" führt durch Wissen, nicht daran vorbei.", y: 310, bold: true},
+  ];
+  for (const p of points) {
+    svg.append("text").attr("x", w / 2).attr("y", p.y)
+      .attr("text-anchor", "middle").attr("font-size", "14px")
+      .attr("fill", p.bold ? "#A63D2F" : "#1A1714")
+      .attr("font-weight", p.bold ? "bold" : "normal")
+      .text(p.text);
+  }
+
+  return svg.node();
+}
+```
+
+::: {.notes}
+Was Future-Skills-Befürworter eigentlich wollen, wenn man nachfragt, ist Transfer: die Fähigkeit, Kompetenz in Situationen anzuwenden, die nicht explizit gelehrt wurden. Transfer ist vermutlich das wichtigste Ziel von Bildung. Aber Transfer ist ein Produkt von Abstraktion, und Abstraktion erfordert tiefes strukturelles Verständnis einer Domäne. Ferner Transfer, die Anwendung von Gelerntem in einem wirklich anderen Kontext, ist selten, und wenn er gelingt, basiert er auf Repräsentationen, die in abstrakte, rekombinierbare Komponenten zerlegt wurden. Die Annahme, man könne "generische Skills" trainieren und dann auf beliebige Domänen anwenden, dreht die Kausalität um. Was wie domänenübergreifendes kritisches Denken aussieht, ist in Wirklichkeit die flexible Anwendung von Domänenwissen. Der Weg zu Transfer führt durch Wissen, nicht daran vorbei.
+:::
+
+
+# Was heisst Offloading für die Lehre?
+
+
+## Wann Offloading hilft und wann es schadet {.center}
+
+<br>
+
+```{ojs}
+//| echo: false
+
+offloading_logic = {
+  const w = 700;
+  const h = 400;
+
+  const svg = d3.create("svg")
+    .attr("viewBox", [0, 0, w, h])
+    .attr("width", w)
+    .attr("height", h)
+    .style("background", "transparent")
+    .style("font-family", "system-ui, sans-serif");
+
+  // Top: shared starting point
+  svg.append("text").attr("x", w / 2).attr("y", 30)
+    .attr("text-anchor", "middle").attr("font-size", "15px").attr("font-weight", "bold").attr("fill", "#1A1714")
+    .text("Kognitive Arbeit wird ausgelagert");
+
+  // Split arrow
+  svg.append("line").attr("x1", 350).attr("y1", 42).attr("x2", 170).attr("y2", 75)
+    .attr("stroke", "#0072B2").attr("stroke-width", 2);
+  svg.append("line").attr("x1", 350).attr("y1", 42).attr("x2", 530).attr("y2", 75)
+    .attr("stroke", "#D55E00").attr("stroke-width", 2);
+
+  // Left: Performance bottleneck
+  const gl = svg.append("g").attr("transform", "translate(10, 80)");
+  gl.append("rect").attr("width", 310).attr("height", 200).attr("rx", 10)
+    .attr("fill", "#0072B2").attr("opacity", 0.06).attr("stroke", "#0072B2").attr("stroke-width", 1.5);
+  gl.append("text").attr("x", 155).attr("y", 30)
+    .attr("text-anchor", "middle").attr("font-size", "15px").attr("font-weight", "bold").attr("fill", "#0072B2")
+    .text("Performance-Engpass");
+  gl.append("text").attr("x", 155).attr("y", 55)
+    .attr("text-anchor", "middle").attr("font-size", "12px").attr("fill", "#64748b")
+    .text("Kompetenz vorhanden, Kapazität begrenzt");
+
+  const help_items = [
+    "Chirurg:in + Checkliste",
+    "Programmiererin + Linter",
+    "Mathematiker + Taschenrechner",
+  ];
+  for (let i = 0; i < help_items.length; i++) {
+    gl.append("text").attr("x", 40).attr("y", 95 + i * 28)
+      .attr("font-size", "13px").attr("fill", "#1A1714")
+      .text("• " + help_items[i]);
+  }
+  gl.append("text").attr("x", 155).attr("y", 185)
+    .attr("text-anchor", "middle").attr("font-size", "14px").attr("font-weight", "bold").attr("fill", "#0072B2")
+    .text("→ Offloading: Kapazität frei für Urteile");
+
+  // Right: Learning bottleneck
+  const grr = svg.append("g").attr("transform", "translate(380, 80)");
+  grr.append("rect").attr("width", 310).attr("height", 200).attr("rx", 10)
+    .attr("fill", "#D55E00").attr("opacity", 0.06).attr("stroke", "#D55E00").attr("stroke-width", 1.5);
+  grr.append("text").attr("x", 155).attr("y", 30)
+    .attr("text-anchor", "middle").attr("font-size", "15px").attr("font-weight", "bold").attr("fill", "#D55E00")
+    .text("Lern-Engpass");
+  grr.append("text").attr("x", 155).attr("y", 55)
+    .attr("text-anchor", "middle").attr("font-size", "12px").attr("fill", "#64748b")
+    .text("Kompetenz noch nicht vorhanden");
+
+  const harm_items = [
+    "Student:in + Essay-Generator",
+    "Schüler:in + Taschenrechner (÷)",
+    "Lernende:r + KI-Analyse",
+  ];
+  for (let i = 0; i < harm_items.length; i++) {
+    grr.append("text").attr("x", 40).attr("y", 95 + i * 28)
+      .attr("font-size", "13px").attr("fill", "#1A1714")
+      .text("• " + harm_items[i]);
+  }
+  grr.append("text").attr("x", 155).attr("y", 185)
+    .attr("text-anchor", "middle").attr("font-size", "14px").attr("font-weight", "bold").attr("fill", "#D55E00")
+    .text("→ Outsourcing: Modellbildung verhindert");
+
+  // Bottom key insight
+  svg.append("rect").attr("x", 80).attr("y", 310).attr("width", 540).attr("height", 60).attr("rx", 8)
+    .attr("fill", "#1A1714").attr("opacity", 0.05);
+  svg.append("text").attr("x", w / 2).attr("y", 335)
+    .attr("text-anchor", "middle").attr("font-size", "14px").attr("fill", "#1A1714")
+    .text("Dasselbe Tool, derselbe Vorgang.");
+  svg.append("text").attr("x", w / 2).attr("y", 358)
+    .attr("text-anchor", "middle").attr("font-size", "14px").attr("font-weight", "bold").attr("fill", "#A63D2F")
+    .text("Der Unterschied: Hat die Person bereits ein internes Modell?");
+
+  return svg.node();
+}
+```
+
+::: {.notes}
+Nichts von dem, was ich gesagt habe, bedeutet, dass kognitive Auslagerung per se schädlich ist. Offloading ist ein normaler Teil menschlicher Kognition. Wir schreiben Dinge auf, zeichnen Diagramme, benutzen Taschenrechner. Die entscheidende Frage ist: Was wird ausgelagert? Wenn die Person bereits über die relevante Kompetenz verfügt, aber an Kapazitätsgrenzen stösst, hilft Offloading. Die Chirurgin, die eine Checkliste benutzt, macht Aufmerksamkeit frei für Urteile. Die Programmiererin, die einen Linter benutzt, lagert Routineprüfungen aus, um sich auf Architektur zu konzentrieren. In beiden Fällen ist die Kompetenz intakt, das Tool entlastet einen Performance-Engpass. Wenn aber die kognitive Arbeit, die ausgelagert wird, selbst der Mechanismus ist, der Kompetenz aufbaut, dann schadet Offloading. Eine Studentin, die den Essay von der KI schreiben lässt, bekommt ein Produkt, aber die internen Modelle, die durch das Schreiben entstanden wären, werden nie aufgebaut. Dasselbe Tool, derselbe Vorgang, aber mit völlig verschiedener Wirkung, je nachdem, ob die Person bereits ein internes Modell besitzt.
+:::
+
+
+## Das Evaluationsparadox, revisited {.center}
+
+<br>
+
+```{ojs}
+//| echo: false
+
+eval_paradox = {
+  const w = 700;
+  const h = 380;
+
+  const svg = d3.create("svg")
+    .attr("viewBox", [0, 0, w, h])
+    .attr("width", w)
+    .attr("height", h)
+    .style("background", "transparent")
+    .style("font-family", "system-ui, sans-serif");
+
+  // Expert path (top)
+  svg.append("text").attr("x", 60).attr("y", 50)
+    .attr("font-size", "14px").attr("font-weight", "bold").attr("fill", "#0072B2")
+    .text("Eigene Domäne");
+
+  const expert_steps = [
+    {x: 60,  label: "KI-Text"},
+    {x: 220, label: "Internes Modell"},
+    {x: 420, label: "Erwartung verletzt?"},
+    {x: 600, label: "\"Stimmt nicht.\""},
+  ];
+  for (let i = 0; i < expert_steps.length; i++) {
+    const s = expert_steps[i];
+    svg.append("rect").attr("x", s.x - 50).attr("y", 65).attr("width", 120).attr("height", 35).attr("rx", 6)
+      .attr("fill", "#0072B2").attr("opacity", 0.1).attr("stroke", "#0072B2").attr("stroke-width", 1);
+    svg.append("text").attr("x", s.x + 10).attr("y", 87)
+      .attr("text-anchor", "middle").attr("font-size", "12px").attr("fill", "#0072B2")
+      .text(s.label);
+    if (i < expert_steps.length - 1) {
+      svg.append("text").attr("x", (s.x + expert_steps[i+1].x) / 2 + 10).attr("y", 87)
+        .attr("text-anchor", "middle").attr("font-size", "16px").attr("fill", "#0072B2")
+        .text("→");
+    }
+  }
+
+  // Novice path (bottom)
+  svg.append("text").attr("x", 60).attr("y", 160)
+    .attr("font-size", "14px").attr("font-weight", "bold").attr("fill", "#D55E00")
+    .text("Fremde Domäne");
+
+  const novice_steps = [
+    {x: 60,  label: "KI-Text"},
+    {x: 220, label: "Kein Modell"},
+    {x: 420, label: "Keine Erwartung"},
+    {x: 600, label: "\"Klingt gut.\""},
+  ];
+  for (let i = 0; i < novice_steps.length; i++) {
+    const s = novice_steps[i];
+    svg.append("rect").attr("x", s.x - 50).attr("y", 175).attr("width", 120).attr("height", 35).attr("rx", 6)
+      .attr("fill", "#D55E00").attr("opacity", 0.1).attr("stroke", "#D55E00").attr("stroke-width", 1);
+    svg.append("text").attr("x", s.x + 10).attr("y", 197)
+      .attr("text-anchor", "middle").attr("font-size", "12px").attr("fill", "#D55E00")
+      .text(s.label);
+    if (i < novice_steps.length - 1) {
+      svg.append("text").attr("x", (s.x + novice_steps[i+1].x) / 2 + 10).attr("y", 197)
+        .attr("text-anchor", "middle").attr("font-size", "16px").attr("fill", "#D55E00")
+        .text("→");
+    }
+  }
+
+  // The gap visualization
+  svg.append("rect").attr("x", 60).attr("y", 245).attr("width", 580).attr("height", 100).attr("rx", 10)
+    .attr("fill", "#A63D2F").attr("opacity", 0.05).attr("stroke", "#A63D2F").attr("stroke-width", 1.5);
+
+  svg.append("text").attr("x", w / 2).attr("y", 275)
+    .attr("text-anchor", "middle").attr("font-size", "14px").attr("fill", "#1A1714")
+    .text("Der flüssige KI-Output erzeugt in beiden Fällen dasselbe Gefühl:");
+  svg.append("text").attr("x", w / 2).attr("y", 300)
+    .attr("text-anchor", "middle").attr("font-size", "15px").attr("font-weight", "bold").attr("fill", "#A63D2F")
+    .text("\"Ich verstehe das.\"");
+  svg.append("text").attr("x", w / 2).attr("y", 330)
+    .attr("text-anchor", "middle").attr("font-size", "14px").attr("fill", "#1A1714")
+    .text("Die Lücke zwischen Verstehen und Verstehen-Glauben ist für den Lernenden unsichtbar.");
+
+  return svg.node();
+}
+```
+
+::: {.notes}
+Das Evaluationsparadox aus dem Intermediate-Kurs bekommt hier eine zusätzliche Dimension. Wenn jemand einen KI-generierten Text über die eigene Domäne liest, hat er ein internes Modell, das Erwartungen generiert. Wird eine Erwartung verletzt, fällt es auf. Dieselbe Person liest einen KI-Text über ein fremdes Gebiet: kein Modell, keine Erwartung, keine Überraschung möglich. Der Text liest sich flüssig, scheint kohärent und kommt mit derselben Zuversicht daher, egal ob er richtig ist. Die metakognitive Forschung zeigt, dass Lernende systematisch Vertrautheit mit Verständnis und Flüssigkeit mit Kompetenz verwechseln. Metakognitives Monitoring, die Fähigkeit zu beurteilen, ob man selbst etwas richtig einschätzt, hängt von Domänenwissen ab. Es ist keine freistehende Fähigkeit, die man auf beliebige Inhalte anwenden kann. Das heisst: Die Lücke zwischen dem, was man versteht, und dem, was man zu verstehen glaubt, ist für den Lernenden unsichtbar.
+:::
+
+
+## Mehr Automatisierung braucht mehr Wissen {.center}
+
+<br>
+
+```{ojs}
+//| echo: false
+
+controller_chart = {
+  const w = 700;
+  const h = 370;
+
+  const svg = d3.create("svg")
+    .attr("viewBox", [0, 0, w, h])
+    .attr("width", w)
+    .attr("height", h)
+    .style("background", "transparent")
+    .style("font-family", "system-ui, sans-serif");
+
+  // Axes
+  svg.append("line").attr("x1", 80).attr("y1", 280).attr("x2", 640).attr("y2", 280)
+    .attr("stroke", "#1A1714").attr("stroke-width", 1.5);
+  svg.append("line").attr("x1", 80).attr("y1", 280).attr("x2", 80).attr("y2", 40)
+    .attr("stroke", "#1A1714").attr("stroke-width", 1.5);
+
+  // X-axis label
+  svg.append("text").attr("x", 360).attr("y", 315)
+    .attr("text-anchor", "middle").attr("font-size", "14px").attr("fill", "#1A1714")
+    .text("Fähigkeit des KI-Systems");
+
+  // Y-axis label
+  svg.append("text").attr("x", 25).attr("y", 160)
+    .attr("text-anchor", "middle").attr("font-size", "14px").attr("fill", "#1A1714")
+    .attr("transform", "rotate(-90, 25, 160)")
+    .text("Anforderung an den Controller");
+
+  // Line going up: required knowledge
+  const points_req = [
+    [100, 240], [200, 210], [300, 170], [400, 125], [500, 80], [600, 50]
+  ];
+  svg.append("path")
+    .attr("d", d3.line().curve(d3.curveNatural)(points_req))
+    .attr("fill", "none").attr("stroke", "#0072B2").attr("stroke-width", 3);
+
+  // Line going down: frequency of obvious errors
+  const points_err = [
+    [100, 90], [200, 130], [300, 175], [400, 215], [500, 240], [600, 255]
+  ];
+  svg.append("path")
+    .attr("d", d3.line().curve(d3.curveNatural)(points_err))
+    .attr("fill", "none").attr("stroke", "#D55E00").attr("stroke-width", 3).attr("stroke-dasharray", "8,4");
+
+  // Labels
+  svg.append("text").attr("x", 610).attr("y", 45)
+    .attr("font-size", "13px").attr("font-weight", "bold").attr("fill", "#0072B2")
+    .text("Nötiges Wissen");
+  svg.append("text").attr("x", 610).attr("y", 250)
+    .attr("font-size", "13px").attr("font-weight", "bold").attr("fill", "#D55E00")
+    .text("Offensichtliche Fehler");
+
+  // Annotation
+  svg.append("rect").attr("x", 140).attr("y", 330).attr("width", 440).attr("height", 30).attr("rx", 6)
+    .attr("fill", "#A63D2F").attr("opacity", 0.08);
+  svg.append("text").attr("x", 360).attr("y", 350)
+    .attr("text-anchor", "middle").attr("font-size", "13px").attr("font-weight", "bold").attr("fill", "#A63D2F")
+    .text("Bessere KI → weniger offensichtliche Fehler → schwieriger zu kontrollieren");
+
+  return svg.node();
+}
+```
+
+::: {.notes}
+Es gibt ein formales Argument aus der Kontrolltheorie, das hier relevant ist. Jeder gute Regler eines Systems muss ein Modell dieses Systems enthalten. Wer ein KI-System beaufsichtigt, funktioniert als Controller, und effektive Kontrolle erfordert ein Modell, das reich genug ist, um das Verhalten des Systems vorherzusagen, seine Fehler zu erkennen und zu wissen, wann man eingreifen muss. Das invertiert das Automatisierungsargument. Je fähiger KI-Systeme werden, desto reicher muss das Modell des Controllers sein, nicht einfacher. Fähigere Systeme produzieren weniger offensichtliche Fehler, aber die Fehler, die sie produzieren, sind schwerer zu erkennen. Ein Controller ohne Domänenwissen kann grobe Fehler auffangen, wird aber subtile übersehen. Ob der Fokus darauf bleibt, die Domäne direkt zu verstehen, oder sich darauf verschiebt, sie gut genug zu verstehen, um KI-Systeme zu regulieren: Das benötigte Wissen ist mindestens gleich anspruchsvoll.
+:::
+
+
+# Was heisst das für die Lehre?
+
+
+## Nicht gegen KI, sondern für interne Modelle {.center}
+
+<br>
+
+```{ojs}
+//| echo: false
+
+teaching_diagram = {
+  const w = 700;
+  const h = 400;
+
+  const svg = d3.create("svg")
+    .attr("viewBox", [0, 0, w, h])
+    .attr("width", w)
+    .attr("height", h)
+    .style("background", "transparent")
+    .style("font-family", "system-ui, sans-serif");
+
+  const principles = [
+    {
+      label: "KI macht Vorhersagen,",
+      sub: "Lernende evaluieren",
+      color: "#0072B2", y: 25
+    },
+    {
+      label: "KI gibt Feedback,",
+      sub: "Lernende denken zuerst selbst",
+      color: "#0072B2", y: 115
+    },
+    {
+      label: "KI generiert Testfälle,",
+      sub: "Lernende prüfen ihr Verständnis",
+      color: "#0072B2", y: 205
+    },
+  ];
+
+  for (const p of principles) {
+    svg.append("rect").attr("x", 40).attr("y", p.y).attr("width", 620).attr("height", 70).attr("rx", 10)
+      .attr("fill", p.color).attr("opacity", 0.06).attr("stroke", p.color).attr("stroke-width", 1.5);
+    svg.append("text").attr("x", 80).attr("y", p.y + 32)
+      .attr("font-size", "16px").attr("font-weight", "bold").attr("fill", p.color)
+      .text(p.label);
+    svg.append("text").attr("x", 80).attr("y", p.y + 55)
+      .attr("font-size", "15px").attr("fill", "#1A1714")
+      .text(p.sub);
+  }
+
+  // Bottom: key criterion
+  svg.append("rect").attr("x", 40).attr("y", 310).attr("width", 620).attr("height", 65).attr("rx", 10)
+    .attr("fill", "#A63D2F").attr("opacity", 0.06).attr("stroke", "#A63D2F").attr("stroke-width", 1.5);
+  svg.append("text").attr("x", w / 2).attr("y", 338)
+    .attr("text-anchor", "middle").attr("font-size", "14px").attr("fill", "#1A1714")
+    .text("Das Kriterium:");
+  svg.append("text").attr("x", w / 2).attr("y", 362)
+    .attr("text-anchor", "middle").attr("font-size", "15px").attr("font-weight", "bold").attr("fill", "#A63D2F")
+    .text("Lässt die Interaktion das interne Modell der Lernenden laufen, oder umgeht sie es?");
+
+  return svg.node();
+}
+```
+
+::: {.notes}
+Nichts von dem, was ich gesagt habe, spricht gegen KI-Tools in der Lehre. Das Argument ist: Wir müssen die generativen Modelle aufbauen, die diese Tools überhaupt erst benutzbar machen. KI verändert aber, welche Art von Interaktion lernförderlich ist. Ein KI-System, das Vorhersagen für die Lernenden generiert, die diese dann evaluieren, trainiert das eigene prädiktive Modell. Ein KI-System, das gezieltes Feedback auf das Denken der Lernenden gibt und zeigt, wo ihre Erwartungen von der Evidenz abweichen, kann das Fehlersignal schärfen. Das Kriterium ist immer: Lässt die Interaktion das interne Modell der Lernenden laufen, oder umgeht sie es? Passive Konsumtion von KI-generierten Antworten umgeht es. KI nutzen, um Feedback auf das eigene Denken zu bekommen oder um Fälle zu generieren, die das Verständnis testen, tut es nicht.
+:::
+
+
+## Drei Kernaussagen {.center}
+
+<br>
+
+::: {style="font-size: 1.3em; max-width: 85%; margin: 0 auto; line-height: 2;"}
+
+[1.]{style="color: #A63D2F; font-weight: bold;"} **Wissen ist kein Aktenschrank.** Es baut interne Modelle, die formen, was man wahrnimmt und wie man denkt. Das kann keine KI ersetzen.
+
+<br>
+
+[2.]{style="color: #A63D2F; font-weight: bold;"} **Verstehen kann man nicht auslagern.** Wer die kognitive Arbeit delegiert, verliert nicht nur Kompetenz, sondern auch die Fähigkeit, diesen Verlust zu erkennen.
+
+<br>
+
+[3.]{style="color: #A63D2F; font-weight: bold;"} **Der Weg zu "Future Skills" führt durch Wissen**, nicht daran vorbei. Aufgabendesign, das interne Modelle aufbaut, ist die Antwort.
+:::
+
+::: {.notes}
+Drei Kernaussagen zum Mitnehmen. Erstens: Wissen ist kein Aktenschrank, den man durch KI ersetzen kann. Wissen baut interne generative Modelle auf, die formen, was man wahrnimmt und wie man darüber nachdenkt. Diese Modelle sitzen in der Wahrnehmung selbst. Kein externes Tool kann das leisten. Zweitens: Verstehen kann man nicht auslagern. Das ist doppelt: Wer die kognitive Arbeit delegiert, verliert nicht nur Kompetenz, sondern auch die Fähigkeit, diesen Verlust zu erkennen. Das metakognitive Monitoring, das sagt "hier stimmt etwas nicht", hängt selbst von Domänenwissen ab. Drittens: Was Future-Skills-Frameworks wirklich wollen, ist Transfer. Und Transfer entsteht durch tiefes strukturelles Verständnis, nicht durch generisches Skill-Training. Der Weg zu den Kompetenzen der Zukunft führt durch Wissen, nicht daran vorbei. Die produktive Antwort ist Aufgabendesign, das interne Modelle aufbaut: eigener Versuch zuerst, KI als Sparringpartner, nicht als Orakel.
+:::
+
+
+## Diskussion {.center}
+
+<br><br>
+
+::: {style="font-size: 1.4em; text-align: center; max-width: 80%; margin: 0 auto; line-height: 1.6; color: #6E6560;"}
+Welches Wissen in eurem Fach ist am produktivsten für den Aufbau interner Modelle?
+:::
+
+<br><br>
+
+::: {style="text-align: center; font-size: 0.9em; color: #9A9490;"}
+Und: Wo in euren Aufgaben könnten Studierende am Modellaufbau vorbeiarbeiten?
+:::
+
+::: {.notes}
+Offene Diskussion. Die erste Frage: Welches Wissen in eurem Fach ist am produktivsten? Nicht einzelne Fakten, sondern das Wissen, das die meisten kausalen Modelle aufbaut und die breiteste Palette von Schlussfolgerungen ermöglicht. Die zweite Frage: Wo in euren Aufgaben können Studierende ein gutes Produkt abliefern, ohne die internen Modelle aufzubauen, die ihr eigentlich im Sinn habt? Das ist die Designfrage, die durch KI dringend geworden ist.
+:::
+
+
+## Referenzen

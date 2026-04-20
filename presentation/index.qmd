@@ -1,0 +1,24 @@
+---
+title: "Präsentation"
+---
+
+<!-- ## KI in der Hochschulbildung -->
+
+Input (30 Min) mit anschliessender Diskussion (30 Min).
+
+{{< revealjs file="../slides/refresher-20260312/index.html" height="500px" class="ratio ratio-16x9" >}}
+
+
+Nutze die Pfeiltasten oder die Leertaste um durch die Präsentation zu navigieren. Drücke `F` für Vollbild.
+
+
+#### Weiterbildungsangebot
+
+Dieser Refresher bietet einen kompakten Überblick über den aktuellen Forschungsstand und die lernwissenschaftlichen Grundlagen. Die BFH bietet drei aufbauende Kurse an, die diese Themen vertiefen:
+
+[KI in der Lehre: Beginner](https://virtuelleakademie.github.io/ki-lehre-beginner/): Grundlagen zu Sprachmodellen und Chatbots.
+
+[KI in der Lehre: Intermediate](https://virtuelleakademie.github.io/ki-lehre-intermediate/): Lernpsychologie und KI-gestütztes Lerndesign.
+
+[KI in der Lehre: Advanced](https://virtuelleakademie.github.io/ki-lehre-advanced/): Workshop zur Entwicklung eines eigenen KI-gestützten Lerntools.
+

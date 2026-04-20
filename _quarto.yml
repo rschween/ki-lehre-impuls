@@ -1,0 +1,171 @@
+project:
+  type: website
+  resources:
+    - assets/*
+    - assets/images/*
+    - assets/pdfs/*
+    - _extensions/quarto-ext/fontawesome/assets/css/all.css
+    - _extensions/quarto-ext/fontawesome/assets/webfonts/*
+  preview:
+    port: 8804
+    browser: false
+  output-dir: docs
+  render:
+    - index.qmd
+    - slides/**/*.qmd
+    - slides/archive/**/*.qmd
+
+website:
+  title: "KI in der Lehre: Refresher"
+  site-url: https://virtuelleakademie.github.io/ki-lehre-refresher/
+  favicon: /assets/robot.png
+  open-graph: true
+  search:
+    location: navbar
+    type: overlay
+
+  reader-mode: false
+  page-navigation: true
+  back-to-top-navigation: true
+
+  navbar:
+    background: light
+    right:
+      - icon: archive
+        text: Archiv
+        menu:
+          - text: "Refresher 17.12.2025"
+            href: slides/archive/refresher-20251217/index.qmd
+
+    tools:
+      - icon: mortarboard-fill
+        text: "BFH Weiterbildung: KI in der Lehre"
+        href: https://virtuelleakademie.github.io/de/teaching/bfh-weiterbildung/
+        target: _blank
+      - icon: lightbulb-fill
+        text: Knowledge Base
+        href: https://virtuelleakademie.ch/knowledge-base/
+        target: _blank
+
+page-footer:
+    right:
+    - icon: github
+      href: https://github.com/virtuelleakademie/ki-lehre-refresher/
+
+lang: de
+
+format:
+  html:
+    theme:
+      - simplex
+      - styles/custom.scss
+    css:
+      - styles/styles.css
+      - _extensions/quarto-ext/fontawesome/assets/css/all.css
+    include-after-body: scripts/copy-prompt.js
+    code-copy: true
+    toc: true
+    link-external-icon: true
+    link-external-newwindow: true
+    anchor-sections: true
+    smooth-scroll: true
+    linkcolor: "#1A1714"
+
+comments:
+  hypothesis:
+    theme: clean
+
+execute:
+  cache: true
+  freeze: auto
+  execute-dir: project
+
+editor:
+  render-on-save: true
+
+filters:
+  - timer
+  - custom-callout
+
+custom-callout:
+  # Activity types - what participants DO (Terracotta)
+  experiment:
+    title: "Deine Aufgabe"
+    icon-symbol: "fa-flask"
+    appearance: default
+    collapse: false
+    color: "#A63D2F"  # Deep Terracotta (action)
+
+  individual:
+    title: "Einzelarbeit"
+    icon-symbol: "fa-user"
+    appearance: default
+    color: "#A63D2F"  # Deep Terracotta (action)
+    collapse: false
+
+  group:
+    title: "Gruppenarbeit"
+    icon-symbol: "fa-users"
+    appearance: default
+    color: "#A63D2F"  # Deep Terracotta (action)
+    collapse: false
+
+  demonstration:
+    title: "Demonstration"
+    icon-symbol: "fa-chalkboard"
+    appearance: default
+    collapse: false
+    color: "#6E6560"  # Warm grey (instructor-led, neutral)
+
+  # Thinking types - reflection and insights (Navy)
+  scenario:
+    title: "Szenario"
+    icon-symbol: "fa-comment"
+    appearance: default
+    color: "#6E6560"  # Warm grey (neutral context)
+    collapse: false
+
+  reflect:
+    title: "Reflexion"
+    icon-symbol: "fa-lightbulb"
+    appearance: default
+    color: "#1E3A5F"  # Ink Navy (insight)
+    collapse: false
+
+  key-point:
+    title: "Kernaussage"
+    icon-symbol: "fa-star"
+    appearance: default
+    collapse: false
+    color: "#1E3A5F"  # Ink Navy (importance)
+
+  # Alert type
+  warning:
+    title: "Achtung"
+    icon-symbol: "fa-exclamation-circle"
+    appearance: default
+    color: "#A63D2F"  # Deep Terracotta (attention)
+    collapse: false
+
+  # Guidance types (Navy)
+  pro-tip:
+    title: "Tipp"
+    icon-symbol: "fa-wand-magic-sparkles"
+    appearance: default
+    color: "#1E3A5F"  # Ink Navy (helpful)
+    collapse: true
+
+  source-check:
+    title: "Quellen-Check"
+    icon-symbol: "fa-search"
+    appearance: default
+    color: "#1E3A5F"  # Ink Navy (verification)
+    collapse: false
+
+  # Technical - copyable prompt for chatbot input
+  prompt:
+    title: "Prompt"
+    icon-symbol: "fa-clipboard"
+    appearance: default
+    color: "#6E6560"  # Warm grey (code-like)
+    collapse: false

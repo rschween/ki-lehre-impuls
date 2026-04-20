@@ -1,0 +1,13 @@
+---
+title: "Anwendungsfragen"
+sidebar: qa
+---
+
+Diese Seite begleitet die Präsentation und vertieft das zentrale Thema: Wie unterscheidet sich produktive KI-Nutzung von schädlicher, und warum hängt das vom Vorwissen ab?
+
+- [Werkzeugnutzung und Expertise](kognitive-grundlagen/index.qmd): Auslagerung vs. Ersetzung, das Evaluationsparadox, die Konfidenzfalle, und wann Werkzeuge eingeführt werden sollten.
+
+## Weiterführende Ressourcen
+
+- [BFH Weiterbildungen: KI in der Lehre](https://virtuelleakademie.github.io/de/teaching/bfh-weiterbildung/)
+- [Virtuelle Akademie Knowledge Base](https://virtuelleakademie.ch/knowledge-base/)

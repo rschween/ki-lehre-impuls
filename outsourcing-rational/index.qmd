@@ -1,0 +1,977 @@
+---
+title: "Wenn Outsourcing die rationale Strategie ist"
+subtitle: "Kognitive Grundlagen und neue empirische Befunde zu KI und Lernen"
+
+bibliography:
+  - ../../bibliography.bib
+  - ../../missing-refs.bib
+---
+
+
+# Realität
+
+
+## {.center}
+
+<br><br>
+
+::: {style="font-size: 1.1em; text-align: center; color: #6E6560;"}
+The Guardian, 10. März 2026
+:::
+
+<br>
+
+::: {style="font-size: 1.5em; text-align: center; max-width: 85%; margin: 0 auto; line-height: 1.5;"}
+"I wish I could push ChatGPT off a cliff": [professors scramble to save critical thinking]{style="color: #A63D2F; font-weight: bold;"} in an age of AI
+:::
+
+<br>
+
+::: {style="text-align: center; color: #6E6560; font-size: 0.95em;"}
+Alice Speri
+:::
+
+::: {.notes}
+Die heutige Präsentation beginnt mit einem Artikel, der diese Woche im Guardian erschienen ist. Der Titel ist provokant, aber die Realität, die er beschreibt, kennen die meisten von euch.
+:::
+
+
+## Das Museum, das geschlossen war {.smaller}
+
+<br>
+
+Lea Pao, Literaturprofessorin an der Stanford University, bat ihre Studierenden, ein lokales Museum zu besuchen, 10 Minuten vor einem Gemälde zu stehen und danach ein paar Absätze über die Erfahrung zu schreiben.
+
+<br>
+
+Eine Studentin reichte einen Text ein: "too perfect, without saying anything."
+
+. . .
+
+<br>
+
+::: {style="font-size: 1.2em; text-align: center;"}
+[Das Museum war an dem Tag geschlossen.]{style="color: #A63D2F; font-weight: bold;"}
+:::
+
+<br>
+
+::: {style="text-align: center; color: #6E6560; font-size: 0.95em;"}
+Die Studentin hatte den Text von einer KI generieren lassen.
+:::
+
+::: {.notes}
+Lea Pao hat bewusst eine Aufgabe gewählt, die man eigentlich nicht outsourcen kann: Geh ins Museum, schau dir ein Bild an, beschreib deine Erfahrung. Eine Studentin reichte trotzdem einen KI-generierten Text ein, der, wie Pao sagte, "zu perfekt war, ohne etwas zu sagen." Pao fand später heraus, dass das Museum an dem Tag geschlossen war. Die Studentin hatte nie vor dem Gemälde gestanden.
+:::
+
+
+## Die Reaktionen {.smaller}
+
+Der Guardian hat ein Dutzend Professor:innen befragt. Was tun sie?
+
+<br>
+
+::::{.columns}
+:::{.column width="50%"}
+- Mündliche Prüfungen
+- Handschriftliche Notizbücher
+- Benotung von Beteiligung im Unterricht
+- KI komplett verbieten
+:::
+
+:::{.column width="50%"}
+- Transparenzberichte einfordern
+- Zufällige Wörter in Aufgaben verstecken ("broccoli", "Dua Lipa")
+- KI-Erkennungssoftware einsetzen
+:::
+::::
+
+<br>
+
+::: {style="font-size: 1.1em; text-align: center;"}
+"It creates hours of additional labor. [And makes me feel like a cop.]{style="color: #A63D2F; font-weight: bold;"}"
+
+[Danica Savonick, SUNY Cortland]{style="color: #6E6560; font-size: 0.85em;"}
+:::
+
+. . .
+
+<br>
+
+::: {style="font-size: 1.1em; max-width: 80%; margin: 0 auto; text-align: center; color: #6E6560;"}
+Jede Reaktion ist ein individueller Fix für ein strukturelles Problem. Um zu verstehen *warum*, müssen wir anschauen, wie Lernen funktioniert.
+:::
+
+::: {.notes}
+Die Reaktionen der Dozierenden sind bemerkenswert. Jede einzelne Person erfindet eigene Lösungen: mündliche Prüfungen, handschriftliche Notizbücher, Beteiligungsbewertung, KI-Verbote, Transparenzberichte, sogar das Verstecken von zufälligen Wörtern wie "broccoli" oder "Dua Lipa" in Aufgaben. Die Professorin Danica Savonick bringt es auf den Punkt: "Es verursacht Stunden zusätzlicher Arbeit. Und ich fühle mich wie eine Polizistin." Was all diese Reaktionen gemeinsam haben: Es sind individuelle Lösungen für ein systemisches Problem. Um zu verstehen, warum keine dieser Massnahmen das Problem löst, müssen wir anschauen, wie Lernen eigentlich funktioniert.
+:::
+
+
+# Wie Lernen funktioniert
+
+
+## Drei Kurse, drei Perspektiven {.smaller}
+
+Die BFH bietet drei aufbauende Kurse zu KI in der Lehre an. Hier das Wesentliche:
+
+<br>
+
+::::{.columns}
+:::{.column width="33%"}
+### Beginner
+
+*Was ist KI?*
+
+- Sprachmodelle arbeiten durch statistische Mustervervollständigung
+- Vielseitig, aber fehleranfällig
+- Expert:innen profitieren. Lernende riskieren Lernverlust.
+:::
+
+:::{.column width="33%"}
+### Intermediate
+
+*Wie funktioniert Lernen?*
+
+- Lernen = Schemabildung durch produktive kognitive Verarbeitung
+- Das Evaluationsparadox: Kompetente KI-Nutzung setzt Kompetenz voraus
+- Eigener Versuch *vor* dem KI-Einsatz
+:::
+
+:::{.column width="33%"}
+### Advanced
+
+*Wie gestalten wir Aufgaben?*
+
+- Der Worked-Example-Effekt: durchgearbeitete Beispiele sind effektiver als ungeleitetes Problemlösen
+- Personalisierung senkt extrinsische Last
+- Strukturierte KI-Outputs als Werkzeug
+:::
+::::
+
+<br>
+
+::: {style="text-align: center; font-size: 1.05em; color: #6E6560;"}
+Die nächsten Folien vertiefen die Kernkonzepte aus dem Intermediate-Kurs.
+:::
+
+::: {.notes}
+Für alle, die die Kurse nicht besucht haben: Hier das Wesentliche in Kurzform. Der Beginner-Kurs klärt, was KI ist und was sie kann. Der Intermediate-Kurs ist der umfangreichste: Er erklärt, wie Lernen funktioniert und warum KI-Einsatz beim Lernen riskant ist. Der Advanced-Kurs zeigt, wie man KI-gestützte Lerntools baut. Die nächsten Folien vertiefen die Kernkonzepte aus dem Intermediate-Kurs, weil sie die Grundlage für alles Weitere sind.
+:::
+
+
+## Das Arbeitsgedächtnis als Nadelöhr {.smaller}
+
+Alles Lernen muss durch einen **Engpass**: das Arbeitsgedächtnis.
+
+<br>
+
+::::{.columns}
+:::{.column width="45%"}
+| Eigenschaft | |
+|---|---|
+| **Kapazität** | ~4 Elemente |
+| **Dauer** | 15-30 Sekunden |
+| **Verarbeitung** | 1 Element aktiv |
+
+<br>
+
+Keine Technologie kann diesen Engpass umgehen. KI kann Information liefern, aber die **aktive Verarbeitung** muss im eigenen Kopf stattfinden.
+:::
+
+:::{.column width="55%"}
+```{ojs}
+//| echo: false
+
+cog_load_chart = {
+  const w = 420;
+  const h = 320;
+  const fs = "12px";
+
+  const scenarios = ["Schlechtes\nDesign", "Gutes\nDesign", "Outsourcing"];
+  const types = ["Extrinsische Last", "Intrinsische Last", "Lernrelevante Verarbeitung", "Ungenutzt"];
+  const colors = {"Extrinsische Last": "#D55E00", "Intrinsische Last": "#64748b", "Lernrelevante Verarbeitung": "#0072B2", "Ungenutzt": "#e5e7eb"};
+
+  const raw = [
+    [60, 30, 10, 0],
+    [10, 30, 60, 0],
+    [10, 30,  5, 55]
+  ];
+
+  const data = [];
+  for (let s = 0; s < 3; s++) {
+    let y0 = 0;
+    for (let t = 0; t < 4; t++) {
+      if (raw[s][t] > 0) {
+        data.push({scenario: scenarios[s], type: types[t], y0, y1: y0 + raw[s][t], val: raw[s][t]});
+        y0 += raw[s][t];
+      }
+    }
+  }
+
+  return Plot.plot({
+    width: w,
+    height: h,
+    marginLeft: 10,
+    marginBottom: 60,
+    marginTop: 30,
+    style: {fontSize: fs, background: "transparent"},
+    x: {label: null, padding: 0.35},
+    y: {label: null, domain: [0, 105], ticks: []},
+    color: {
+      domain: types.slice(0, 3),
+      range: [colors["Extrinsische Last"], colors["Intrinsische Last"], colors["Lernrelevante Verarbeitung"]],
+      legend: true
+    },
+    marks: [
+      Plot.barY(data.filter(d => d.type !== "Ungenutzt"), {
+        x: "scenario", y1: "y0", y2: "y1", fill: "type",
+        sort: {x: null}
+      }),
+      Plot.barY(data.filter(d => d.type === "Ungenutzt"), {
+        x: "scenario", y1: "y0", y2: "y1", fill: "#e5e7eb",
+        sort: {x: null}
+      }),
+      Plot.text(data.filter(d => d.val >= 8 && d.type !== "Ungenutzt"), {
+        x: "scenario", y: d => (d.y0 + d.y1) / 2,
+        text: d => d.val + "%",
+        fill: "white", fontWeight: "bold", fontSize: 13
+      }),
+      Plot.ruleY([100], {stroke: "#1A1714", strokeDasharray: "6,4", strokeWidth: 1}),
+      Plot.text([{x: "Outsourcing", y: 103}], {
+        x: "x", y: "y", text: ["Kapazitätsgrenze"], fontSize: 11, fill: "#64748b"
+      })
+    ]
+  });
+}
+```
+:::
+::::
+
+::: {.notes}
+Das Arbeitsgedächtnis ist der Flaschenhals, durch den alles Lernen hindurch muss. Es kann ungefähr vier Elemente gleichzeitig halten, und zwar für 15 bis 30 Sekunden. Nur ein Element wird aktiv verarbeitet. Die Grafik zeigt drei Szenarien. Schlechtes Design: Zu viel extrinsische Last, kein Raum für lernrelevante Verarbeitung. Gutes Design: Extrinsische Last minimiert, 60% der Kapazität für lernrelevante Verarbeitung. Outsourcing: Die lernrelevante Verarbeitung fällt fast komplett weg, weil die KI die Denkarbeit übernimmt. 55% der Kapazität bleiben ungenutzt. Die Arbeit findet nicht statt.
+:::
+
+
+## Expertise = Schemata {.smaller}
+
+Wie überwindet man den Engpass? Durch **Schemata**: mentale Strukturen, die viele Einzelelemente zu einer Einheit komprimieren.
+
+<br>
+
+::::{.columns}
+:::{.column width="50%"}
+### Anfänger:in
+
+- Sieht **isolierte Einzelteile**
+- Muss jedes Element einzeln verarbeiten
+- Arbeitsgedächtnis schnell überlastet
+- Nutzt **schwache Methoden**: Versuch und Irrtum, Analogie, Rückwärtsarbeiten
+
+:::
+
+:::{.column width="50%"}
+### Expert:in
+
+- Sieht **Muster und Strukturen**
+- Ein Schema = ein "Slot" im Arbeitsgedächtnis
+- Kapazität reicht für komplexe Probleme
+- Nutzt **starke Methoden**: direkter Abruf, automatisierte Prozeduren
+:::
+::::
+
+<br>
+
+::: {style="text-align: center; font-size: 1.1em;"}
+Die Progression von schwachen zu starken Methoden erfordert **eigene kognitive Arbeit**.
+
+[KI liefert das Ergebnis der Expertise, ohne den Prozess, der sie aufbaut.]{style="color: #D55E00; font-weight: bold;"}
+:::
+
+::: {.notes}
+Wie überwindet man den Engpass? Durch Schemata. Ein Schema komprimiert viele Einzelelemente zu einer Einheit und belegt nur einen Slot im Arbeitsgedächtnis. Anfänger sehen isolierte Einzelteile und nutzen schwache Methoden. Expert:innen sehen Muster und greifen auf automatisierte Prozeduren zurück. Diese Progression erfordert eigene kognitive Arbeit: Üben, Fehler machen, Feedback verarbeiten. KI liefert das Ergebnis der Expertise, den guten Text, die richtige Analyse, den eleganten Code, ohne den Prozess, der diese Expertise aufbaut. Die Schemata entstehen nicht.
+:::
+
+
+## Das Evaluationsparadox {.center}
+
+<br><br>
+
+::: {style="font-size: 1.3em; max-width: 85%; margin: 0 auto; line-height: 1.8; text-align: center;"}
+Um KI-Output zu **beurteilen**,
+
+braucht man die Kompetenz,
+
+die die Aufgabe **aufbauen** sollte.
+:::
+
+<br>
+
+. . .
+
+::: {style="font-size: 1.1em; max-width: 80%; margin: 0 auto; text-align: center;"}
+[Expert:innen]{style="color: #0072B2; font-weight: bold;"} erkennen Fehler sofort.
+
+[Anfänger:innen]{style="color: #D55E00; font-weight: bold;"} können nicht unterscheiden, ob der Output stimmt.
+:::
+
+<br>
+
+::: {style="text-align: center; color: #6E6560; font-size: 0.95em;"}
+Kompetente KI-Nutzung setzt Kompetenz voraus.
+:::
+
+::: {.notes}
+Das Evaluationsparadox ist der Kern des Arguments. Um zu beurteilen, ob ein KI-Output korrekt ist, braucht man genau die Kompetenz, die die Aufgabe eigentlich aufbauen sollte. Expert:innen erkennen Fehler sofort, weil sie Schemata haben, die als Referenz dienen. Anfänger:innen können nicht unterscheiden, ob der Output stimmt. Deshalb ist die Forderung "Nutze KI, aber prüfe kritisch" für Lernende ein Paradox.
+:::
+
+
+## Offloading vs. Outsourcing {.smaller}
+
+Diese Unterscheidung folgt direkt aus der kognitiven Architektur:
+
+<br>
+
+::::{.columns}
+:::{.column width="50%"}
+### Offloading
+
+KI **entlastet**, aber eigenes Denken bleibt aktiv
+
+- KI fasst Quellen zusammen, Studierende analysieren selbst
+- Taschenrechner für Arithmetik *während* Problemlösen
+
+[Extrinsische Last sinkt, Schemata werden aufgebaut]{style="color: #0072B2; font-weight: bold;"}
+:::
+
+:::{.column width="50%"}
+### Outsourcing
+
+KI **ersetzt** das Denken
+
+- KI schreibt die Analyse, Studierende editieren Formulierungen
+- Student:in übernimmt KI-Antwort ohne eigenen Versuch
+
+[Intrinsische Verarbeitung entfällt, keine Schemabildung]{style="color: #D55E00; font-weight: bold;"}
+:::
+::::
+
+<br>
+
+::: {style="text-align: center; font-size: 1.05em;"}
+Dasselbe Tool, aber verschiedene Wirkungen. Der Unterschied liegt darin, welche **kognitive Arbeit** bei den Lernenden bleibt.
+:::
+
+::: {.notes}
+Offloading reduziert extrinsische Last: Die KI übernimmt Arbeit, die nicht direkt zum Schemaaufbau beiträgt. Das Denken bleibt bei den Lernenden, Schemata werden aufgebaut. Outsourcing eliminiert die intrinsische Verarbeitung: Die KI übernimmt genau die kognitive Arbeit, die Schemata aufbauen würde. Das Ergebnis: kein Lernen. Und wegen des Evaluationsparadoxes merken die Lernenden es nicht einmal.
+:::
+
+
+# Neue Forschung
+
+
+## {.center}
+
+<br><br><br>
+
+::: {style="font-size: 1.5em; text-align: center; max-width: 85%; margin: 0 auto; line-height: 1.6;"}
+80% der Menschen folgen einer KI-Empfehlung,
+[auch wenn sie falsch liegt.]{style="color: #A63D2F; font-weight: bold;"}
+:::
+
+. . .
+
+<br>
+
+::: {style="font-size: 1.2em; text-align: center; color: #6E6560;"}
+Ihre Konfidenz steigt dabei.
+:::
+
+. . .
+
+<br>
+
+::: {style="text-align: center; color: #999; font-size: 0.9em;"}
+@shawThinkingFastSlow2026
+:::
+
+::: {.notes}
+Einstieg mit der provokantesten Zahl aus einer neuen Studie von Shaw und Nave an der Wharton School. 80% folgen einer falschen KI-Empfehlung. Und gleichzeitig steigt ihre Konfidenz, dass die Antwort richtig ist. Nicht nur die Genauigkeit sinkt, die Leute werden gleichzeitig sicherer.
+:::
+
+
+## Die Studie {.smaller}
+
+**Shaw & Nave (2026)**: "Thinking: Fast, Slow, and Artificial" [@shawThinkingFastSlow2026]
+
+- **Design:** Cognitive Reflection Test (CRT) mit manipulierter KI-Genauigkeit
+- **N = 1'372** Teilnehmende, 9'593 Durchgänge, 3 präregistrierte Studien
+- Teilnehmende konnten frei eine KI (ChatGPT) konsultieren
+- Entscheidend: Die KI lieferte zufällig **korrekte oder falsche** Antworten
+
+```{ojs}
+//| echo: false
+
+accuracy_chart = {
+  const w = 650;
+  const h = 350;
+  const fs = "14px";
+
+  const data = [
+    {Bedingung: "Ohne KI (Baseline)", Accuracy: 45.8, color: "#64748b"},
+    {Bedingung: "KI korrekt",         Accuracy: 71.0, color: "#0072B2"},
+    {Bedingung: "KI falsch",           Accuracy: 31.5, color: "#D55E00"}
+  ];
+
+  return Plot.plot({
+    width: w,
+    height: h,
+    marginLeft: 60,
+    marginBottom: 50,
+    marginTop: 20,
+    style: {fontSize: fs, background: "transparent"},
+    x: {label: null, padding: 0.4},
+    y: {label: "Korrekte Antworten (%)", domain: [0, 85], ticks: [0, 20, 40, 60, 80]},
+    color: {
+      domain: ["Ohne KI (Baseline)", "KI korrekt", "KI falsch"],
+      range: ["#64748b", "#0072B2", "#D55E00"]
+    },
+    marks: [
+      Plot.barY(data, {x: "Bedingung", y: "Accuracy", fill: "Bedingung", tip: true}),
+      Plot.text(data, {
+        x: "Bedingung", y: "Accuracy",
+        text: d => d.Accuracy + "%",
+        dy: -12, fontWeight: "bold", fontSize: 16, fill: "#1A1714"
+      }),
+      Plot.ruleY([45.8], {stroke: "#64748b", strokeDasharray: "6,4", strokeWidth: 1})
+    ]
+  });
+}
+```
+
+::: {style="text-align: center; color: #6E6560; font-size: 0.9em;"}
+Effektstärke KI-korrekt vs. KI-falsch: Cohen's *h* = 0.81
+:::
+
+::: {.notes}
+Das Studiendesign ist elegant. Die Teilnehmenden lösen den Cognitive Reflection Test, den klassischen Test für analytisches Denken. Sie können dabei frei ChatGPT konsultieren. Aber die KI liefert über versteckte Prompts zufällig entweder die korrekte Antwort oder eine plausible, aber falsche Antwort. Die Ergebnisse sind eindeutig. Ohne KI: 45.8% korrekt. Mit korrekter KI: 71%. Aber mit falscher KI: 31.5%, unter der Baseline. Die Leute werden durch falsche KI schlechter als ohne KI.
+:::
+
+
+## Konfidenz steigt, Korrektur scheitert {.smaller}
+
+::::{.columns}
+:::{.column width="50%"}
+### Konfidenz-Illusion
+
+| Bedingung | Konfidenz |
+|-----------|-----------|
+| Ohne KI | 65.3% |
+| Mit KI | 77.0% |
+
++12 Prozentpunkte, obwohl ~50% der KI-Antworten falsch waren.
+
+[Die Leute werden sicherer, nicht genauer.]{style="color: #A63D2F; font-weight: bold;"}
+:::
+
+:::{.column width="50%"}
+### Lässt sich das verhindern?
+
+| Intervention | Ergebnis |
+|---|---|
+| Zeitdruck (Studie 2) | Kein Effekt |
+| Anreize + Feedback (Studie 3) | Override-Rate steigt von 20% auf 42% |
+
+. . .
+
+[Aber: 58% folgen auch unter optimalen Bedingungen der falschen KI.]{style="color: #A63D2F; font-weight: bold;"}
+:::
+::::
+
+<br>
+
+::: {style="text-align: center; font-size: 1.05em;"}
+Outsourcing ist nicht leicht zu verhindern. Selbst bei Anreizen und direktem Feedback bleibt die Mehrheit beim KI-Vorschlag.
+:::
+
+::: {.notes}
+Zwei weitere bemerkenswerte Befunde. Erstens: Die Konfidenz steigt um 12 Prozentpunkte, obwohl die Hälfte der KI-Antworten absichtlich falsch war. Die Leute denken, sie wissen es besser, weil sie die KI gefragt haben. Das ist die metakognitive Falle. Zweitens: Zeitdruck macht es nicht besser. Anreize und Feedback helfen etwas, die Override-Rate verdoppelt sich. Aber selbst unter optimalen Bedingungen folgen 58% der falschen KI. Das Verhalten ist robust.
+:::
+
+
+## Wer ist anfällig? {.smaller}
+
+```{ojs}
+//| echo: false
+
+moderator_chart = {
+  const w = 700;
+  const h = 350;
+  const fs = "13px";
+
+  const data = [
+    {Faktor: "Hohes KI-Vertrauen",           Stärke: 0.7,  Richtung: "Mehr Outsourcing"},
+    {Faktor: "Niedrige Need for Cognition",   Stärke: 0.6,  Richtung: "Mehr Outsourcing"},
+    {Faktor: "Niedrige fluide Intelligenz",   Stärke: 0.55, Richtung: "Mehr Outsourcing"},
+    {Faktor: "Niedriges KI-Vertrauen",        Stärke: 0.5,  Richtung: "Mehr Widerstand"},
+    {Faktor: "Hohe Need for Cognition",       Stärke: 0.6,  Richtung: "Mehr Widerstand"},
+    {Faktor: "Hohe fluide Intelligenz",       Stärke: 0.55, Richtung: "Mehr Widerstand"}
+  ];
+
+  return Plot.plot({
+    width: w,
+    height: h,
+    marginLeft: 220,
+    marginRight: 20,
+    marginTop: 10,
+    marginBottom: 40,
+    style: {fontSize: fs, background: "transparent"},
+    x: {label: null, domain: [-0.8, 0.8], ticks: []},
+    y: {label: null, padding: 0.3},
+    color: {
+      domain: ["Mehr Outsourcing", "Mehr Widerstand"],
+      range: ["#D55E00", "#0072B2"],
+      legend: true
+    },
+    marks: [
+      Plot.barX(data, {
+        y: "Faktor",
+        x: d => d.Richtung === "Mehr Outsourcing" ? d.Stärke : -d.Stärke,
+        fill: "Richtung",
+        tip: true
+      }),
+      Plot.ruleX([0], {stroke: "#1A1714", strokeWidth: 1})
+    ]
+  });
+}
+```
+
+<br>
+
+::: {style="text-align: center; font-size: 1.1em; font-weight: bold;"}
+Aber: Niemand ist immun. Auch die widerstandsfähigsten Teilnehmenden zeigten das Muster.
+:::
+
+::: {.notes}
+Die individuellen Unterschiede sind aufschlussreich. Wer der KI mehr vertraut, outsourct mehr. Wer Freude am Denken hat oder eine höhere fluide Intelligenz besitzt, widersteht eher. Aber der entscheidende Punkt: Auch die widerstandsfähigsten Teilnehmenden zeigten das Muster. Outsourcing ist der Default, Widerstand ist die Ausnahme.
+:::
+
+
+# Einordnung
+
+
+## Shaw & Nave nennen das "System 3" {.smaller}
+
+Die Autoren schlagen eine **Tri-System-Theorie** vor:
+
+<br>
+
+| | System 1 | System 2 | System 3 |
+|---|---|---|---|
+| **Verarbeitung** | Schnell, intuitiv | Langsam, analytisch | Extern, algorithmisch |
+| **Ort** | Im Kopf | Im Kopf | In der Maschine |
+| **Aufwand** | Gering | Hoch | Keiner (für den Nutzer) |
+
+<br>
+
+Shaw & Nave sehen KI als **drittes kognitives System**, das Intuition und Deliberation ergänzt, verdrängt oder verzerrt.
+
+<br>
+
+::: {style="text-align: center; font-size: 1.1em; color: #6E6560;"}
+Die theoretische Ambition ist klar: Kahneman erweitern für das KI-Zeitalter.
+:::
+
+::: {.notes}
+Shaw und Nave gehen über die Empirie hinaus und schlagen ein neues theoretisches Modell vor: System 3. Neben Kahnemans System 1, schnell und intuitiv, und System 2, langsam und analytisch, positionieren sie KI als drittes kognitives System: extern, algorithmisch, und für den Nutzer ohne kognitiven Aufwand. Das ist eine ambitionierte These. Aber brauchen wir das wirklich?
+:::
+
+
+## Brauchen wir ein neues System? {.smaller}
+
+Die Befunde lassen sich mit **bestehenden Konzepten** erklären:
+
+<br>
+
+| Shaw & Nave Befund | Bestehende Erklärung |
+|---|---|
+| Unkritische Übernahme von KI-Output | Extremes Ende des **Offloading-Outsourcing-Spektrums** |
+| Konfidenz steigt trotz Fehlern | **Metakognitive Falle**: Flüssigkeit wird mit Richtigkeit verwechselt |
+| Robust gegen Anreize | **Automation Bias** [@mosierAutomationBiasAccountable1996]: gut etabliert |
+| Individuelle Unterschiede (NFC, IQ) | Standardmoderatoren der System-2-Aktivierung |
+
+<br>
+
+::: {style="text-align: center; font-size: 1.1em;"}
+Der Mechanismus: KI-Output ist flüssig, selbstbewusst und kohärent.
+Genau das unterdrückt das Konfliktsignal, das normalerweise System 2 aktiviert.
+:::
+
+. . .
+
+::: {style="text-align: center; font-size: 1.1em; color: #A63D2F; font-weight: bold;"}
+Die Daten sind exzellent. Die Theorie ist überflüssig.
+:::
+
+::: {.notes}
+Wir brauchen kein neues kognitives System, um diese Befunde zu erklären. Unkritische Übernahme? Das ist das extreme Ende des Offloading-Outsourcing-Spektrums. Konfidenz-Inflation? Die metakognitive Falle: Flüssiger Output wird mit korrektem Output verwechselt. Robustheit gegen Anreize? Automation Bias, seit Jahrzehnten bekannt. Der Mechanismus ist einfach: KI-Output ist flüssig, selbstbewusst und kohärent. Das unterdrückt das Konfliktsignal, das normalerweise analytisches Denken aktiviert.
+:::
+
+
+## Eine bessere Erklärung: Es ist rational {.smaller}
+
+Shaw & Nave sehen ein **kognitives Architektur-Problem** (System 3 verdrängt System 2).
+
+Ich sehe ein **Aufgabendesign-Problem**.
+
+<br>
+
+Studierende lösen implizit ein Optimierungsproblem. In jedem Moment wägen sie drei Dinge ab:
+
+```{ojs}
+//| echo: false
+
+utility_diagram = {
+  const w = 700;
+  const h = 280;
+
+  const svg = d3.create("svg")
+    .attr("viewBox", [0, 0, w, h])
+    .attr("width", w)
+    .attr("height", h)
+    .style("background", "transparent")
+    .style("font-family", "system-ui, sans-serif");
+
+  const boxes = [
+    {x: 30,  label: "Note jetzt",       sub: "Wie gut ist\ndas Produkt?", color: "#0072B2", sign: "+"},
+    {x: 260, label: "Aufwand",          sub: "Wie anstrengend\nist der Weg?",  color: "#D55E00", sign: "\u2212"},
+    {x: 490, label: "Lernwert (Zukunft)", sub: "Bringt mir das\nspäter etwas?", color: "#64748b", sign: "+"}
+  ];
+
+  for (const b of boxes) {
+    const g = svg.append("g").attr("transform", `translate(${b.x}, 30)`);
+
+    // Sign circle
+    g.append("circle")
+      .attr("cx", 90).attr("cy", 0).attr("r", 16)
+      .attr("fill", b.color);
+    g.append("text")
+      .attr("x", 90).attr("y", 6)
+      .attr("text-anchor", "middle")
+      .attr("fill", "white").attr("font-size", "20px").attr("font-weight", "bold")
+      .text(b.sign);
+
+    // Box
+    g.append("rect")
+      .attr("x", 0).attr("y", 25).attr("width", 180).attr("height", 60)
+      .attr("rx", 6).attr("fill", b.color).attr("opacity", 0.12)
+      .attr("stroke", b.color).attr("stroke-width", 1.5);
+
+    // Label
+    g.append("text")
+      .attr("x", 90).attr("y", 60)
+      .attr("text-anchor", "middle")
+      .attr("fill", b.color).attr("font-size", "16px").attr("font-weight", "bold")
+      .text(b.label);
+
+    // Sub text
+    const lines = b.sub.split("\n");
+    for (let i = 0; i < lines.length; i++) {
+      g.append("text")
+        .attr("x", 90).attr("y", 115 + i * 20)
+        .attr("text-anchor", "middle")
+        .attr("fill", "#64748b").attr("font-size", "13px")
+        .text(lines[i]);
+    }
+  }
+
+  // Equation
+  svg.append("text")
+    .attr("x", w / 2).attr("y", 185)
+    .attr("text-anchor", "middle")
+    .attr("fill", "#1A1714").attr("font-size", "14px").attr("font-weight", "600")
+    .text("Nutzen = Note(jetzt) \u2212 Aufwand + \u03B2 \u00B7 Lernwert(Zukunft)");
+
+  // Arrow + insight
+  svg.append("text")
+    .attr("x", w / 2).attr("y", 220)
+    .attr("text-anchor", "middle")
+    .attr("fill", "#D55E00").attr("font-size", "14px").attr("font-weight", "bold")
+    .text("Wenn KI guten Output billig macht: Aufwand \u2193 \u2192 Outsourcing wird rational");
+
+  svg.append("text")
+    .attr("x", w / 2).attr("y", 250)
+    .attr("text-anchor", "middle")
+    .attr("fill", "#64748b").attr("font-size", "13px")
+    .text("\u03B2 = wie sehr man den zukünftigen Lernwert gewichtet");
+
+  return svg.node();
+}
+```
+
+::: {.notes}
+Hier ist mein alternativer Erklärungsrahmen. Studierende lösen implizit ein Optimierungsproblem mit drei Komponenten: Note jetzt, Aufwand und zukünftiger Lernwert. Wenn KI gute Produkte billig macht, sinkt der Aufwand drastisch, und Outsourcing wird zur rationalen Strategie. Das ist kein kognitives Versagen. Es ist eine rationale Antwort auf eine fehlausgerichtete Aufgabenumgebung.
+:::
+
+
+## Warum 80% rational sein könnte {.smaller}
+
+Ein einfaches Bayes'sches Argument:
+
+<br>
+
+::::{.columns}
+:::{.column width="45%"}
+
+Teilnehmende haben einen **Prior** über die Genauigkeit von ChatGPT. Im Alltag ist GPT-4o bei solchen Aufgaben meistens richtig.
+
+<br>
+
+Wenn man glaubt, dass die KI in **85% der Fälle** recht hat, und man selbst nur in **46%** (die Baseline), dann ist es **Bayes-optimal**, der KI zu folgen.
+
+<br>
+
+::: {style="font-size: 1.05em;"}
+[Die Follow-Rate von 80% ist kein Defizit. Sie ist konsistent mit einer vernünftigen Einschätzung.]{style="color: #0072B2; font-weight: bold;"}
+:::
+:::
+
+:::{.column width="55%"}
+```{ojs}
+//| echo: false
+
+viewof prior_ai = Inputs.range([0.5, 0.99], {
+  value: 0.85,
+  step: 0.01,
+  label: "Prior KI-Genauigkeit"
+})
+```
+
+```{ojs}
+//| echo: false
+
+bayes_chart = {
+  const w = 450;
+  const h = 300;
+  const fs = "13px";
+
+  const p_own = 0.458;
+  const p_ai = prior_ai;
+
+  // Simplified: P(follow AI) ≈ P(AI correct) when comparing AI vs own answer
+  // Using Bayesian weight: w_ai = p_ai / (p_ai + p_own * (1 - p_ai) / (1 - p_own))
+  // This is the posterior probability that AI is correct given it disagrees with you
+  const w_ai = p_ai * (1 - p_own) / (p_ai * (1 - p_own) + (1 - p_ai) * p_own);
+  const predicted_follow = w_ai;
+
+  const data = [
+    {Kategorie: "Vorhergesagt\n(Bayes)", Wert: predicted_follow * 100, color: "#0072B2"},
+    {Kategorie: "Beobachtet\n(Shaw & Nave)", Wert: 79.8, color: "#64748b"}
+  ];
+
+  return Plot.plot({
+    width: w,
+    height: h,
+    marginLeft: 60,
+    marginBottom: 60,
+    marginTop: 20,
+    style: {fontSize: fs, background: "transparent"},
+    x: {label: null, padding: 0.5},
+    y: {label: "Follow-Rate (%)", domain: [0, 100], ticks: [0, 20, 40, 60, 80, 100]},
+    color: {
+      domain: data.map(d => d.Kategorie),
+      range: data.map(d => d.color)
+    },
+    marks: [
+      Plot.barY(data, {x: "Kategorie", y: "Wert", fill: "Kategorie"}),
+      Plot.text(data, {
+        x: "Kategorie", y: "Wert",
+        text: d => d.Wert.toFixed(1) + "%",
+        dy: -12, fontWeight: "bold", fontSize: 15, fill: "#1A1714"
+      }),
+      Plot.ruleY([79.8], {stroke: "#A63D2F", strokeDasharray: "6,4", strokeWidth: 1.5})
+    ]
+  });
+}
+```
+:::
+::::
+
+<br>
+
+::: {style="text-align: center; font-size: 1.1em;"}
+[Was sich NICHT so erklären lässt: Die Konfidenz-Inflation.]{style="color: #A63D2F; font-weight: bold;"} Das ist der eigentlich interessante Befund.
+:::
+
+::: {.notes}
+Das ist die Skizze eines formalen Arguments. Die Kernidee: Wenn man glaubt, dass ChatGPT in 85% der Fälle recht hat, und man selbst unsicher ist, dann ist es Bayes-optimal, der KI zu folgen. Bewegt den Slider: Bei einem Prior von 85% liegt die vorhergesagte Follow-Rate nahe an den beobachteten 80% von Shaw und Nave. Die Follow-Rate ist also keine kognitive Verzerrung. Sie ist konsistent mit einer vernünftigen Einschätzung der KI-Genauigkeit. Was sich nicht rational erklären lässt: dass die Konfidenz steigt. Rationale Delegation sollte die eigene Konfidenz nicht erhöhen. Dass sie es tut, ist der eigentlich interessante Befund, und Shaw und Nave analysieren ihn zu wenig.
+:::
+
+
+## Verstehen kann man nicht auslagern {.smaller}
+
+Warum ist Outsourcing so schädlich? Weil es eine **selbstverstärkende Falle** erzeugt.
+
+```{ojs}
+//| echo: false
+
+viewof show_outsourcing = {
+  const div = html`<div style="display:flex;align-items:center;gap:12px;font-size:14px;">
+    <span style="font-weight:600;">Strategie:</span>
+    <label style="cursor:pointer;"><input type="radio" name="strategy" value="effort" checked style="accent-color:#0072B2;"> Eigene Arbeit</label>
+    <label style="cursor:pointer;"><input type="radio" name="strategy" value="outsource" style="accent-color:#D55E00;"> Outsourcing</label>
+    <label style="cursor:pointer;"><input type="radio" name="strategy" value="both" style="accent-color:#64748b;"> Vergleich</label>
+  </div>`;
+  const radios = div.querySelectorAll("input[type=radio]");
+  function emit() {
+    const checked = div.querySelector("input:checked");
+    div.value = checked.value;
+    div.dispatchEvent(new Event("input", {bubbles: true}));
+  }
+  for (const r of radios) r.onchange = emit;
+  div.value = "effort";
+  return div;
+}
+```
+
+```{ojs}
+//| echo: false
+
+trap_chart = {
+  const w = 700;
+  const h = 350;
+  const fs = "13px";
+  const sel = show_outsourcing;
+  const n = 20;
+
+  const data = [];
+  for (let t = 1; t <= n; t++) {
+    if (sel === "effort" || sel === "both") {
+      data.push({t, Wert: 3 * t,       Variable: "Kompetenz",         Strategie: "Eigene Arbeit"});
+      data.push({t, Wert: 3 * t + 3,   Variable: "Selbsteinschätzung", Strategie: "Eigene Arbeit"});
+    }
+    if (sel === "outsource" || sel === "both") {
+      data.push({t, Wert: 0.5 * t,           Variable: "Kompetenz",         Strategie: "Outsourcing"});
+      data.push({t, Wert: 2.5 * t + 5,       Variable: "Selbsteinschätzung", Strategie: "Outsourcing"});
+    }
+  }
+
+  return Plot.plot({
+    width: w,
+    height: h,
+    marginLeft: 50,
+    marginBottom: 45,
+    marginTop: 10,
+    marginRight: 20,
+    style: {fontSize: fs, background: "transparent"},
+    x: {label: "Zeit (Semester)", ticks: [1, 5, 10, 15, 20]},
+    y: {label: "Niveau", domain: [0, 75]},
+    color: {
+      domain: ["Kompetenz", "Selbsteinschätzung"],
+      range: ["#0072B2", "#D55E00"],
+      legend: true
+    },
+    marks: [
+      Plot.lineY(data, {
+        x: "t", y: "Wert",
+        stroke: "Variable",
+        strokeWidth: 2.5,
+        strokeDasharray: d => d.Strategie === "Outsourcing" ? "6,4" : null,
+        curve: "natural"
+      }),
+      // Gap annotation for outsourcing
+      ...(sel === "outsource" || sel === "both" ? [
+        Plot.text([{t: 18, Wert: 38}], {
+          x: "t", y: "Wert",
+          text: ["Wachsende\nLücke"],
+          fill: "#D55E00", fontSize: 12, fontWeight: "bold", lineAnchor: "middle"
+        })
+      ] : [])
+    ]
+  });
+}
+```
+
+::: {style="font-size: 0.95em;"}
+**Eigene Arbeit:** Kompetenz und Selbsteinschätzung wachsen zusammen. Fehler werden erkannt.
+
+**Outsourcing:** Kompetenz stagniert, aber Selbsteinschätzung steigt (flüssiger KI-Output erzeugt Kompetenz-Illusion). [Die Lücke wächst, und es gibt kein internes Signal, das warnt.]{style="color: #D55E00; font-weight: bold;"}
+:::
+
+::: {.notes}
+Hier sehen wir, warum die Kernaussage "Verstehen kann man nicht auslagern" so zentral ist. Wählt die Strategie "Eigene Arbeit": Kompetenz und Selbsteinschätzung wachsen zusammen. Das System ist kalibriert. Wechselt zu "Outsourcing": Die Kompetenz stagniert, aber die Selbsteinschätzung steigt weiter. Die Lücke wächst. Und das ist die Falle: Ohne die Kompetenz, KI-Output zu bewerten, gibt es kein internes Signal, das warnt. Das ist das Evaluationsparadox in dynamischer Form. Der Konfidenz-Befund von Shaw und Nave ist genau diese Dynamik in empirischen Daten: Kompetenz sinkt, Konfidenz steigt.
+:::
+
+
+# Was heisst das für die Lehre?
+
+
+## Das eigentliche Problem {.center}
+
+<br>
+
+::: {style="font-size: 1.3em; max-width: 80%; margin: 0 auto; line-height: 1.8;"}
+Das ist kein Problem, das einzelne Dozierende mit besserem Aufgabendesign lösen.
+
+<br>
+
+Noten belohnen Produkte. Produkte lassen sich outsourcen.
+
+<br>
+
+KI hat diese Fehlanpassung nicht erzeugt. Sie hat sie [sichtbar]{style="color: #D55E00; font-weight: bold;"} gemacht.
+
+<br>
+
+Die Frage ist nicht: *Wie verhindern wir Outsourcing?*
+
+Die Frage ist: [Wie sähe ein System aus, in dem Lernen die rationale Strategie ist?]{style="color: #0072B2; font-weight: bold;"}
+:::
+
+::: {.notes}
+Das eigentliche Problem ist strukturell. Noten belohnen Produkte. Produkte lassen sich outsourcen. Also wird outgesourced. Und das ist rational. KI hat diese Fehlanpassung nicht geschaffen. Sie war immer da. Gute Produkte ohne Verständnis waren früher einfach zu aufwändig. KI hat diese Korrelation gebrochen und damit die Schwäche im System sichtbar gemacht. Die richtige Frage ist nicht: Wie verhindern wir Outsourcing? Die richtige Frage ist: Wie sähe ein System aus, in dem Lernen die rationale Strategie ist?
+:::
+
+
+## Zwei Erkenntnisse {.center}
+
+<br><br>
+
+::: {style="font-size: 1.3em; max-width: 85%; margin: 0 auto; line-height: 2;"}
+
+[1.]{style="color: #A63D2F; font-weight: bold;"} Outsourcing ist ein **kognitiver Default**, keine individuelle Schwäche.
+80% folgen falscher KI. Das ist rational, kein Charakterfehler.
+
+<br>
+
+[2.]{style="color: #A63D2F; font-weight: bold;"} **Verstehen kann man nicht auslagern.**
+Wer die kognitive Arbeit delegiert, verliert nicht nur Kompetenz, sondern auch die Fähigkeit, diesen Verlust zu erkennen.
+:::
+
+::: {.notes}
+Zwei Erkenntnisse zum Mitnehmen. Erstens: Outsourcing ist der Default. Shaw und Nave haben das überzeugend quantifiziert: 80% folgen falscher KI. Und das ist rational, wenn man die Anreizstruktur betrachtet. Zweitens: Verstehen kann man nicht auslagern. Wer die kognitive Arbeit delegiert, verliert nicht nur Kompetenz, sondern auch die Fähigkeit, diesen Verlust zu erkennen. Die Falle schliesst sich.
+:::
+
+
+## Diskussion {.center}
+
+<br><br>
+
+::: {style="font-size: 1.3em; text-align: center; max-width: 80%; margin: 0 auto; line-height: 1.8; color: #1A1714;"}
+Noten belohnen Produkte. Produkte lassen sich outsourcen.
+
+[Wie sähe ein System aus, in dem Lernen die rationale Strategie ist?]{style="color: #0072B2; font-weight: bold;"}
+:::
+
+<br><br>
+
+::: {style="text-align: center; font-size: 1.0em; color: #6E6560;"}
+Und konkreter: Wo in euren Kursen ist Outsourcing *bereits* die rationale Strategie?
+Und: Wie würde sich das ändern, wenn Lernen, nicht das Produkt, bewertet würde?
+:::
+
+::: {.notes}
+Offene Diskussion. Die zentrale Frage: Wie sähe ein System aus, in dem Lernen die rationale Strategie ist? Als Einstieg zwei konkretere Fragen: Wo in euren eigenen Kursen ist Outsourcing bereits die rationale Strategie? Und: Wie würde sich das ändern, wenn nicht das Produkt, sondern der Lernprozess bewertet würde?
+:::
+
+
+## Referenzen

@@ -1,0 +1,30 @@
+---
+title: "Werkzeugnutzung und Expertise"
+sidebar: qa
+---
+
+## Auslagerung vs. Ersetzung
+
+Nicht jeder KI-Einsatz ist gleich. Die zentrale Unterscheidung: KI kann extrinsische Belastung **auslagern** (Formatierung, Recherche-Organisation, Zusammenfassungen als Ausgangspunkt) oder lernrelevante Verarbeitung **ersetzen** (die aktive Auseinandersetzung mit dem Material, durch die Schemata entstehen). Auslagerung ist sinnvoll. Ersetzung untergräbt den Lernprozess, auch wenn das Endprodukt korrekt ist.
+
+Ob ein bestimmter KI-Einsatz Auslagerung oder Ersetzung darstellt, hängt nicht vom Werkzeug ab, sondern vom Vorwissen der Person, die es nutzt.
+
+## Warum Expertise den Unterschied macht
+
+Expert:innen verfügen über hoch vernetzte Schemata in ihrem Fachgebiet. Sie erkennen Muster, verarbeiten komplexe Situationen als einzelne Einheiten und können KI-Output kritisch bewerten, weil sie die zugrundeliegenden Zusammenhänge verstehen. Für sie ist KI ein Produktivitätswerkzeug: Sie nutzen es, um extrinsische Belastung zu reduzieren, während ihre eigene Verarbeitung aktiv bleibt.
+
+Anfänger:innen haben diese Schemata noch nicht aufgebaut. Dieselbe KI-Nutzung, die für Expert:innen produktiv ist, kann bei Anfänger:innen die Schemabildung überspringen. KI-Output wirkt plausibel, ohne dass sie Fehler oder Lücken erkennen können. Das ist das **Evaluationsparadox**: Um KI-Output in einem Fachgebiet beurteilen zu können, braucht man genau die Kompetenz, die die Aufgabe aufbauen sollte.
+
+## Die Konfidenzfalle
+
+Shaw und Nave [-@shawThinkingFastSlow2026] haben diesen Effekt quantifiziert: 80% der Teilnehmenden folgten einer KI-Empfehlung, auch wenn sie falsch war. Gleichzeitig stieg ihre Konfidenz um 12 Prozentpunkte. Selbst unter optimalen Bedingungen (finanzielle Anreize, direktes Feedback) folgten 58% der falschen KI.
+
+Das Problem ist nicht nur der Kompetenzverlust. Es ist, dass Outsourcing kein internes Warnsignal erzeugt. Im Gegenteil: Der flüssige KI-Output erzeugt eine Kompetenzillusion. Die Lücke zwischen tatsächlicher Kompetenz und Selbsteinschätzung wächst, und es gibt keinen Mechanismus, der darauf aufmerksam macht.
+
+## Wann Werkzeuge einführen
+
+Die Konsequenz ist nicht, KI zu verbieten, sondern den Einsatz zu **sequenzieren**. Fachwissen ist Voraussetzung für produktive KI-Nutzung. Wer die Grundlagen nicht beherrscht, kann weder gute Prompts formulieren noch die Qualität der Antworten beurteilen.
+
+Konkret bedeutet das: In frühen Lernphasen die kognitive Arbeit bei den Studierenden belassen. Aufgaben so gestalten, dass der Denkprozess sichtbar wird: eigene Entwürfe vor dem KI-Vergleich, mündliche Erklärungen, Begründungen für Entscheidungen. In fortgeschrittenen Phasen KI gezielt als Denkpartner einsetzen, nicht als Antwortgeber.
+
+Die Frage bei jeder Aufgabe lautet: Bleibt die lernrelevante Verarbeitung bei den Studierenden, oder übernimmt die KI genau den Teil, der Schemata aufbauen würde?
