@@ -50,8 +50,8 @@ KI verbessert die *Leistung* bei kognitiven Aufgaben
 
 Wo ist der Fehler? 
 
-<div style="position: relative; display: inline-block; width: 70%;">
-<img src="../assets/images/draco_opening_drachenvariante_fehler_springere6.png" style="display: block; width: 100%; height: auto;">
+<div style="position: relative; display: inline-block; max-width: 70%;">
+<img src="../assets/images/draco_opening_drachenvariante_fehler_springere6.png" style="display: block; max-width: 100%; height: auto;">
 <div class="fragment">
 <div style="position: absolute; left: 51.2%; top: 29.5%; width: 9%; height: 9%; border: 4px solid #D62828; box-sizing: border-box; pointer-events: none;"></div>
 <div style="position: absolute; left: 61.8%; top: 29.5%; width: 9%; height: 9%; border: 4px solid #F4C10F; box-sizing: border-box; pointer-events: none;"></div>
@@ -70,6 +70,8 @@ Die Vorhersagetätigkeit ist kognitiv anstrengend.
 
 > Studie von Simon & Chase (1973)
 > Erfahrene Schachspieler erinnerten visuell präsentierte Schachkonstellatoinen zuverlässiger als Novizen - dieser Vorteil verschwand bei zufälligen Anordnungen von Schachfiguren auf dem Feld. 
+
+<!-- TODO: I'm keeping the experiment & explanation for efficiency reasons, but it is not fully on point. The knowledge of chess configurations is conflated with prediction. Perceptual processing is conflated with cognitive processing. Should be done better. -->
 
 ## Cognitive Load Theory in 60 Sekunden {.smaller}
 
