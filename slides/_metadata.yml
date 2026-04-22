@@ -4,6 +4,10 @@ author:
     affiliation: Virtuelle Akademie, Berner Fachhochschule
     affiliation-url: https://virtuelleakademie.ch
     orcid: 0000-0002-2788-936X
+  - name: Raphael Schween
+    affiliation: Virtuelle Akademie, Berner Fachhochschule
+    affiliation-url: https://virtuelleakademie.ch
+    orcid: 0000-0003-1804-9438
 format:
   revealjs:
     theme: [simple, ../styles/custom-reveal.scss]
