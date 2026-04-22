@@ -1,7 +1,7 @@
 ---
-title: "Von der kognitiven Architektur zum KI-gestützten Scaffolding"
-subtitle: "KI in der Lehre: Refresher"
-date: "12 March, 2026"
+title: "KI in der (Fach-)Hochschullehre"
+subtitle: "Ein Denkansatz"
+date: "30 April, 2026"
 bibliography:
   - ../bibliography.bib
   - ../missing-refs.bib
@@ -10,7 +10,7 @@ bibliography:
 
 ## Praxisbeispiel
 Ein angehender Ernährungstherapeut erhält im Praktikum die Aufgabe einen Flyer zum Thema Endometriose zu erstellen.
-Nach einer Stunde hat er mit Hilfe von KI einen Flyer erstellt. Der Flyer ist inhaltlich korrekt, optisch ansprechend und spricht die vorgegebene Zielgruppe angemessen an. 
+Nach einer Stunde hat er mit Hilfe von KI einen Flyer erstellt. Der Flyer ist inhaltlich korrekt, optisch attraktiv und spricht die vorgegebene Zielgruppe angemessen an. 
 
 > Ist dies ein Beispiel für angemessene Nutzung von KI im Rahmen eines Praktikums? 
 
@@ -39,45 +39,12 @@ KI verbessert die *Leistung* bei kognitiven Aufgaben
 
 ::::
 
-## Lernen braucht kognitive Anstrengung - Begründung 1
-
-- Aktives Erinnern (=anstrengend) festigt gelerntes.
-
-> Studie von Karpicke & Roediger (*Science*, 2008)
-> Probanden, die in einer Übungsphase wiederholt getestet wurden (aktives erinnern) erinnerten später mehr als Probanden, die statt dessen das Material wiederholten (passives Verarbeiten)
-
-## Lernen braucht kognitive Anstrengung - Begründung 2
-
-Wo ist der Fehler? 
-
-<div style="position: relative; display: inline-block; max-width: 70%;">
-<img src="../assets/images/draco_opening_drachenvariante_fehler_springere6.png" style="display: block; max-width: 100%; height: auto;">
-<div class="fragment">
-<div style="position: absolute; left: 51.2%; top: 29.5%; width: 9%; height: 9%; border: 4px solid #D62828; box-sizing: border-box; pointer-events: none;"></div>
-<div style="position: absolute; left: 61.8%; top: 29.5%; width: 9%; height: 9%; border: 4px solid #F4C10F; box-sizing: border-box; pointer-events: none;"></div>
-</div>
-</div>
-
-::: {style="position: absolute; bottom: -30px; right: 40px; transform: scale(0.707); transform-origin: bottom right;"}
-::: {.timer #timer-schach seconds="30"}
+::: {.notes}
+T: Muss kurz ausholen... ;-)
 :::
-:::
+## Was ist Lernen?
 
-## Lernen braucht kognitive Anstrengung - Begründung 2
-
-Eine Erklärung, warum Experten Fehler besser identifizieren können, als Novizen, ist, dass sie auf Basis strukturierten Wissens Vorhersagen generieren und somit Abweichungen besser wahrnehmen. 
-Die Vorhersagetätigkeit ist kognitiv anstrengend. 
-
-> Studie von Simon & Chase (1973)
-> Erfahrene Schachspieler erinnerten visuell präsentierte Schachkonstellatoinen zuverlässiger als Novizen - dieser Vorteil verschwand bei zufälligen Anordnungen von Schachfiguren auf dem Feld. 
-
-<!-- TODO: I'm keeping the experiment & explanation for efficiency reasons, but it is not fully on point. The knowledge of chess configurations is conflated with prediction. Perceptual processing is conflated with cognitive processing. Should be done better. -->
-
-## Cognitive Load Theory in 60 Sekunden {.smaller}
-
-Die **Cognitive Load Theory** [@swellerIntegratedHumanCognitive2025a] erklärt, wie das Arbeitsgedächtnis beim Lernen beansprucht wird.
-
-<br>
+Lernen ist der Aufbau von *vernetztem Wissen* im *Langzeitgedächtnis*
 
 ```{ojs}
 //| echo: false
@@ -109,7 +76,7 @@ bottleneck_fig = {
   });
 
   // Arrows
-  svg.append("defs").appe--nd("marker").attr("id", "arr-bn")
+  svg.append("defs").append("marker").attr("id", "arr-bn")
     .attr("viewBox", "0 0 10 10").attr("refX", 9).attr("refY", 5)
     .attr("markerWidth", 7).attr("markerHeight", 7).attr("orient", "auto")
     .append("path").attr("d", "M 0 0 L 10 5 L 0 10 Z").attr("fill", "#666");
@@ -135,61 +102,61 @@ bottleneck_fig = {
 }
 ```
 
-<br><br><br>
+::: {.notes}
+Sensorische Inputs: sehr viele
+Langzeitgedächtnis: praktisch unbegrenzter Speicher
 
-::: {.fragment}
-::::{.columns}
-:::{.column width="33%"}
-::: {style="background: #faf0f0; padding: 1.0em; border-radius: 8px; border-top: 3px solid #D55E00;"}
-[**Extrinsische Belastung**]{style="color: #D55E00;"}
+Arbeitsgedächtnis:
+- Überführt sensorsiche Inputs selektiv ins Langzeitgedächtnis
+- prozessiert reaktiviertes Wissen aus Langzeitgedächtnis
+- ist kapazitätslimitiert!
 
-Unnötige Belastung durch schlechtes Design.
+T: Wichtig: Das ganze ist anstrengend!
 
-[→ Reduzieren!]{style="font-weight: bold;"}
+<!-- TODO: brauchen wir so viel theorie? -->
+
+:::
+
+## Lernen braucht kognitive Anstrengung - Begründung 1
+
+- Aktives Erinnern (=anstrengend) festigt gelerntes.
+
+> Studie von Karpicke & Roediger (*Science*, 2008)
+> Probanden, die in einer Übungsphase wiederholt getestet wurden (aktives erinnern) erinnerten später mehr als Probanden, die statt dessen das Material wiederholten (passives Verarbeiten)
+
+## Lernen braucht kognitive Anstrengung - Begründung 2
+
+Wo ist der Fehler? 
+
+<div style="position: relative; display: inline-block; transform: scale(0.7); transform-origin: top left;">
+<img src="../assets/images/draco_opening_drachenvariante_fehler_springere6.png" style="display: block; height: auto;">
+<div class="fragment">
+<div style="position: absolute; left: 51.2%; top: 29.5%; width: 9%; height: 9%; border: 4px solid #D62828; box-sizing: border-box; pointer-events: none;"></div>
+<div style="position: absolute; left: 61.8%; top: 29.5%; width: 9%; height: 9%; border: 4px solid #F4C10F; box-sizing: border-box; pointer-events: none;"></div>
+</div>
+</div>
+
+::: {style="position: absolute; bottom: -30px; right: 40px; transform: scale(0.707); transform-origin: bottom right;"}
+::: {.timer #timer-schach seconds="30"}
 :::
 :::
 
-:::{.column width="33%"}
-::: {style="background: #f0f4f8; padding: 1.0em; border-radius: 8px; border-top: 3px solid #0072B2;"}
-[**Intrinsische Belastung**]{style="color: #0072B2;"}
+## Lernen braucht kognitive Anstrengung - Begründung 2
 
-Bestimmt durch Material und Vorwissen.
+Eine Erklärung, warum Experten Fehler besser identifizieren können, als Novizen, ist, dass sie das wahrgenommene mit ***strukturiertem*** Wissen vergleichen können. 
 
-[→ Steuern durch Aufgabendesign]{style="font-weight: bold;"}
-:::
-:::
+> Studie von Simon & Chase (1973)
+> Erfahrene Schachspieler erinnerten visuell präsentierte Schachkonstellatoinen zuverlässiger als Novizen - dieser Vorteil verschwand bei zufälligen Anordnungen von Schachfiguren auf dem Feld. 
 
-:::{.column width="33%"}
-::: {style="background: #f5f5eb; padding: 1.0em; border-radius: 8px; border-top: 3px solid #1E3A5F;"}
-[**Lernrelevante Verarbeitung**]{style="color: #1E3A5F;"}
+<!-- TODO: I'm keeping the experiment & explanation for efficiency reasons, but it is not fully on point. The knowledge of chess configurations is conflated with prediction. Perceptual processing is conflated with cognitive processing. Should be done better. -->
 
-Produktive Denkarbeit, die Schemata aufbaut.
-
-[→ Maximieren!]{style="font-weight: bold;"}
-:::
-:::
-::::
-
-:::
+<!-- TODO: Texte in rechter Spalte mit auf vorherige Folie? -->
 
 ::: {.notes}
-"Die Cognitive Load Theory erklärt, warum unser Arbeitsgedächtnis der Engpass beim Lernen ist."
-
-- Oben: Grundmodell (Input → Arbeitsgedächtnis → Schemata). Keine Technologie umgeht diesen Engpass.
-- **Aktion:** Klick zeigt drei Lastarten:
-  - Extrinsisch = schlechtes Design → reduzieren
-  - Intrinsisch = Material + Vorwissen → steuern
-  - Lernrelevant = produktive Denkarbeit → maximieren
-
-**Überleitung:** Wie überwindet man diesen Engpass? Durch Vorwissen.
+T: Bildlich gedacht können wir uns das so vorstellen... 
 :::
 
-
 ## Expertise = vernetzte Schemata {.smaller}
-
-Wie überwindet man den Engpass? Durch **Vorwissen**. 
-
-Wissen wird im Langzeitgedächtnis zu **Schemata** organisiert: Einzelelemente werden zu einer Einheit komprimieren.
 
 <br>
 
@@ -360,17 +327,84 @@ novice_expert_schemas = {
 :::
 
 ::: {.notes}
-"Wie überwindet man diesen Engpass? Durch Vorwissen, das zu Schemata organisiert wird."
-
+Der erste Zustand ist vielleicht der eines Novizen, der sich schon ein paar Fakten gemerkt hat.
 - **Aktion:** Grafik anklicken (isolierte Fakten → vernetzte Schemata)
-- Ein Schema = viele Elemente als eine Einheit → weniger Belastung fürs Arbeitsgedächtnis
-- Aber: Schemata aufbauen erfordert eigene Denkarbeit
+Bei Experten hingegen ist das Wissen vernetzt. Wir sprechen von Schemata.
+Aber: Schemata aufbauen erfordert eigene Denkarbeit
 
-**Überleitung:** Was passiert, wenn wir extrinsische Last reduzieren?
+:::
+
+## Zusamenfassung: 
+
+- Lernen ist Aufbau strukturierten Wissens im Langzeitgedächtnis
+- Das hierzu notwendige Arbeitsgedächtnis ist Kapazitätsbegrenzt
+
+<br>
+
+- Kognitive Anstrengung ist nötig, ...
+   - um Wissen zu festigen
+   - um expertenhaftes vernetztes Wissen aufzubauen
+
+::: {.notes}
+? Bzgl. KI können wir festhalten: Wir strengen uns nicht gerne an. Wenn wir Anstrengung durch KI vermeiden können, ist das attraktiv! 
+Man könnte jetzt hieraus ableiten, dass KI per se schlecht für lernen ist, weil sie kognitive Anstrengung reduziert. 
+T: Aber...
+:::
+
+## Nicht jede kognitive Anstrengung führt zu lernen {.smaller}
+
+Die **Cognitive Load Theory** [@swellerIntegratedHumanCognitive2025a] erklärt, wie das Arbeitsgedächtnis beim Lernen beansprucht wird.
+
+<br><br><br>
+
+::::{.columns}
+:::{.column width="33%"}
+::: {style="background: #faf0f0; padding: 1.0em; border-radius: 8px; border-top: 3px solid #D55E00;"}
+[**Extrinsische Belastung**]{style="color: #D55E00;"}
+
+Unnötige Belastung durch Art der Inhaltspräsentation.
+
+<!-- [→ Reduzieren!]{style="font-weight: bold;"}  -->
+:::
+:::
+
+:::{.column width="33%"}
+::: {style="background: #f0f4f8; padding: 1.0em; border-radius: 8px; border-top: 3px solid #0072B2;"}
+[**Intrinsische Belastung**]{style="color: #0072B2;"}
+
+Bestimmt durch Material und Vorwissen.
+
+<!-- [→ Steuern durch Aufgabendesign]{style="font-weight: bold;"} -->
+:::
+:::
+
+:::{.column width="33%"}
+::: {style="background: #f5f5eb; padding: 1.0em; border-radius: 8px; border-top: 3px solid #1E3A5F;"}
+[**Lernrelevante Verarbeitung**]{style="color: #1E3A5F;"}
+
+Produktive Denkarbeit, die Schemata aufbaut.
+
+<!-- [→ Maximieren!]{style="font-weight: bold;"} -->
+:::
+:::
+::::
+
+
+::: {.notes}
+"Die Cognitive Load Theory erklärt, warum unser Arbeitsgedächtnis der Engpass beim Lernen ist."
+
+- Oben: Grundmodell (Input → Arbeitsgedächtnis → Schemata). Keine Technologie umgeht diesen Engpass.
+- **Aktion:** Klick zeigt drei Lastarten:
+  - Extrinsisch = schlechtes Design → reduzieren
+  - Intrinsisch = Material + Vorwissen → steuern
+  - Lernrelevant = produktive Denkarbeit → maximieren
+
+**Überleitung:** Wie überwindet man diesen Engpass? Durch Vorwissen.
 :::
 
 
-## Extrinsische Last senken = Kapazität für Lernen {.smaller}
+
+## Lernrelevante Anstrengung ermöglichen {.smaller}
 
 Weniger unnötige Belastung bedeutet mehr Platz für lernrelevante Verarbeitung.
 
@@ -479,3 +513,114 @@ cognitive_load_chart = {
 - Last senken → sofort Kapazität frei (blaue Fläche = lernrelevante Verarbeitung)
 
 :::
+
+## Ein Begriff...
+
+::::{.columns}
+:::{.column width="50%"}
+
+### Cognitive Offloading 
+
+Auslagerung kognitiver Last an externe Hilfsmittel [@riskoCognitiveOffloading2016].
+
+<br>
+
+**Beispiele:**
+Taschenrechner (arithmetische Operationen), während Gespräch Notizen machen (erinnern), ...
+
+:::
+::::
+
+## Bezogen auf Lernen
+
+::::{.columns}
+:::{.column width="50%"}
+
+### Cognitive Offloading 
+
+Auslagerung lernhinderlicher kognitiver Last an externe Hilfsmittel [@riskoCognitiveOffloading2016].
+
+<br>
+
+**Beispiel:**
+Taschenrechner verwenden, wenn man kopfrechnen lernt
+
+:::
+
+:::{.column width="50%"}
+
+### Cognitive Outsourcing 
+
+Auslagerung lernrelevanter kognitiver Last an externe Hilfsmittel [@riskoCognitiveOffloading2016].
+
+<br>
+
+**Beispiel:**
+Taschenrechner verwenden, wenn man Taylorreihen-Expansion lernt
+:::
+::::
+
+## KI-Nutzung beim Lernen
+::::{.columns}
+:::{.column width="50%"}
+### KI als Offloading
+**Beispiel 1**: Ein Studierender verwendet KI, um die Zitationen und Bibliographie in einer Semesterarbeit in ein konsistentes Format zu bringen. 
+
+<br>
+
+**Beispiel 2**: Eine Studierende erstellt eine Gliederung für eine Seminararbeit. Am Ende holt sie von der KI kritisches Feedback ein. Aufgrunddessen recherchiert und ergänzt sie zwei weitere Punkte.
+
+:::
+:::{.column width="50%"}
+### KI als Outsourcing
+**Beispiel 1**: Ein Studierender verwendet KI, um die Zitationen und Bibliographie in einer Übungsaufgabe zu Zitierstilen in das vorgegebene Format zu bringen. 
+
+<br>
+
+**Beispiel 2**: Eine Studierende lässt sich von KI die Gliederung für eine Studienarbeit vorschlagen. 
+
+:::
+::::
+
+:::{.notes}
+Man sieht, es hängt vom Lernziel ab.
+Und nicht alle Fälle sind klar. 
+:::
+
+## Weitere Beispiele für KI-Nutzung...
+Eine Studierende nutzt KI als *advocatus diaboli*, um ihre Argumentation für eine Debatte zu festigen. 
+
+Ein Studierender lässt sich von KI einen Lernplan für ein Thema erstellen.
+
+Eine Studierende nutzt KI, um die von ihr geschriebene Studienarbeit sprachlich zu überarbeiten.
+
+:::{.notes}
+Überlegt, wie ihr es beurteilen würdet? 
+
+:::
+
+## Können Lernende das intuitiv steuern?
+
+**Antwort 1**: KI-Nutzung bei Studierenden verstärkt Selbstwirksamkeitserwartung bei zeitgleich reduzierter Leistungsfähigkeit. <!-- Zitiere Jia et al. 2025 -->
+<!-- Metakognitive Falle, AI dependency & self-efficacy -->
+<!-- Bewertung von KI-Output -->
+<!-- Handlungsausrichtung an langfristigen Zielen -->
+
+## Exkurs: Kann jeder KI nutzen?
+<!-- Konsequenz: KI-Nutzung bewusst gestalten -->
+<!-- Kommentar zu Equity? Verfügbarkeit & Nutzungskompetenz-->
+<!-- Exkurs zu Kompetenzerfordernis positiver Nutzung - Bewertung von KI Output -->
+
+## Konsequenzen für die Lehre
+<!-- Lernpartnerschaft -->
+<!-- Wissen vermitteln -->
+<!-- Anreizstruktur & Prüfungen -->
+
+
+## Fazit
+<!-- Entscheidungsbaum:
+Produkt | Lernen 
+|       || Offloading | Outsourcing -->
+
+
+## Bibliographie
