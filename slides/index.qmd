@@ -10,11 +10,11 @@ bibliography:
 
 ## Praxisbeispiel
 Ein angehender Ernährungstherapeut erhält im Praktikum die Aufgabe einen Flyer zum Thema Endometriose zu erstellen.
-Nach einer Stunde hat er mit Hilfe von KI einen Flyer erstellt. Der Flyer ist inhaltlich korrekt, optisch attraktiv und spricht die vorgegebene Zielgruppe angemessen an. 
+Nach einer Stunde hat er mit Hilfe von KI einen Flyer erstellt. Der Flyer ist inhaltlich korrekt, optisch attraktiv und spricht die vorgegebene Zielgruppe angemessen an.
 
-> Ist dies ein Beispiel für angemessene Nutzung von KI im Rahmen eines Praktikums? 
+> Ist dies ein Beispiel für angemessene Nutzung von KI im Rahmen eines Praktikums?
 
-## Was macht KI mit... 
+## Was macht KI mit...
 
 ::::{.columns}
 
@@ -102,18 +102,18 @@ bottleneck_fig = {
 ```
 
 Dazu: Überführung und Reprozessierung sensorischer Information im *Arbeitsgedächtnis*. <br>
-Das Arbeitsgedächtnis ist *kaparzitätsbegrenzt*.
+Das Arbeitsgedächtnis ist *kapazitätsbegrenzt*.
 
 ::: {.notes}
 Sensorische Inputs: sehr viele
 Langzeitgedächtnis: praktisch unbegrenzter Speicher
 
 Arbeitsgedächtnis:
-- Überführt sensorsiche Inputs selektiv ins Langzeitgedächtnis
+- Überführt sensorische Inputs selektiv ins Langzeitgedächtnis
 - prozessiert reaktiviertes Wissen aus Langzeitgedächtnis
 - ist kapazitätslimitiert!
 
-T: Wichtig: Das ganze ist anstrengend!
+T: Wichtig: Das Ganze ist anstrengend!
 
 <!-- TODO: brauchen wir so viel theorie? -->
 
@@ -121,14 +121,14 @@ T: Wichtig: Das ganze ist anstrengend!
 
 ## Lernen braucht kognitive Anstrengung - Begründung 1
 
-- Aktives Erinnern (=anstrengend) festigt gelerntes.
+- Aktives Erinnern (=anstrengend) festigt Gelerntes.
 
 > **Studie von [@karpicke_critical_2008]** <br>
-> Probanden, die in einer Übungsphase wiederholt getestet wurden (aktives erinnern) erinnerten später mehr als Probanden, die statt dessen das Material wiederholten (passives Verarbeiten)
+> Probanden, die in einer Übungsphase wiederholt getestet wurden (aktives Erinnern), erinnerten später mehr als Probanden, die stattdessen das Material wiederholten (passives Verarbeiten).
 
 ## Lernen braucht kognitive Anstrengung - Begründung 2
 
-Wo ist der Fehler? 
+Wo ist der Fehler?
 
 <div style="position: relative; display: inline-block; transform: scale(0.7); transform-origin: top left;">
 <img src="../assets/images/draco_opening_drachenvariante_fehler_springere6.png" style="display: block; height: auto;">
@@ -145,17 +145,17 @@ Wo ist der Fehler?
 
 ## Lernen braucht kognitive Anstrengung - Begründung 2
 
-Eine Erklärung, warum Experten Fehler besser identifizieren können, als Novizen, ist, dass sie das wahrgenommene mit ***strukturiertem*** Wissen vergleichen können. 
+Eine Erklärung, warum Experten Fehler besser identifizieren können als Novizen, ist, dass sie das Wahrgenommene mit ***strukturiertem*** Wissen vergleichen können.
 
 > **Studie von [@chasePerceptionChess1973]** <br>
-> Erfahrene Schachspieler erinnerten visuell präsentierte Schachkonstellatoinen zuverlässiger als Novizen - dieser Vorteil verschwand bei zufälligen Anordnungen von Schachfiguren auf dem Feld. 
+> Erfahrene Schachspieler erinnerten visuell präsentierte Schachkonstellationen zuverlässiger als Novizen - dieser Vorteil verschwand bei zufälligen Anordnungen von Schachfiguren auf dem Feld.
 
 <!-- TODO: I'm keeping the experiment & explanation for efficiency reasons, but it is not fully on point. The knowledge of chess configurations is conflated with prediction. Perceptual processing is conflated with cognitive processing. Should be done better. -->
 
 <!-- TODO: Texte in rechter Spalte mit auf vorherige Folie? -->
 
 ::: {.notes}
-T: Bildlich gedacht können wir uns das so vorstellen... 
+T: Bildlich gedacht können wir uns das so vorstellen...
 :::
 
 ## Expertise = vernetzte Schemata {.smaller}
@@ -277,7 +277,7 @@ novice_expert_schemas = {
   const subtitle = svg.append("text")
     .attr("x", w / 2).attr("y", h - 8)
     .attr("text-anchor", "middle").style("font-size", fs).style("fill", colNeutral)
-    .text("Isolierte Fakten \u2014 klicken zum Vernetzen");
+    .text("Isolierte Fakten \u00b7 klicken zum Vernetzen");
 
   let expert = false;
 
@@ -319,8 +319,8 @@ novice_expert_schemas = {
     subtitle.transition().duration(300).style("opacity", 0)
       .transition().delay(expert ? 600 : 0).duration(300).style("opacity", 1)
       .text(expert
-        ? "Vernetzte Schemata \u2014 klicken zum Aufl\u00f6sen"
-        : "Isolierte Fakten \u2014 klicken zum Vernetzen");
+        ? "Vernetzte Schemata \u00b7 klicken zum Aufl\u00f6sen"
+        : "Isolierte Fakten \u00b7 klicken zum Vernetzen");
   });
 
   return svg.node();
@@ -329,34 +329,35 @@ novice_expert_schemas = {
 :::
 
 ::: {.notes}
+***CAVE!*** Klick in Speaker-Notes wirkt nicht in main-view!
+
 Der erste Zustand ist vielleicht der eines Novizen, der sich schon ein paar Fakten gemerkt hat.
 - **Aktion:** Grafik anklicken (isolierte Fakten → vernetzte Schemata)
 Bei Experten hingegen ist das Wissen vernetzt. Wir sprechen von Schemata.
 Aber: Schemata aufbauen erfordert eigene Denkarbeit!
 :::
 
-## Zwischenfazit: 
+## Zwischenfazit:
 
 - Lernen ist Aufbau strukturierten Wissens im Langzeitgedächtnis
-- Das hierzu notwendige Arbeitsgedächtnis ist Kapazitätsbegrenzt
-
-<br>
-
+- Das hierzu notwendige Arbeitsgedächtnis ist kapazitätsbegrenzt
+<br><br>
 - Kognitive Anstrengung ist nötig, ...
    - um Wissen zu festigen
    - um expertenhaftes vernetztes Wissen aufzubauen
 
 ::: {.notes}
-? Bzgl. KI können wir festhalten: Wir strengen uns nicht gerne an. Wenn wir Anstrengung durch KI vermeiden können, ist das attraktiv! 
-Man könnte jetzt hieraus ableiten, dass KI per se schlecht für lernen ist, weil sie kognitive Anstrengung reduziert. 
+? Bzgl. KI können wir festhalten: Wir strengen uns nicht gerne an. Wenn wir Anstrengung durch KI vermeiden können, ist das attraktiv!
+Man könnte jetzt hieraus ableiten, dass KI per se schlecht für Lernen ist, weil sie kognitive Anstrengung reduziert.
+
 T: Aber...
 :::
 
-## Nicht jede kognitive Anstrengung führt zu lernen
+## Nicht jede kognitive Anstrengung führt zu Lernen
 
 Die **Cognitive Load Theory** [@swellerIntegratedHumanCognitive2025a] erklärt, wie das Arbeitsgedächtnis beim Lernen beansprucht wird.
 
-<br><br><br>
+<br><br>
 
 ::::{.columns}
 :::{.column width="33%"}
@@ -396,7 +397,7 @@ Produktive Denkarbeit, die Schemata aufbaut.
   - Extrinsisch = schlechtes Design → reduzieren
   - Lernrelevant = produktive Denkarbeit → maximieren
 
-T: Visualisieren wir uns das einmal.. 
+T: Visualisieren wir uns das einmal..
 :::
 
 
@@ -553,13 +554,13 @@ cognitive_load_chart = {
 :::
 
 ::: {.notes}
-Szenario 1: Wenig Vorwissen. Variiere extrinsische Belastung. 
+Szenario 1: Wenig Vorwissen. Variiere extrinsische Belastung.
 Szenario 2: Mehr Vorwissen. Varriere extrinsische Belastung.
 
 T: KI kann:
 - vorwissen anpassen
 - extrinsische Belastung reduzieren
-- lernrelevante Verabeitung komplett abnehmen
+- lernrelevante Verarbeitung komplett abnehmen
 :::
 
 ## Ein Begriff...
@@ -567,7 +568,7 @@ T: KI kann:
 ::::{.columns}
 :::{.column width="50%"}
 
-### Cognitive Offloading 
+### Cognitive Offloading
 
 Auslagerung kognitiver Last an externe Hilfsmittel [@riskoCognitiveOffloading2016].
 
@@ -584,7 +585,7 @@ Taschenrechner (arithmetische Operationen), während Gespräch Notizen machen (e
 ::::{.columns}
 :::{.column width="50%"}
 
-### Cognitive Offloading 
+### Cognitive Offloading
 
 Auslagerung lernhinderlicher kognitiver Last an externe Hilfsmittel.
 
@@ -597,7 +598,7 @@ Taschenrechner verwenden, wenn man kopfrechnen lernt
 
 :::{.column width="50%"}
 
-### Cognitive Outsourcing 
+### Cognitive Outsourcing
 
 Auslagerung lernrelevanter kognitiver Last an externe Hilfsmittel [@kirschner_understanding_2026].
 
@@ -609,8 +610,8 @@ Taschenrechner verwenden, wenn man Taylorreihen-Expansion lernt
 ::::
 
 :::{.notes}
-Offloading: Reduktion extrinsischer Last. 
-Outsourcing: Reduktion lernelevanter Verarbeitung. 
+Offloading: Reduktion extrinsischer Last.
+Outsourcing: Reduktion lernelevanter Verarbeitung.
 (In Balken Vorher: Summe nicht mehr 100%)
 :::
 
@@ -618,52 +619,56 @@ Outsourcing: Reduktion lernelevanter Verarbeitung.
 ::::{.columns}
 :::{.column width="50%"}
 ### KI als Offloading
-**Beispiel 1**: Ein Studierender verwendet KI, um die Zitationen und Bibliographie in einer Semesterarbeit in ein konsistentes Format zu bringen. 
+**Beispiel 1**: Ein Studierender verwendet KI, um die Zitationen und Bibliographie in einer Semesterarbeit in ein konsistentes Format zu bringen.
 
 <br>
 
-**Beispiel 2**: Eine Studierende erstellt eine Gliederung für eine Seminararbeit. Am Ende holt sie von der KI kritisches Feedback ein. Aufgrunddessen recherchiert und ergänzt sie zwei weitere Punkte.
+**Beispiel 2**: Eine Studierende erstellt eine Gliederung für eine Seminararbeit. Am Ende holt sie von der KI kritisches Feedback ein. Aufgrund dessen recherchiert und ergänzt sie zwei weitere Punkte.
 
 :::
 :::{.column width="50%"}
 ### KI als Outsourcing
-**Beispiel 1**: Ein Studierender verwendet KI, um die Zitationen und Bibliographie in einer Übungsaufgabe zu Zitierstilen in das vorgegebene Format zu bringen. 
+**Beispiel 1**: Ein Studierender verwendet KI, um die Zitationen und Bibliographie in einer Übungsaufgabe zu Zitierstilen in das vorgegebene Format zu bringen.
 
 <br>
 
-**Beispiel 2**: Eine Studierende lässt sich von KI die Gliederung für eine Studienarbeit vorschlagen. 
+**Beispiel 2**: Eine Studierende lässt sich von KI die Gliederung für eine Studienarbeit vorschlagen.
 
 :::
 ::::
 
 :::{.notes}
 Man sieht, es hängt vom Lernziel ab.
-Und nicht alle Fälle sind klar. 
+Und nicht alle Fälle sind klar.
 :::
 
 ## Weitere Beispiele für KI-Nutzung...
-1. Eine Studierende nutzt KI als *advocatus diaboli*, um ihre Argumentation für eine Debatte zu festigen. 
+1. Eine Studierende nutzt KI als *advocatus diaboli*, um ihre Argumentation für eine Debatte zu festigen.
 
 2. Ein Studierender lässt sich von KI einen Lernplan für ein Thema erstellen.
 
 3. Eine Studierende nutzt KI, um die von ihr geschriebene Studienarbeit sprachlich zu überarbeiten.
 
 :::{.notes}
-Überlegt, wie ihr es beurteilen würdet? 
+Überlegt, wie ihr es beurteilen würdet?
 
-Zu 2.: Beispiel für Reduktion intrinsischer Last. 
-Könnten auch Dozierende - aber KI kann besser individualisiert. 
+Zu 2.: Beispiel für Reduktion intrinsischer Last.
+Könnten auch Dozierende - aber KI kann besser individualisiert.
 
-T: Fassen wir also zusammen... 
+T: Fassen wir also zusammen...
 :::
 
 
-## Zwischenfazit 
+## Zwischenfazit
 - KI-Nutzung kann lernförderlich im Sinne eines *Cognitive Offloading* sein.
-- Aber auch lernhinderlich im Sinne eines *Cognitive Outsorucing*. 
-- Dies ist graduell und hängt vom Lernziel ab. 
+- Aber auch lernhinderlich im Sinne eines *Cognitive Outsourcing*.
+- Dies ist graduell und hängt vom Lernziel ab.
 
 :::{.notes}
+Hier noch unerwähnt:
+- Effizienzgewinne durch KI-Nutzung für Lehrende.
+- Potenzial von KI als 1:1-Tutor.
+
 T: Frage: Sind Studierende gute Manager ihrer eigenen KI-Nutzung?
 :::
 
@@ -681,12 +686,12 @@ T: Frage: Sind Studierende gute Manager ihrer eigenen KI-Nutzung?
       <path d="M 0 0 L 10 5 L 0 10 Z" fill="#1A1714"/>
     </marker>
   </defs>
-  <rect x="280" y="20" width="140" height="60" rx="8" fill="#1E3A5F"/>
-  <text x="350" y="58" text-anchor="middle" font-size="22" font-weight="bold" fill="white">Methode</text>
+  <rect x="200" y="20" width="300" height="60" rx="8" fill="#1E3A5F"/>
+  <text x="350" y="58" text-anchor="middle" font-size="22" font-weight="bold" fill="white">Wiederholtes Lesen</text>
   <line x1="305" y1="80" x2="170" y2="195" stroke="#1A1714" stroke-width="2" marker-end="url(#arr-method)"/>
   <text x="220" y="148" text-anchor="middle" font-size="32" font-weight="bold" fill="#0072B2">+</text>
   <line x1="395" y1="80" x2="530" y2="195" stroke="#1A1714" stroke-width="2" marker-end="url(#arr-method)"/>
-  <text x="480" y="148" text-anchor="middle" font-size="32" font-weight="bold" fill="#D55E00">−</text>
+  <text x="480" y="148" text-anchor="middle" font-size="32" font-weight="bold" fill="#000000">~</text>
   <rect x="40" y="200" width="260" height="60" rx="8" fill="white" stroke="#1E3A5F" stroke-width="2"/>
   <text x="170" y="238" text-anchor="middle" font-size="20" fill="#1E3A5F">subjektive Kompetenz</text>
   <rect x="400" y="200" width="260" height="60" rx="8" fill="white" stroke="#1E3A5F" stroke-width="2"/>
@@ -695,7 +700,7 @@ T: Frage: Sind Studierende gute Manager ihrer eigenen KI-Nutzung?
 </div>
 
 :::{.notes}
-... es gibt Gründe daran zu zweifeln. 
+... es gibt Gründe daran zu zweifeln.
 
 
 [@karpicke_metacognitive_2009] Lernende nutzen tatsächlich selten "self-testing" und häufig Wiederholung.
@@ -703,10 +708,10 @@ T: Frage: Sind Studierende gute Manager ihrer eigenen KI-Nutzung?
 
 ## Können Lernende das intuitiv steuern?
 
-**Antwort 1**: *Illusion of Competence* mit KI - Erfolgreiche Proudktion suggeriert scheinbare Kompetenz? 
+**Antwort 1**: *Illusion of Competence* mit KI - Erfolgreiche Produktion suggeriert scheinbare Kompetenz?
 
-> **KI-Abhängigkeit** [@jia_effect_2025;@zhang_you_2024] <br>
-> Konzept, wonach extensive KI-Nutzung mit Erhöhung der akademischen Selbstwirksamkeit und Reduktion der Leistungsfähigkeit einhergeht. 
+> **KI-Abhängigkeit** [@jia_effect_2025; @zhang_you_2024] <br>
+> Konzept, wonach extensive KI-Nutzung mit Erhöhung der akademischen Selbstwirksamkeit und Reduktion der Leistungsfähigkeit einhergeht. ***CAVE!*** Empirische Grundlage uneindeutig!
 
 <div style="display: flex; justify-content: center; margin: 1em 0;">
 <svg viewBox="0 0 700 280" style="width: 80%; max-width: 900px; height: auto; font-family: inherit;">
@@ -716,7 +721,7 @@ T: Frage: Sind Studierende gute Manager ihrer eigenen KI-Nutzung?
     </marker>
   </defs>
   <rect x="280" y="20" width="140" height="60" rx="8" fill="#1E3A5F"/>
-  <text x="350" y="58" text-anchor="middle" font-size="22" font-weight="bold" fill="white">Methode</text>
+  <text x="350" y="58" text-anchor="middle" font-size="22" font-weight="bold" fill="white">KI-Nutzung</text>
   <line x1="305" y1="80" x2="170" y2="195" stroke="#1A1714" stroke-width="2" marker-end="url(#arr-method)"/>
   <text x="220" y="148" text-anchor="middle" font-size="32" font-weight="bold" fill="#0072B2">+</text>
   <line x1="395" y1="80" x2="530" y2="195" stroke="#1A1714" stroke-width="2" marker-end="url(#arr-method)"/>
@@ -728,17 +733,15 @@ T: Frage: Sind Studierende gute Manager ihrer eigenen KI-Nutzung?
 </svg>
 </div>
 
-***CAVE!*** Empirische Grundlage uneindeutig! 
-
 :::{.notes}
 "Metakognitive Falle"?
 
-Die steigerung der Selbstwirksamkeit durch KI-Nutzung ist gut belegt [@ren_impact_2026]
-Metaanaylsen suggierieren moderate Kompetenzssteigerung durch KI-Nutzung, abhängig von versch. Faktoren [@liu_does_2026, @zhu_exploring_2025]
+Die Steigerung der Selbstwirksamkeit durch KI-Nutzung ist gut belegt [@ren_impact_2026]
+Metaanalysen suggerieren moderate Kompetenzsteigerung durch KI-Nutzung, abhängig von versch. Faktoren [@liu_does_2026, @zhu_exploring_2025]
 
 
 
-T: Weiterer grund für Zweifel.. 
+T: Weiterer Grund für Zweifel..
 :::
 
 ## Können Lernende das intuitiv steuern?
@@ -746,14 +749,15 @@ T: Weiterer grund für Zweifel..
 **Antwort 2**: *Intertemporal choice* - kurzfristige versus langfristige Gewinne
 
 > Studie von [@mischel_cognitive_1972; @mischel_delay_1989]
-> Kindern wurde gesagt, sie könnten entweder eine Süssigkeit sofort essen oder damit warten und dann später eine weitere Süssigkeit  bekommen. Viele der Kinder "entschieden" sich gegen die Wartezeit.
+> Kindern wurde gesagt, sie könnten entweder eine Süssigkeit sofort essen oder damit warten und dann später eine weitere Süssigkeit bekommen. Viele der Kinder "entschieden" sich gegen die Wartezeit.
 
 <img src="../assets/images/marshmallow_child_ai-generated.png" style="display: block; max-width: 50%; height: auto; margin: 1em auto 0;">
 
 
 :::{.notes}
-Wir sind nicht immer gut darin, kurzfristige Bedürfnisse zugunsten langfristiger Ziele zurückzustellen. 
-Weitere Beispiele: 
+Wir sind nicht immer gut darin, kurzfristige Bedürfnisse zugunsten langfristiger Ziele zurückzustellen.
+Weitere Beispiele:
+
 - Nachhaltigkeitsziele
 - Suchtverhalten
 - Sporttreiben
@@ -768,52 +772,61 @@ T: Konsequenz: KI-Nutzung bewusst gestalten
     - Assessments
         - langfristiger Kompetenzaufbau
         - formativer Charakter
-    - Anforderungen abstimmen auf      
-        - Hintergrundwissen 
+    - Anforderungen abstimmen auf
+        - Hintergrundwissen
         - Ressourcen
 - Lernförderliche Nutzung ermöglichen
 
 :::{.notes}
-"Lernpartnerschaft" 
+- Aktive Auseinandersetzung & Gestaltung
+- "Lernpartnerschaft"
 
-T: 
+- Lehrenden-, aber auch institutionelle Ebene
+
+T: Ermöglichen - kann das nicht jeder? 
 :::
 
 ## Exkurs: Kann jeder KI nutzen?
 
-Bewerte die folgenden zwei Aussagen - wahr oder falsch? 
+Bewerte die folgenden zwei Aussagen - wahr oder falsch?
 
-> **Aussage 1**: Um den Durchsatz in einer Produktion zu erhöhen, sollte man zunächst die Station optimieren, die im Durchschnitt die meisten Fehler produziert — denn Nacharbeit und Ausschuss belasten das gesamte System gleichmäßig und bremsen jeden Produktionsschritt ein wenig. Ist die Fehlerquote erst gesenkt, steigt der Gesamtdurchsatz spürbar an
+> **Aussage 1**: Um den Durchsatz in einer Produktion zu erhöhen, sollte man zunächst die Station optimieren, die im Durchschnitt die meisten Fehler produziert — denn Nacharbeit und Ausschuss belasten das gesamte System gleichmässig und bremsen jeden Produktionsschritt ein wenig. Ist die Fehlerquote erst gesenkt, steigt der Gesamtdurchsatz spürbar an.
 
 > **Aussage 2**: Neuere Studien haben den Zusammenhang zwischen gesättigten Fettsäuren und Herzkrankheiten zwar abgeschwächt, aber vor allem weil sich gezeigt hat, dass Transfette der eigentlich schädliche Faktor waren, der in älteren Studien nicht sauber von gesättigten Fetten getrennt wurde. Gesättigte Fette selbst spielen demnach eine geringere Rolle als lange angenommen.
 
+[wooclap.com](https://www.wooclap.com/) · Code: **YUBCQG**
 
-<!-- Bewertung von KI-Output -->
-
-<!-- Kommentar zu Equity? Verfügbarkeit & Nutzungskompetenz-->
-<!-- Exkurs zu Kompetenzerfordernis positiver Nutzung - Bewertung von KI Output -->
+<img src="../assets/images/wooclap-qr.png" alt="QR-Code Wooclap" style="position: absolute; bottom: 30px; right: 90px; width: 240px; height: auto;">
 
 :::{.notes}
-1. Falsch, weil: Fehlerreduktion ist zwar wertvoll, aber nicht dasselbe wie Engpassmanagement. Der Gesamtdurchsatz wird primär durch die kapazitätsschwächste Station begrenzt, nicht durch gleichmäßig verteilte Fehlerquoten. Die falsche Aussage klingt plausibel, weil Fehlerreduktion tatsächlich ein legitimes Optimierungsziel ist — sie beantwortet aber eine andere Frage.
+1. Falsch, weil: Fehlerreduktion ist zwar wertvoll, aber nicht dasselbe wie Engpassmanagement. Der Gesamtdurchsatz wird primär durch die kapazitätsschwächste Station begrenzt, nicht durch gleichmässig verteilte Fehlerquoten. Die falsche Aussage klingt plausibel, weil Fehlerreduktion tatsächlich ein legitimes Optimierungsziel ist — sie beantwortet aber eine andere Frage.
 
 2. Falsch, weil: Transfette zwar tatsächlich als besonders schädlich gelten, die Revision des Forschungsstands zu gesättigten Fettsäuren aber nicht primär darauf zurückzuführen ist. Die Vermischung beider Argumente klingt plausibel, ist aber eine unzulässige Vereinfachung.
+
+T: Demonstriert dass Fähigkeit zur kritischen Einordnung von Fachwissen abhängt.
 :::
 
 ## Kann jeder KI nutzen?
 - Fähigkeit zur kritischen Einordnung hängt von Fachwissen ab.
-- Sozioökonomische Situation beeinflusst Zugang zu tools. 
-- Sprachkompetenz beeinflusst effektive Nutzung. [*prompt literacy* @hwang_what_2023]
+- Sozioökonomische Situation beeinflusst Zugang zu Tools.
+- Sprachkompetenz beeinflusst effektive Nutzung (*prompt literacy*) [@hwang_what_2023].
 
 :::{.notes}
-Letzten 2 beispiele demonstrieren Potenzial von KI, Lernunterschiede weiter zu verstärken. 
+Darüber hinaus... 
+
+Letzten 2 beispiele demonstrieren Potenzial von KI, Lernunterschiede weiter zu verstärken.
 :::
 
 ## Rückkehr zum Praxisbeispiel
 Ein angehender Ernährungstherapeut erhält im Praktikum die Aufgabe einen Flyer zum Thema Endometriose zu erstellen.
-Nach einer Stunde hat er mit Hilfe von KI einen Flyer erstellt. Der Flyer ist inhaltlich korrekt, optisch attraktiv und spricht die vorgegebene Zielgruppe angemessen an. 
+Nach einer Stunde hat er mit Hilfe von KI einen Flyer erstellt. Der Flyer ist inhaltlich korrekt, optisch attraktiv und spricht die vorgegebene Zielgruppe angemessen an.
 
-> Muss ich überhaupt Lernen, wenn KI für mich produzieren kann? 
+> Ist dies ein Beispiel für angemessene Nutzung von KI im Rahmen eines Praktikums?
 
+:::{.notes}
+- Kein defnitives gut/schlecht.
+- Rahmen zur Einordnung.
+:::
 
 ## Fazit
 <div style="display: flex; justify-content: center; margin: 1em 0;">
@@ -851,5 +864,6 @@ Nach einer Stunde hat er mit Hilfe von KI einen Flyer erstellt. Der Flyer ist in
 </svg>
 </div>
 
+[virtuelleakademie.ch](https://virtuelleakademie.ch/)
 
 ## Bibliographie
