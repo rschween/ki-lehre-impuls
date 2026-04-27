@@ -19,7 +19,7 @@ about:
 
 ## Präsentation
 
-Input (30 Min) mit anschliessender Diskussion (30 Min).
+Input (30 Min).
 
 {{< revealjs file="slides/index.html" height="500px" class="ratio ratio-16x9" >}}
 
@@ -28,7 +28,7 @@ Nutze die Pfeiltasten oder die Leertaste um durch die Präsentation zu navigiere
 
 ### Weiterbildungsangebot
 
-Dieser Refresher bietet einen kompakten Überblick über den aktuellen Forschungsstand und die lernwissenschaftlichen Grundlagen. Die BFH bietet drei aufbauende Kurse an, die diese Themen vertiefen:
+Dieser Impuls bietet einen kompakten Überblick über den aktuellen Forschungsstand und die lernwissenschaftlichen Grundlagen. Die BFH bietet drei aufbauende Kurse an, die diese Themen vertiefen:
 
 [KI in der Lehre: Beginner](https://virtuelleakademie.github.io/ki-lehre-beginner/): Grundlagen zu Sprachmodellen und Chatbots.
 
@@ -39,4 +39,8 @@ Dieser Refresher bietet einen kompakten Überblick über den aktuellen Forschung
 
 ## Kontakt
 
-[Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) ist Kognitionspsychologe und Wissenschaftlicher Mitarbeiter an der [Virtuellen Akademie](https://virtuelleakademie.ch/) der Berner Fachhochschule. Er erforscht, wie künstliche Intelligenz in Bildungssystemen wirkungsvoll eingesetzt werden kann.
+[Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) ist Kognitionspsychologe und Wissenschaftlicher Mitarbeiter an der [Virtuellen Akademie](https://virtuelleakademie.ch/) der Berner Fachhochschule. 
+
+[Dr. Raphael Schween](mailto:raphael.schween@bfh.ch) ist Wissenschaftler mit Schwerpunkten in (Bewegungs-)Lernen und kognitiver Modellierung und Experte für KI an der [Virtuellen Akademie](https://virtuelleakademie.ch/) der Berner Fachhochschule.
+ 
+Sie erforschen, wie künstliche Intelligenz in Bildungssystemen wirkungsvoll eingesetzt werden kann.
