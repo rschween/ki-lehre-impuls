@@ -120,7 +120,7 @@ T: Wichtig: Das Ganze ist anstrengend!
 
 ## Lernen braucht kognitive Anstrengung: Begründung 1
 
-- Aktives Erinnern (=anstrengend) festigt Gelerntes.
+Aktives Erinnern (=anstrengend) festigt Gelerntes.
 
 > **Studie von [@karpicke_critical_2008]** <br>
 > Probanden, die in einer Übungsphase wiederholt getestet wurden (aktives Erinnern), erinnerten später mehr als Probanden, die stattdessen das Material wiederholten (passives Verarbeiten).
@@ -574,7 +574,7 @@ Auslagerung kognitiver Last an externe Hilfsmittel [@riskoCognitiveOffloading201
 
 <br>
 
-**Beispiele:**
+**Beispiele**:
 Taschenrechner (arithmetische Operationen), während Gespräch Notizen machen (erinnern), ...
 
 :::
@@ -593,7 +593,7 @@ Auslagerung lernhinderlicher kognitiver Last an externe Hilfsmittel.
 
 <br>
 
-**Beispiel:**
+**Beispiel**:
 Taschenrechner verwenden, wenn man kopfrechnen lernt
 
 :::
@@ -606,7 +606,7 @@ Auslagerung lernrelevanter kognitiver Last an externe Hilfsmittel [@kirschner_un
 
 <br>
 
-**Beispiel:**
+**Beispiel**:
 Taschenrechner verwenden, wenn man Taylorreihen-Expansion lernt
 :::
 ::::
@@ -645,11 +645,11 @@ Und nicht alle Fälle sind klar.
 :::
 
 ## Weitere Beispiele für KI-Nutzung...
-1. Eine Studierende nutzt KI als *advocatus diaboli*, um ihre Argumentation für eine Debatte zu festigen.
+**Beispiel 1**: Eine Studierende nutzt KI als *advocatus diaboli*, um ihre Argumentation für eine Debatte zu festigen.
 
-2. Ein Studierender lässt sich von KI einen Lernplan für ein Thema erstellen.
+**Beispiel 2**: Ein Studierender lässt sich von KI einen Lernplan für ein Thema erstellen.
 
-3. Eine Studierende nutzt KI, um die von ihr geschriebene Studienarbeit sprachlich zu überarbeiten.
+**Beispiel 3**: Eine Studierende nutzt KI, um die von ihr geschriebene Studienarbeit sprachlich zu überarbeiten.
 
 :::{.notes}
 Überlegt, wie ihr es beurteilen würdet?
