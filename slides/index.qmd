@@ -7,16 +7,6 @@ bibliography:
   - ../missing-refs.bib
 ---
 
-
-:::{.notes}
-- Ich
-- Virtuelle Akademie
-- Weiterbildung
-- Zertifikat & CAS Hochschuldidaktik
-
-T: Heute: KI in der Lehre. 
-:::
-
 ## Praxisbeispiel
 Ein angehender Ernährungstherapeut erhält im Praktikum die Aufgabe einen Flyer zum Thema Endometriose zu erstellen.
 Nach einer Stunde hat er mit Hilfe von KI einen Flyer erstellt. Der Flyer ist inhaltlich korrekt, optisch attraktiv und spricht die vorgegebene Zielgruppe angemessen an.

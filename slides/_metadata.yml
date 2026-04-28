@@ -24,5 +24,7 @@ format:
     height: 900
     margin: 0.1
     callout-appearance: minimal
+title-slide-attributes:
+  data-notes: "Ich · Virtuelle Akademie · Weiterbildung · Zertifikat & CAS Hochschuldidaktik. Heute: KI in der Lehre."
 filters:
   - timer
