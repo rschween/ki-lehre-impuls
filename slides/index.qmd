@@ -182,10 +182,11 @@ Eine Erklärung, warum Experten Fehler besser identifizieren können als Novizen
 Dies bezieht sich mehr darauf, dass das Wissen im Langzeitgedächtnis vernetzt sein muss. <br>
 Einzelne Wissensbausteine würden uns nicht ermöglichen den Fehler zu finden.
 
-T: Bildlich gedacht können wir uns das so vorstellen...
+Aufbau der Vernetzungen: vorhandenes Wissen aktivieren & mit neuem verbinden. -> Anstrengend.
+<!-- T: Bildlich gedacht können wir uns das so vorstellen... -->
 :::
 
-## Expertise = vernetzte Schemata {.smaller}
+<!-- ## Expertise = vernetzte Schemata {.smaller}
 
 ::: {style="display: flex; flex-direction: column;"}
 ```{ojs}
@@ -366,7 +367,7 @@ Der erste Zustand ist vielleicht der eines Novizen, der sich schon ein paar Fakt
 Bei Experten hingegen ist das Wissen vernetzt. Wir sprechen von Schemata.
 
 Aufbau der Vernetzungen: vorhandenes Wissen aktivieren & mit neuem verbinden. -> Anstrengend.
-:::
+::: -->
 
 ## Zwischenfazit
 
@@ -588,8 +589,13 @@ cognitive_load_chart = {
 :::
 
 ::: {.notes}
+100% ist volle Belastung des Arbeitsgedächtnisses.
+
 Szenario 1: Wenig Vorwissen. Variiere extrinsische Belastung.
+
 Szenario 2: Mehr Vorwissen. Varriere extrinsische Belastung.
+
+Ich kann auch weniger als 100% geben.
 
 T: KI kann:
 
@@ -629,7 +635,7 @@ Auslagerung lernhinderlicher kognitiver Last an externe Hilfsmittel.
 <br>
 
 **Beispiel**:
-Taschenrechner verwenden, wenn man kopfrechnen lernt
+Taschenrechner verwenden, wenn man Taylorreihen-Expansion lernt
 
 :::
 
@@ -642,7 +648,7 @@ Auslagerung lernrelevanter kognitiver Last an externe Hilfsmittel [@kirschner_un
 <br>
 
 **Beispiel**:
-Taschenrechner verwenden, wenn man Taylorreihen-Expansion lernt
+Taschenrechner verwenden, wenn man kopfrechnen lernt
 :::
 ::::
 
@@ -661,7 +667,7 @@ Outsourcing: Reduktion lernelevanter Verarbeitung.
 
 <br>
 
-**Beispiel 2**: Eine Studierende erstellt eine Gliederung für eine Seminararbeit. Am Ende holt sie von der KI kritisches Feedback ein. Aufgrund dessen recherchiert und ergänzt sie zwei weitere Punkte.
+**Beispiel 2**: Eine Studierende erstellt eine Gliederung für eine Studienarbeit. Am Ende holt sie von der KI kritisches Feedback ein. Aufgrund dessen recherchiert und ergänzt sie zwei weitere Punkte.
 
 :::
 :::{.column width="50%"}
@@ -687,6 +693,8 @@ Und nicht alle Fälle sind klar.
 
 **Beispiel 3**: Eine Studierende nutzt KI, um die von ihr geschriebene Studienarbeit sprachlich zu überarbeiten.
 
+**Beispiel 4**: Ein angehender Ernährungstherapeut bekommt im Praktikum den Auftrag eine Jubiläumsbroschüre mit der Firmengeschichte zu erstellen. Er lässt KI recherchieren, überprüft die Daten mit Websuche und lässt die Broschüre von KI gestalten. 
+
 :::{.notes}
 Überlegt, wie ihr es beurteilen würdet?
 
@@ -698,8 +706,9 @@ T: Fassen wir also zusammen...
 
 
 ## Zwischenfazit
-- KI-Nutzung kann lernförderlich im Sinne eines *Cognitive Offloading* sein.
-- Aber auch lernhinderlich im Sinne eines *Cognitive Outsourcing*.
+- KI-Nutzung kann sein:
+    - lernförderlich im Sinne eines *Cognitive Offloading* sein
+    - lernhinderlich im Sinne eines *Cognitive Outsourcing*
 - Dies ist graduell und hängt vom Lernziel ab.
 
 :::{.notes}
@@ -717,8 +726,6 @@ T: Frage: Sind Studierende gute Manager ihrer eigenen KI-Nutzung?
 
 > **Noch einmal [@karpicke_critical_2008]** <br>
 > Probanden, die nur das Material wiederholten, schnitten zwar im Test schlechter ab, sie schätzten sich aber genauso kompetent ein, wie aktiv lernende Vergleichsgruppe
-
-<br>
 
 <div style="display: flex; justify-content: center; margin: 1em 0;">
 <svg viewBox="0 0 700 280" style="width: 80%; max-width: 900px; height: auto; font-family: inherit;">
@@ -751,8 +758,12 @@ T: Frage: Sind Studierende gute Manager ihrer eigenen KI-Nutzung?
 
 **Antwort 1**: *Illusion of Competence* mit KI (Erfolgreiche Produktion suggeriert scheinbare Kompetenz?)
 
-> **KI-Abhängigkeit** [@jia_effect_2025; @zhang_you_2024] <br>
-> Konzept, wonach manche Formen extensiver KI-Nutzung mit Erhöhung der akademischen Selbstwirksamkeit und Reduktion der Leistungsfähigkeit einhergehen. ***CAVE!*** Empirische Grundlage uneindeutig!
+<!-- > **KI-Abhängigkeit** [@jia_effect_2025; @zhang_you_2024] <br>
+> Konzept, wonach manche Formen extensiver KI-Nutzung mit Erhöhung der akademischen Selbstwirksamkeit und Reduktion der Leistungsfähigkeit einhergehen.  -->
+
+> ***CAVE!*** Empirische Grundlage uneindeutig!
+
+<br>
 
 <div style="display: flex; justify-content: center; margin: 1em 0;">
 <svg viewBox="0 0 700 280" style="width: 80%; max-width: 900px; height: auto; font-family: inherit;">
@@ -849,7 +860,7 @@ T: Konsequenz daraus...
 
 ## Konsequenzen für Lernsituationen
 - Bewusstsein bei Studierenden schaffen:
-    - Lernrelevante kognitive Anstrengung
+    - lernrelevante kognitive Anstrengung
 - Lernumgebung gestalten, Outsourcing-Anreiz reduzieren:
     - Assessments:
         - langfristiger Kompetenzaufbau
@@ -892,8 +903,8 @@ T: Demonstriert dass Fähigkeit zur kritischen Einordnung von Fachwissen abhäng
 - Fähigkeit zur kritischen Einordnung hängt von Fachwissen ab.
 - Ausserdem Wissen über:
     - Funktionsweise (kein konzeptionelles Denken)
-    - Lernförderliche Methoden
-    - Spezialisierte Tools, deren Fähigkeiten, Personalisierung
+    - lernförderliche Methoden
+    - spezialisierte Tools, deren Fähigkeiten, Personalisierung
 - Sprachkompetenz beeinflusst effektive Nutzung (*prompt literacy*) [@hwang_what_2023].
 
 Weiterer Aspekt: Zugang zu Tools.
