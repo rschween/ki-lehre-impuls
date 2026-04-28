@@ -1,0 +1,21 @@
+---
+title: "Handzettel: KI in der (Fach-)Hochschullehre"
+subtitle: "Folientitel und Speaker Notes"
+date: "29 April, 2026"
+format:
+  pdf:
+    toc: false
+    geometry:
+      - margin=2.5cm
+    fontsize: 11pt
+    linkcolor: blue
+    urlcolor: blue
+filters:
+  - _handout-filter.lua
+bibliography:
+  - ../bibliography.bib
+  - ../missing-refs.bib
+suppress-bibliography: true
+---
+
+{{< include index.qmd >}}

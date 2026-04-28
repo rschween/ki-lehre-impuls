@@ -113,9 +113,11 @@ local function parseCustomCallouts(meta)
   end
 
 
-  -- Generate and add custom CSS to the document
+  -- Generate and add custom CSS to the document.
+  -- Only inject HTML <style> for HTML formats; otherwise the raw HTML leaks
+  -- into the LaTeX preamble and breaks PDF builds.
   local customCSS = generateCustomCSS()
-  if customCSS ~= "" then
+  if customCSS ~= "" and quarto.doc.is_format("html") then
     quarto.doc.include_text('in-header', '<style>\n' .. customCSS .. '</style>')
   end
 
