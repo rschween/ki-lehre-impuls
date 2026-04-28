@@ -132,8 +132,8 @@ Wo ist der Fehler?
 <div style="position: relative; display: inline-block; transform: scale(0.7); transform-origin: top left;">
 <img src="../assets/images/draco_opening_drachenvariante_fehler_springere6.png" style="display: block; height: auto;">
 <div class="fragment">
-<div style="position: absolute; left: 51.2%; top: 29.5%; width: 9%; height: 9%; border: 4px solid #D62828; box-sizing: border-box; pointer-events: none;"></div>
-<div style="position: absolute; left: 61.8%; top: 29.5%; width: 9%; height: 9%; border: 4px solid #F4C10F; box-sizing: border-box; pointer-events: none;"></div>
+<div style="position: absolute; left: 48.2%; top: 29.5%; width: 9%; height: 9%; border: 6px solid #D62828; box-sizing: border-box; pointer-events: none;"></div>
+<div style="position: absolute; left: 58.6%; top: 29.5%; width: 9%; height: 9%; border: 6px solid #F4C10F; box-sizing: border-box; pointer-events: none;"></div>
 </div>
 </div>
 
