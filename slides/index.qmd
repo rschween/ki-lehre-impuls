@@ -957,6 +957,28 @@ Nach einer Stunde hat er mit Hilfe von KI einen Flyer erstellt. Der Flyer ist in
 </svg>
 </div>
 
+## Unsere Angebote
+::::{.columns}
+:::{.column width="50%"}
+### [**Weiterbildungen KI**](https://www.bfh.ch/de/ueber-die-bfh/service-beratung/virtuelle-akademie/)
+
+- [KI in der Lehre: Einführung](https://www.bfh.ch/de/weiterbildung/kurse/ki-in-der-lehre/)
+- [KI in der Lehre: Lernen mit KI verstehen](https://www.bfh.ch/de/weiterbildung/kurse/ki-in-der-lehre-lernen-verstehen/)
+- [KI in der Lehre: Lerntools bauen](https://www.bfh.ch/de/weiterbildung/kurse/ki-in-der-lehre-lerntools/)
+- [KI in der Lehre (Refresher)](https://www.bfh.ch/de/weiterbildung/kurse/ki-in-der-lehre-refresher/)
+:::
+
+:::{.column width="50%"}
+### Hochschuldidaktik
+
+- [Zertifikat (7 ECTS)](https://www.bfh.ch/de/weiterbildung/kurse/zertifikatskurs-hochschuldidaktik/)
+- [CAS (10 ECTS)](https://www.bfh.ch/de/weiterbildung/cas/hochschuldidaktik/)
+:::
+::::
+
+
+::: {style="text-align: right;"}
 [virtuelleakademie.ch](https://virtuelleakademie.ch/)
+:::
 
 ## Bibliographie
