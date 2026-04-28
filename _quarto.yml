@@ -13,6 +13,7 @@ project:
   render:
     - index.qmd
     - slides/*.qmd
+    - "!slides/handout.qmd"
 
 website:
   title: "KI in der Lehre: Impuls"
