@@ -977,7 +977,7 @@ Nach einer Stunde hat er mit Hilfe von KI einen Flyer erstellt. Der Flyer ist in
 ::::
 
 
-::: {style="text-align: right;"}
+::: {style="position: absolute; bottom: 0; right: 0;"}
 [virtuelleakademie.ch](https://virtuelleakademie.ch/)
 :::
 
