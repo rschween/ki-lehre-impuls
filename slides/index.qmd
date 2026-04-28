@@ -578,6 +578,8 @@ Auslagerung kognitiver Last an externe Hilfsmittel [@riskoCognitiveOffloading201
 Taschenrechner (arithmetische Operationen), während Gespräch Notizen machen (erinnern), ...
 
 :::
+:::{.column width="50%"}
+:::
 ::::
 
 ## Bezogen auf Lernen
