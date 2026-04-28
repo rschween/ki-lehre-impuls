@@ -221,12 +221,11 @@ novice_expert_schemas = {
   const toY = (ny) => my + ny * ch;
 
   const svg = d3.create("svg")
+    .attr("width", w * 2).attr("height", h * 2)
     .attr("viewBox", `0 0 ${w} ${h}`)
     .style("display", "block")
-    .style("height", "70vh")
-    .style("width", "auto")
-    .style("max-width", "100%")
     .style("margin", "0 auto")
+    .style("max-width", "100%")
     .style("background", "transparent")
     .style("cursor", "pointer")
     .style("user-select", "none");
@@ -752,7 +751,7 @@ T: Weiterer Grund für Zweifel..
 > Studie von [@mischel_cognitive_1972; @mischel_delay_1989]
 > Kindern wurde gesagt, sie könnten entweder eine Süssigkeit sofort essen oder damit warten und dann später eine weitere Süssigkeit bekommen. Viele der Kinder "entschieden" sich gegen die Wartezeit.
 
-<img src="../assets/images/marshmallow_child_ai-generated.png" style="display: block; max-width: 50%; max-height: 50vh; width: auto; height: auto; margin: 1em auto 0;">
+<img src="../assets/images/marshmallow_child_ai-generated.png" style="display: block; max-width: 50%; max-height: 400px; width: auto; height: auto; margin: 1em auto 0;">
 
 
 :::{.notes}
