@@ -54,8 +54,7 @@ bottleneck_fig = {
     .attr("viewBox", `0 0 ${w} ${h}`)
     .attr("width", "100%")
     .style("font-family", "Space Grotesk, sans-serif")
-    .style("background", "transparent")
-    .style("max-height", "130px");
+    .style("background", "transparent");
 
   const boxes = [
     { x: 30, w: 200, label: "Sensorischer Input", sub: "Umwelt", color: "#94a3b8", fontColor: "#222" },
@@ -119,14 +118,14 @@ T: Wichtig: Das Ganze ist anstrengend!
 
 :::
 
-## Lernen braucht kognitive Anstrengung - Begründung 1
+## Lernen braucht kognitive Anstrengung: Begründung 1
 
 - Aktives Erinnern (=anstrengend) festigt Gelerntes.
 
 > **Studie von [@karpicke_critical_2008]** <br>
 > Probanden, die in einer Übungsphase wiederholt getestet wurden (aktives Erinnern), erinnerten später mehr als Probanden, die stattdessen das Material wiederholten (passives Verarbeiten).
 
-## Lernen braucht kognitive Anstrengung - Begründung 2
+## Lernen braucht kognitive Anstrengung: Begründung 2
 
 Wo ist der Fehler?
 
@@ -143,12 +142,12 @@ Wo ist der Fehler?
 :::
 :::
 
-## Lernen braucht kognitive Anstrengung - Begründung 2
+## Lernen braucht kognitive Anstrengung: Begründung 2
 
 Eine Erklärung, warum Experten Fehler besser identifizieren können als Novizen, ist, dass sie das Wahrgenommene mit ***strukturiertem*** Wissen vergleichen können.
 
 > **Studie von [@chasePerceptionChess1973]** <br>
-> Erfahrene Schachspieler erinnerten visuell präsentierte Schachkonstellationen zuverlässiger als Novizen - dieser Vorteil verschwand bei zufälligen Anordnungen von Schachfiguren auf dem Feld.
+> Erfahrene Schachspieler erinnerten visuell präsentierte Schachkonstellationen zuverlässiger als Novizen. Dieser Vorteil verschwand bei zufälligen Anordnungen von Schachfiguren auf dem Feld.
 
 <!-- TODO: I'm keeping the experiment & explanation for efficiency reasons, but it is not fully on point. The knowledge of chess configurations is conflated with prediction. Perceptual processing is conflated with cognitive processing. Should be done better. -->
 
@@ -162,7 +161,7 @@ T: Bildlich gedacht können wir uns das so vorstellen...
 
 <br>
 
-::: {style="display: flex; flex-direction: column; align-items: center;"}
+::: {style="display: flex; flex-direction: column;"}
 ```{ojs}
 //| echo: false
 
@@ -224,8 +223,11 @@ novice_expert_schemas = {
   const toY = (ny) => my + ny * ch;
 
   const svg = d3.create("svg")
-    .attr("width", w).attr("height", h)
     .attr("viewBox", `0 0 ${w} ${h}`)
+    .style("display", "block")
+    .style("width", "100%")
+    .style("height", "auto")
+    .style("aspect-ratio", `${w} / ${h}`)
     .style("background", "transparent")
     .style("cursor", "pointer")
     .style("user-select", "none");
@@ -337,12 +339,12 @@ Bei Experten hingegen ist das Wissen vernetzt. Wir sprechen von Schemata.
 Aber: Schemata aufbauen erfordert eigene Denkarbeit!
 :::
 
-## Zwischenfazit:
+## Zwischenfazit
 
-- Lernen ist Aufbau strukturierten Wissens im Langzeitgedächtnis
-- Das hierzu notwendige Arbeitsgedächtnis ist kapazitätsbegrenzt
+- Lernen ist Aufbau strukturierten Wissens im Langzeitgedächtnis.
+- Das hierzu notwendige Arbeitsgedächtnis ist kapazitätsbegrenzt.
 <br><br>
-- Kognitive Anstrengung ist nötig, ...
+- Kognitive Anstrengung ist nötig:
    - um Wissen zu festigen
    - um expertenhaftes vernetztes Wissen aufzubauen
 
@@ -406,7 +408,7 @@ T: Visualisieren wir uns das einmal..
 
 Mehr Vorwissen und weniger unnötige Belastung bedeuten mehr Platz für lernrelevante Verarbeitung.
 
- <br> <br>
+<br>
 
 ::: {style="display: flex; flex-direction: column; align-items: center;" .ojs-legend-lg}
 ```{ojs}
@@ -414,10 +416,10 @@ Mehr Vorwissen und weniger unnötige Belastung bedeuten mehr Platz für lernrele
 
 viewof vorwissen_controls = {
   const labels = ["wenig", "mittel", "viel"];
-  const div = html`<div style="display:flex;align-items:center;font-size:16px;">
-    <span style="width:220px;text-align:right;">Vorwissen:</span>
-    <strong style="width:60px;text-align:center;margin:0 12px;">mittel</strong>
-    <input type="range" min="1" max="3" step="1" value="2" style="width:250px;accent-color:#0072B2;">
+  const div = html`<div style="display:flex;align-items:center;font-size:22px;">
+    <span style="width:300px;text-align:right;">Vorwissen:</span>
+    <strong style="width:80px;text-align:center;margin:0 16px;">mittel</strong>
+    <input type="range" min="1" max="3" step="1" value="2" style="width:340px;accent-color:#0072B2;">
   </div>`;
 
   const slider = div.querySelector("input[type=range]");
@@ -442,10 +444,10 @@ viewof vorwissen_controls = {
 //| echo: false
 
 viewof cl_controls = {
-  const div = html`<div style="display:flex;align-items:center;font-size:16px;">
-    <span style="width:220px;text-align:right;">Extrinsische Belastung:</span>
-    <strong style="width:60px;text-align:center;margin:0 12px;">60%</strong>
-    <input type="range" min="5" max="70" step="5" value="60" style="width:250px;accent-color:#D55E00;">
+  const div = html`<div style="display:flex;align-items:center;font-size:22px;">
+    <span style="width:300px;text-align:right;">Extrinsische Belastung:</span>
+    <strong style="width:80px;text-align:center;margin:0 16px;">60%</strong>
+    <input type="range" min="5" max="70" step="5" value="60" style="width:340px;accent-color:#D55E00;">
   </div>`;
 
   const slider = div.querySelector("input[type=range]");
@@ -490,8 +492,8 @@ constrain_ext = {
 //| echo: false
 
 cognitive_load_chart = {
-  const w = 700;
-  const h = 480;
+  const w = 950;
+  const h = 650;
 
   const intrinsic = 70 - vorwissen_controls * 20;
   const ext = Math.min(cl_controls, 100 - intrinsic);
@@ -524,17 +526,17 @@ cognitive_load_chart = {
   if (learning > 8) {
     marks.push(
       Plot.text([{y: intrinsic + learning / 2}],
-        {x: d => "", y: "y", text: [`${learning}%`], fill: "white", fontWeight: "bold", fontSize: 16})
+        {x: d => "", y: "y", text: [`${learning}%`], fill: "white", fontWeight: "bold", fontSize: 22})
     );
   }
 
   return Plot.plot({
     width: w,
     height: h,
-    marginLeft: 60,
-    marginBottom: 30,
-    marginTop: 30,
-    style: {fontSize: "18px", background: "transparent"},
+    marginLeft: 80,
+    marginBottom: 40,
+    marginTop: 40,
+    style: {fontSize: "24px", background: "transparent"},
     x: { label: null, padding: 0.7 },
     y: {
       label: "Arbeitsgedächtniskapazität",
@@ -653,7 +655,7 @@ Und nicht alle Fälle sind klar.
 Überlegt, wie ihr es beurteilen würdet?
 
 Zu 2.: Beispiel für Reduktion intrinsischer Last.
-Könnten auch Dozierende - aber KI kann besser individualisiert.
+Könnten auch Dozierende, aber KI kann besser individualisiert.
 
 T: Fassen wir also zusammen...
 :::
@@ -674,7 +676,7 @@ T: Frage: Sind Studierende gute Manager ihrer eigenen KI-Nutzung?
 
 ## Können Lernende das intuitiv steuern?
 
-**Antwort 1**: *Illusion of Competence* - Vertrautheit suggeriert scheinbare Kompetenz
+**Antwort 1**: *Illusion of Competence* (Vertrautheit suggeriert scheinbare Kompetenz)
 
 > **Noch einmal [@karpicke_critical_2008]** <br>
 > Probanden, die nur das Material wiederholten, schnitten zwar im Test schlechter ab, sie schätzten sich aber genauso kompetent ein, wie aktiv lernende Vergleichsgruppe
@@ -708,7 +710,7 @@ T: Frage: Sind Studierende gute Manager ihrer eigenen KI-Nutzung?
 
 ## Können Lernende das intuitiv steuern?
 
-**Antwort 1**: *Illusion of Competence* mit KI - Erfolgreiche Produktion suggeriert scheinbare Kompetenz?
+**Antwort 1**: *Illusion of Competence* mit KI (Erfolgreiche Produktion suggeriert scheinbare Kompetenz?)
 
 > **KI-Abhängigkeit** [@jia_effect_2025; @zhang_you_2024] <br>
 > Konzept, wonach extensive KI-Nutzung mit Erhöhung der akademischen Selbstwirksamkeit und Reduktion der Leistungsfähigkeit einhergeht. ***CAVE!*** Empirische Grundlage uneindeutig!
@@ -746,7 +748,7 @@ T: Weiterer Grund für Zweifel..
 
 ## Können Lernende das intuitiv steuern?
 
-**Antwort 2**: *Intertemporal choice* - kurzfristige versus langfristige Gewinne
+**Antwort 2**: *Intertemporal choice* (kurzfristige versus langfristige Gewinne)
 
 > Studie von [@mischel_cognitive_1972; @mischel_delay_1989]
 > Kindern wurde gesagt, sie könnten entweder eine Süssigkeit sofort essen oder damit warten und dann später eine weitere Süssigkeit bekommen. Viele der Kinder "entschieden" sich gegen die Wartezeit.
@@ -768,11 +770,11 @@ T: Konsequenz: KI-Nutzung bewusst gestalten
 ## Konsequenzen für Lernsituationen
 - Bewusstsein bei Studierenden schaffen:
     - Lernrelevante kognitive Anstrengung
-- Lernumgebung gestalten. Outsourcing-Anreiz reduzieren:
-    - Assessments
+- Lernumgebung gestalten, Outsourcing-Anreiz reduzieren:
+    - Assessments:
         - langfristiger Kompetenzaufbau
         - formativer Charakter
-    - Anforderungen abstimmen auf
+    - Anforderungen abstimmen auf:
         - Hintergrundwissen
         - Ressourcen
 - Lernförderliche Nutzung ermöglichen
@@ -783,12 +785,12 @@ T: Konsequenz: KI-Nutzung bewusst gestalten
 
 - Lehrenden-, aber auch institutionelle Ebene
 
-T: Ermöglichen - kann das nicht jeder? 
+T: Ermöglichen: kann das nicht jeder?
 :::
 
 ## Exkurs: Kann jeder KI nutzen?
 
-Bewerte die folgenden zwei Aussagen - wahr oder falsch?
+Bewerte die folgenden zwei Aussagen: wahr oder falsch?
 
 > **Aussage 1**: Um den Durchsatz in einer Produktion zu erhöhen, sollte man zunächst die Station optimieren, die im Durchschnitt die meisten Fehler produziert — denn Nacharbeit und Ausschuss belasten das gesamte System gleichmässig und bremsen jeden Produktionsschritt ein wenig. Ist die Fehlerquote erst gesenkt, steigt der Gesamtdurchsatz spürbar an.
 
