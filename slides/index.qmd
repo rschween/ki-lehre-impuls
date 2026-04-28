@@ -8,11 +8,26 @@ bibliography:
 ---
 
 
+:::{.notes}
+- Ich
+- Virtuelle Akademie
+- Weiterbildung
+- Zertifikat & CAS Hochschuldidaktik
+
+T: Heute: KI in der Lehre. 
+:::
+
 ## Praxisbeispiel
 Ein angehender Ernährungstherapeut erhält im Praktikum die Aufgabe einen Flyer zum Thema Endometriose zu erstellen.
 Nach einer Stunde hat er mit Hilfe von KI einen Flyer erstellt. Der Flyer ist inhaltlich korrekt, optisch attraktiv und spricht die vorgegebene Zielgruppe angemessen an.
 
 > Ist dies ein Beispiel für angemessene Nutzung von KI im Rahmen eines Praktikums?
+
+:::{.notes}
+Denkt kurz darüber nach, wie ihr das beantworten würdet. 
+
+T: Lasst uns das Problem zerlegen... 
+:::
 
 ## Was macht KI mit...
 
@@ -40,6 +55,12 @@ KI verbessert die *Leistung* bei kognitiven Aufgaben
 ::::
 
 ::: {.notes}
+Praktikum ist eine Sondersituation: Es geht sowohl um Produktion als auch um Lernen. 
+
+Von Produktion wissen wir... 
+
+Wie ist da mit Lernen?
+
 T: Muss kurz ausholen... ;-)
 :::
 ## Was ist Lernen?
@@ -100,21 +121,27 @@ bottleneck_fig = {
 }
 ```
 
-Dazu: Überführung und Reprozessierung sensorischer Information im *Arbeitsgedächtnis*. <br>
+Dazu: Überführung und Reprozessierung von Information im *Arbeitsgedächtnis*. <br>
 Das Arbeitsgedächtnis ist *kapazitätsbegrenzt*.
 
 ::: {.notes}
-Sensorische Inputs: sehr viele
-Langzeitgedächtnis: praktisch unbegrenzter Speicher
+Sensorische Inputs:
+
+- sehr viele
+
+Langzeitgedächtnis:
+
+- praktisch unbegrenzter Speicher
 
 Arbeitsgedächtnis:
-- Überführt sensorische Inputs selektiv ins Langzeitgedächtnis
+
+- überführt sensorische Inputs selektiv ins Langzeitgedächtnis
 - prozessiert reaktiviertes Wissen aus Langzeitgedächtnis
 - ist kapazitätslimitiert!
 
-T: Wichtig: Das Ganze ist anstrengend!
+Daraus ergibt sich Grossteil des heutigen Inhalts.
 
-<!-- TODO: brauchen wir so viel theorie? -->
+T: Wichtig noch: Das Ganze ist anstrengend!
 
 :::
 
@@ -124,6 +151,16 @@ Aktives Erinnern (=anstrengend) festigt Gelerntes.
 
 > **Studie von [@karpicke_critical_2008]** <br>
 > Probanden, die in einer Übungsphase wiederholt getestet wurden (aktives Erinnern), erinnerten später mehr als Probanden, die stattdessen das Material wiederholten (passives Verarbeiten).
+
+:::{.notes}
+Da wird mir vielleicht niemand widersprechen. <br>
+Dennoch zwei Begründungen. <br>
+Erste zur Überführung ins Langzeitgedächtnis.
+
+T: Für die zweite Begründung eine kleine Veranschaulichung. <br>
+Ihr seht gleich ein Schachfeld. <br>
+Der Auftrag ist in 30 Sekunden herauszufinden, wo in der Figurenkonstellation ein Fehler ist. Bereit? ...
+:::
 
 ## Lernen braucht kognitive Anstrengung: Begründung 2
 
@@ -151,9 +188,10 @@ Eine Erklärung, warum Experten Fehler besser identifizieren können als Novizen
 
 <!-- TODO: I'm keeping the experiment & explanation for efficiency reasons, but it is not fully on point. The knowledge of chess configurations is conflated with prediction. Perceptual processing is conflated with cognitive processing. Should be done better. -->
 
-<!-- TODO: Texte in rechter Spalte mit auf vorherige Folie? -->
-
 ::: {.notes}
+Dies bezieht sich mehr daraufs, dass das Wissen im Langzeitgedächtnis vernetzt sein muss. <br>
+Einzelne Wissensbausteine würden uns nicht ermöglichen den Fehler zu finden.
+
 T: Bildlich gedacht können wir uns das so vorstellen...
 :::
 
@@ -332,9 +370,12 @@ novice_expert_schemas = {
 ***CAVE!*** Klick in Speaker-Notes wirkt nicht in main-view!
 
 Der erste Zustand ist vielleicht der eines Novizen, der sich schon ein paar Fakten gemerkt hat.
+
 - **Aktion:** Grafik anklicken (isolierte Fakten → vernetzte Schemata)
+
 Bei Experten hingegen ist das Wissen vernetzt. Wir sprechen von Schemata.
-Aber: Schemata aufbauen erfordert eigene Denkarbeit!
+
+Aufbau der Vernetzungen: vorhandenes Wissen aktivieren & mit neuem verbinden. -> Anstrengend.
 :::
 
 ## Zwischenfazit
@@ -347,10 +388,13 @@ Aber: Schemata aufbauen erfordert eigene Denkarbeit!
    - um expertenhaftes vernetztes Wissen aufzubauen
 
 ::: {.notes}
-? Bzgl. KI können wir festhalten: Wir strengen uns nicht gerne an. Wenn wir Anstrengung durch KI vermeiden können, ist das attraktiv!
-Man könnte jetzt hieraus ableiten, dass KI per se schlecht für Lernen ist, weil sie kognitive Anstrengung reduziert.
+Was hat das mit KI zu tun? 
 
-T: Aber...
+KI kann kognitive Anstrengung reduzieren.
+
+Ist sie deshalb per se schlecht für lernen?
+
+T: Dazu müssen wir uns anschauen, welche Anstrengung zu lernen führt. 
 :::
 
 ## Nicht jede kognitive Anstrengung führt zu Lernen
@@ -681,6 +725,8 @@ T: Frage: Sind Studierende gute Manager ihrer eigenen KI-Nutzung?
 > **Noch einmal [@karpicke_critical_2008]** <br>
 > Probanden, die nur das Material wiederholten, schnitten zwar im Test schlechter ab, sie schätzten sich aber genauso kompetent ein, wie aktiv lernende Vergleichsgruppe
 
+<br>
+
 <div style="display: flex; justify-content: center; margin: 1em 0;">
 <svg viewBox="0 0 700 280" style="width: 80%; max-width: 900px; height: auto; font-family: inherit;">
   <defs>
@@ -713,7 +759,7 @@ T: Frage: Sind Studierende gute Manager ihrer eigenen KI-Nutzung?
 **Antwort 1**: *Illusion of Competence* mit KI (Erfolgreiche Produktion suggeriert scheinbare Kompetenz?)
 
 > **KI-Abhängigkeit** [@jia_effect_2025; @zhang_you_2024] <br>
-> Konzept, wonach extensive KI-Nutzung mit Erhöhung der akademischen Selbstwirksamkeit und Reduktion der Leistungsfähigkeit einhergeht. ***CAVE!*** Empirische Grundlage uneindeutig!
+> Konzept, wonach manche Formen extensiver KI-Nutzung mit Erhöhung der akademischen Selbstwirksamkeit und Reduktion der Leistungsfähigkeit einhergehen. ***CAVE!*** Empirische Grundlage uneindeutig!
 
 <div style="display: flex; justify-content: center; margin: 1em 0;">
 <svg viewBox="0 0 700 280" style="width: 80%; max-width: 900px; height: auto; font-family: inherit;">
@@ -764,7 +810,48 @@ Weitere Beispiele:
 - Suchtverhalten
 - Sporttreiben
 
-T: Konsequenz: KI-Nutzung bewusst gestalten
+T: Wir können das noch etwas verallgemeinern...
+:::
+
+## Können Lernende das intuitiv steuern?
+
+**Antwort 3**: Outsourcing kann rationale Strategie sein.
+
+<div style="display: flex; justify-content: center; margin: 1em 0;">
+<svg viewBox="0 0 600 380" style="width: 60%; max-width: 700px; height: auto;">
+  <line x1="300" y1="330" x2="402" y2="228"
+        stroke="#A63D2F" stroke-width="12" stroke-linecap="round"/>
+  <line x1="402" y1="228" x2="300" y2="126"
+        stroke="#A63D2F" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="300" cy="330" r="14" fill="#1E3A5F"/>
+  <circle cx="402" cy="228" r="10" fill="#1E3A5F"/>
+  <circle cx="300" cy="126" r="6" fill="#1ae027"/>
+  <circle cx="270" cy="80" r="16" fill="#1ae02700" stroke="#aa1616" stroke-width="3"/>
+</svg>
+</div>
+
+:::{.notes}
+Beispiel: Als ich mit komputationaler Bewegungswissenschaft angefangen habe...
+
+Zweigliedriger Arm (Standardbeispiel).
+
+Optimale Regelung. Bewege "Hand" (grün) zum Ziel.
+
+Simulationsmodell & Visualisierung programmiert. Kostenfunktion definiert. Regelungsalgorithmus implementiert. Alles Top. <br>
+Resultat: genau das hier. Nichts. Keine Bewegung. 
+
+Langes Debugging
+
+Grund: Kostenfunktion falsch gewichtet. 
+Kosten für Bewegung & kosten für Entfernung vom Ziel. 
+Kosten für Bewegung waren einfach viel höher.
+
+Analogie:
+Wenn Kostenfunktion der Lernsituation Outsourcing stark favorisiert, 
+hilft alle Ausrichtung an Zielen nicht. <br>
+Das ist einfach rationales Verhalten der Lernenden.
+
+T: Konsequenz daraus...
 :::
 
 ## Konsequenzen für Lernsituationen
@@ -785,10 +872,10 @@ T: Konsequenz: KI-Nutzung bewusst gestalten
 
 - Lehrenden-, aber auch institutionelle Ebene
 
-T: Ermöglichen: kann das nicht jeder?
+T: Bringt mich zum letzten Punkt: Welche kompetenzen braucht es für effektive KI-Nutzung??
 :::
 
-## Exkurs: Kann jeder KI nutzen?
+## Demo: KI-Output beurteilen
 
 Bewerte die folgenden zwei Aussagen: wahr oder falsch?
 
@@ -808,15 +895,26 @@ Bewerte die folgenden zwei Aussagen: wahr oder falsch?
 T: Demonstriert dass Fähigkeit zur kritischen Einordnung von Fachwissen abhängt.
 :::
 
-## Kann jeder KI nutzen?
+## Kompetenzen für KI-Nutzuung 
 - Fähigkeit zur kritischen Einordnung hängt von Fachwissen ab.
-- Sozioökonomische Situation beeinflusst Zugang zu Tools.
+- Ausserdem Wissen über:
+    - Funktionsweise (kein konzeptionelles Denken)
+    - Lernförderliche Methoden
+    - Spezialisierte Tools, deren Fähigkeiten, Personalisierung
 - Sprachkompetenz beeinflusst effektive Nutzung (*prompt literacy*) [@hwang_what_2023].
 
+Weiterer Aspekt: Zugang zu Tools.
+
 :::{.notes}
+Auch wichtig für **Produktion**!
+
+Implizit einleuchtend: Kenntnis "hilfreicher" Einsatzformen für KI beim Lernen. 
+
 Darüber hinaus... 
 
-Letzten 2 beispiele demonstrieren Potenzial von KI, Lernunterschiede weiter zu verstärken.
+Letzten 2 Punkte illustrieren Potenzial von KI, Lernunterschiede weiter zu verstärken.
+
+T: Setzen wir das wieder zusammen.. 
 :::
 
 ## Rückkehr zum Praxisbeispiel
