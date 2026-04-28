@@ -8,9 +8,9 @@ const THRESHOLDS = [10, 5];
 // Funktion zur Initialisierung des Timers in einem Container
 function initializeTimer(containerId, timeLimit, startOn) {
 
-  let active = true;
   let timePassed = 0;
   let timeLeft = timeLimit;
+  let intervalId = null;
 
   // Dynamisches Erstellen des Timer-HTML-Inhalts für jeden Container
   document.getElementById(containerId).innerHTML = `
@@ -31,36 +31,44 @@ function initializeTimer(containerId, timeLimit, startOn) {
     </div>
     `;
 
-  document.getElementById(`${containerId}-timer-svg`).addEventListener("click", (event) => {
-    toggleTimer();
+  document.getElementById(`${containerId}-timer-svg`).addEventListener("click", () => {
+    restartTimer();
   });
 
-  // Set the timer to inactive and then change to type slide
-  if ( startOn === "interaction" ) {
-    toggleTimer();
-    startOn = "slide";
+  if (startOn !== "interaction") {
+    startTicking();
   }
 
-  // Startet den Timer für einen bestimmten Container
-  (function startTimer() {
-    // only advance time when focus is required and slide is in focus
-    if (active && (startOn === 'presentation' || (startOn === 'slide' && !isHidden()))) {
+  function startTicking() {
+    if (intervalId !== null) return;
+    intervalId = setInterval(() => {
+      if (startOn === 'slide' && isHidden()) return;
 
       timePassed += 1;
       timeLeft = timeLimit - timePassed;
 
-      document.getElementById(`${containerId}-label`).innerHTML = formatTime(
-        timeLeft
-      );
-
+      document.getElementById(`${containerId}-label`).innerHTML = formatTime(timeLeft);
       setCircleDasharray();
       setRemainingPathColor(timeLeft);
 
-    }
-    if (timeLeft > 0) {
-      setTimeout(startTimer, 1000);
-    }
-  }());
+      if (timeLeft <= 0) {
+        clearInterval(intervalId);
+        intervalId = null;
+      }
+    }, 1000);
+  }
+
+  function restartTimer() {
+    timePassed = 0;
+    timeLeft = timeLimit;
+
+    document.getElementById(`${containerId}-label`).innerHTML = formatTime(timeLeft);
+    const path = document.getElementById(`${containerId}-path-remaining`);
+    path.classList.remove('lvl0', 'lvl1');
+    setCircleDasharray();
+
+    startTicking();
+  }
 
   function isHidden() {
     let timecont = document.getElementById(containerId);
@@ -71,15 +79,6 @@ function initializeTimer(containerId, timeLimit, startOn) {
       ancestor = ancestor.parentNode;
     }
     return ancestor.hidden;
-  }
-
-  function toggleTimer() {
-    if (active) {
-      document.getElementById(`${containerId}-circle`).style.fill = '#fcb';
-    } else {
-      document.getElementById(`${containerId}-circle`).style.fill = '';
-    }
-    active = !active;
   }
 
   // Funktion zur Formatierung der verbleibenden Zeit
