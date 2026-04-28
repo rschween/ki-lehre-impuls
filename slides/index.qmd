@@ -179,7 +179,7 @@ Eine Erklärung, warum Experten Fehler besser identifizieren können als Novizen
 <!-- TODO: I'm keeping the experiment & explanation for efficiency reasons, but it is not fully on point. The knowledge of chess configurations is conflated with prediction. Perceptual processing is conflated with cognitive processing. Should be done better. -->
 
 ::: {.notes}
-Dies bezieht sich mehr daraufs, dass das Wissen im Langzeitgedächtnis vernetzt sein muss. <br>
+Dies bezieht sich mehr darauf, dass das Wissen im Langzeitgedächtnis vernetzt sein muss. <br>
 Einzelne Wissensbausteine würden uns nicht ermöglichen den Fehler zu finden.
 
 T: Bildlich gedacht können wir uns das so vorstellen...
@@ -592,6 +592,7 @@ Szenario 1: Wenig Vorwissen. Variiere extrinsische Belastung.
 Szenario 2: Mehr Vorwissen. Varriere extrinsische Belastung.
 
 T: KI kann:
+
 - vorwissen anpassen
 - extrinsische Belastung reduzieren
 - lernrelevante Verarbeitung komplett abnehmen
@@ -647,6 +648,7 @@ Taschenrechner verwenden, wenn man Taylorreihen-Expansion lernt
 
 :::{.notes}
 Offloading: Reduktion extrinsischer Last.
+
 Outsourcing: Reduktion lernelevanter Verarbeitung.
 (In Balken Vorher: Summe nicht mehr 100%)
 :::
@@ -702,6 +704,7 @@ T: Fassen wir also zusammen...
 
 :::{.notes}
 Hier noch unerwähnt:
+
 - Effizienzgewinne durch KI-Nutzung für Lehrende.
 - Potenzial von KI als 1:1-Tutor.
 
