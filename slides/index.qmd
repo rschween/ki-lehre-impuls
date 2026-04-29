@@ -142,10 +142,18 @@ Aktives Erinnern (=anstrengend) festigt Gelerntes.
 > **Studie von [@karpicke_critical_2008]** <br>
 > Probanden, die in einer Übungsphase wiederholt getestet wurden (aktives Erinnern), erinnerten später mehr als Probanden, die stattdessen das Material wiederholten (passives Verarbeiten).
 
+::: {style="position: absolute; bottom: 150px; right: 150px;"}
+[Begründung 2 überspringen >>](#zwischenfazit)
+:::
+
+
 :::{.notes}
 Da wird mir vielleicht niemand widersprechen. <br>
 Dennoch zwei Begründungen. <br>
-Erste zur Überführung ins Langzeitgedächtnis.
+Erste zur Überführung ins Langzeitgedächtnis. <br>
+"generation effect"
+
+T(skip): Die Zweite Begründung fasse ich hier etwas kürzer. Kernaussage ist aber, dass die Vernetzung und Strukturierung im Langzeitgedächtnis anstrengend ist. 
 
 T: Für die zweite Begründung eine kleine Veranschaulichung. <br>
 Ihr seht gleich ein Schachfeld. <br>
@@ -452,7 +460,7 @@ viewof vorwissen_controls = {
   const div = html`<div style="display:flex;align-items:center;font-size:22px;">
     <span style="width:300px;text-align:right;">Vorwissen:</span>
     <strong style="width:80px;text-align:center;margin:0 16px;">mittel</strong>
-    <input type="range" min="1" max="3" step="1" value="2" style="width:340px;accent-color:#0072B2;">
+    <input type="range" min="1" max="3" step="1" value="2" style="width:340px;accent-color:#64748b;">
   </div>`;
 
   const slider = div.querySelector("input[type=range]");
@@ -601,7 +609,8 @@ T: KI kann:
 
 - vorwissen anpassen
 - extrinsische Belastung reduzieren
-- lernrelevante Verarbeitung komplett abnehmen
+
+Ein hilfreicher Begriff... 
 :::
 
 ## Ein Begriff...
@@ -621,6 +630,11 @@ Taschenrechner (arithmetische Operationen), während Gespräch Notizen machen (e
 :::
 :::{.column width="50%"}
 :::
+
+:::{.notes}
+T: Für Lernen können wir diesen Begriff noch etwas schärfen...
+:::
+
 ::::
 
 ## Bezogen auf Lernen
@@ -639,7 +653,7 @@ Taschenrechner verwenden, wenn man Taylorreihen-Expansion lernt
 
 :::
 
-:::{.column width="50%"}
+:::{.column width="50%" .fragment}
 
 ### Cognitive Outsourcing
 
@@ -657,6 +671,9 @@ Offloading: Reduktion extrinsischer Last.
 
 Outsourcing: Reduktion lernelevanter Verarbeitung.
 (In Balken Vorher: Summe nicht mehr 100%)
+
+T: KI kann beide Effekte haben
+
 :::
 
 ## KI-Nutzung beim Lernen
@@ -707,7 +724,7 @@ T: Fassen wir also zusammen...
 
 ## Zwischenfazit
 - KI-Nutzung kann sein:
-    - lernförderlich im Sinne eines *Cognitive Offloading* sein
+    - lernförderlich im Sinne eines *Cognitive Offloading*
     - lernhinderlich im Sinne eines *Cognitive Outsourcing*
 - Dies ist graduell und hängt vom Lernziel ab.
 
@@ -750,8 +767,9 @@ T: Frage: Sind Studierende gute Manager ihrer eigenen KI-Nutzung?
 :::{.notes}
 ... es gibt Gründe daran zu zweifeln.
 
-
 [@karpicke_metacognitive_2009] Lernende nutzen tatsächlich selten "self-testing" und häufig Wiederholung.
+
+T: Die Analogie, die wir hier aufstellen können ist, dass erfolgreiche Produktion mit KI ebenfalls eine wahrgenommene Kompetenz verursacht. 
 :::
 
 ## Können Lernende das intuitiv steuern?
@@ -786,12 +804,16 @@ T: Frage: Sind Studierende gute Manager ihrer eigenen KI-Nutzung?
 </div>
 
 :::{.notes}
-"Metakognitive Falle"?
+"Metakognition" <br>
+"Metakognitive Falle"
 
 Die Steigerung der Selbstwirksamkeit durch KI-Nutzung ist gut belegt [@ren_impact_2026]
-Metaanalysen suggerieren moderate Kompetenzsteigerung durch KI-Nutzung, abhängig von versch. Faktoren [@liu_does_2026, @zhu_exploring_2025]
 
+Frage ist, was macht die Kompetenz?
 
+Theoretisch: Offloading, Outsourcing. 
+
+Empirisch: Metaanalysen suggerieren moderate Kompetenzsteigerung durch KI-Nutzung, abhängig von versch. Faktoren [@liu_does_2026, @zhu_exploring_2025]
 
 T: Weiterer Grund für Zweifel..
 :::
@@ -876,7 +898,58 @@ T: Konsequenz daraus...
 
 - Lehrenden-, aber auch institutionelle Ebene
 
-T: Bringt mich zum letzten Punkt: Welche kompetenzen braucht es für effektive KI-Nutzung??
+T: Auf den letzten Punkt möchte ich gleich nochmal genauer eingehen.
+:::
+
+## Orientierung: Lernen - Produktion
+<div style="display: flex; justify-content: center; margin: 1em 0;">
+<svg viewBox="0 0 700 380" style="width: 80%; max-width: 900px; height: auto; font-family: inherit;">
+  <defs>
+    <marker id="arr-fazit" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#1A1714"/>
+    </marker>
+  </defs>
+  <line x1="350" y1="20" x2="175" y2="75" stroke="#1A1714" stroke-width="2" marker-end="url(#arr-fazit)"/>
+  <line x1="350" y1="20" x2="525" y2="75" stroke="#1A1714" stroke-width="2" marker-end="url(#arr-fazit)"/>
+  <rect x="80" y="80" width="180" height="60" rx="8" fill="#1E3A5F"/>
+  <text x="170" y="118" text-anchor="middle" font-size="22" font-weight="bold" fill="white">Produkt</text>
+  <rect x="440" y="80" width="180" height="60" rx="8" fill="#1E3A5F"/>
+  <text x="530" y="118" text-anchor="middle" font-size="22" font-weight="bold" fill="white">Lernen</text>
+  <line x1="145" y1="140" x2="90" y2="265" stroke="#1A1714" stroke-width="2" marker-end="url(#arr-fazit)"/>
+  <line x1="195" y1="140" x2="250" y2="265" stroke="#1A1714" stroke-width="2" marker-end="url(#arr-fazit)"/>
+  <line x1="505" y1="140" x2="450" y2="265" stroke="#1A1714" stroke-width="2" marker-end="url(#arr-fazit)"/>
+  <line x1="555" y1="140" x2="610" y2="265" stroke="#1A1714" stroke-width="2" marker-end="url(#arr-fazit)"/>
+  <rect x="5" y="270" width="150" height="90" rx="8" fill="white" stroke="#1E3A5F" stroke-width="2"/>
+  <text x="80" y="305" text-anchor="middle" font-size="18" fill="#1E3A5F">
+    <tspan x="80" dy="0">Beurteilungs-</tspan>
+    <tspan x="80" dy="24">kompetenz</tspan>
+  </text>
+  <rect x="185" y="270" width="150" height="90" rx="8" fill="white" stroke="#1E3A5F" stroke-width="2"/>
+  <text x="260" y="293" text-anchor="middle" font-size="18" fill="#1E3A5F">
+    <tspan x="260" dy="0">keine</tspan>
+    <tspan x="260" dy="24">Beurteilungs-</tspan>
+    <tspan x="260" dy="24">kompetenz</tspan>
+  </text>
+  <rect x="365" y="270" width="150" height="90" rx="8" fill="white" stroke="#1E3A5F" stroke-width="2"/>
+  <text x="440" y="320" text-anchor="middle" font-size="18" fill="#1E3A5F">Offloading</text>
+  <rect x="545" y="270" width="150" height="90" rx="8" fill="white" stroke="#1E3A5F" stroke-width="2"/>
+  <text x="620" y="320" text-anchor="middle" font-size="18" fill="#1E3A5F">Outsourcing</text>
+</svg>
+</div>
+
+:::{.notes}
+Zuvor noch einmal verorten: 
+
+Haben über Lernen gesprochen und gesagt: <br>
+KI kann lernförderliches Offloading oder lernhinderliches Outsourcing sein. 
+
+Nun wieder: Beides.
+
+Wie können wir KI effektiv nutzen?
+
+Häufig genannt: Kompetenz zur Beurteilung oder kritischem Denken. 
+
+T: Dazu eine kleine Demo. 
 :::
 
 ## Demo: KI-Output beurteilen
@@ -896,7 +969,7 @@ Bewerte die folgenden zwei Aussagen: wahr oder falsch?
 
 2. Falsch, weil: Transfette zwar tatsächlich als besonders schädlich gelten, die Revision des Forschungsstands zu gesättigten Fettsäuren aber nicht primär darauf zurückzuführen ist. Die Vermischung beider Argumente klingt plausibel, ist aber eine unzulässige Vereinfachung.
 
-T: Demonstriert dass Fähigkeit zur kritischen Einordnung von Fachwissen abhängt.
+T: Demonstriert dass Fähigkeit zur kritischen Einordnung von Fachwissen abhängt. Sie ist wichtig, aber nicht unabhängig.
 :::
 
 ## Kompetenzen für KI-Nutzuung 
