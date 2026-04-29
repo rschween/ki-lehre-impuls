@@ -915,21 +915,8 @@ T: Auf den letzten Punkt möchte ich gleich nochmal genauer eingehen.
   <text x="170" y="118" text-anchor="middle" font-size="22" font-weight="bold" fill="white">Produkt</text>
   <rect x="440" y="80" width="180" height="60" rx="8" fill="#1E3A5F"/>
   <text x="530" y="118" text-anchor="middle" font-size="22" font-weight="bold" fill="white">Lernen</text>
-  <line x1="145" y1="140" x2="90" y2="265" stroke="#1A1714" stroke-width="2" marker-end="url(#arr-fazit)"/>
-  <line x1="195" y1="140" x2="250" y2="265" stroke="#1A1714" stroke-width="2" marker-end="url(#arr-fazit)"/>
   <line x1="505" y1="140" x2="450" y2="265" stroke="#1A1714" stroke-width="2" marker-end="url(#arr-fazit)"/>
   <line x1="555" y1="140" x2="610" y2="265" stroke="#1A1714" stroke-width="2" marker-end="url(#arr-fazit)"/>
-  <rect x="5" y="270" width="150" height="90" rx="8" fill="white" stroke="#1E3A5F" stroke-width="2"/>
-  <text x="80" y="305" text-anchor="middle" font-size="18" fill="#1E3A5F">
-    <tspan x="80" dy="0">Beurteilungs-</tspan>
-    <tspan x="80" dy="24">kompetenz</tspan>
-  </text>
-  <rect x="185" y="270" width="150" height="90" rx="8" fill="white" stroke="#1E3A5F" stroke-width="2"/>
-  <text x="260" y="293" text-anchor="middle" font-size="18" fill="#1E3A5F">
-    <tspan x="260" dy="0">keine</tspan>
-    <tspan x="260" dy="24">Beurteilungs-</tspan>
-    <tspan x="260" dy="24">kompetenz</tspan>
-  </text>
   <rect x="365" y="270" width="150" height="90" rx="8" fill="white" stroke="#1E3A5F" stroke-width="2"/>
   <text x="440" y="320" text-anchor="middle" font-size="18" fill="#1E3A5F">Offloading</text>
   <rect x="545" y="270" width="150" height="90" rx="8" fill="white" stroke="#1E3A5F" stroke-width="2"/>
@@ -943,13 +930,13 @@ Zuvor noch einmal verorten:
 Haben über Lernen gesprochen und gesagt: <br>
 KI kann lernförderliches Offloading oder lernhinderliches Outsourcing sein. 
 
-Nun wieder: Beides.
+Nun wieder auch Produktion bzw. Beides.
 
 Wie können wir KI effektiv nutzen?
 
-Häufig genannt: Kompetenz zur Beurteilung oder kritischem Denken. 
+Wichtige Frage: Kann ich überhaupt beurteilen, ob der KI-Output gut ist. 
 
-T: Dazu eine kleine Demo. 
+T: Dazu eine kleine Demo. Zeige gleich zwei Aussagen, die von KI euch als Antwort auf eine Frage geben könnte. Ihr sollt beurteilen, ob die Aussagen korrekt sind. 
 :::
 
 ## Demo: KI-Output beurteilen
@@ -965,11 +952,23 @@ Bewerte die folgenden zwei Aussagen: wahr oder falsch?
 <img src="../assets/images/wooclap-qr.png" alt="QR-Code Wooclap" style="position: absolute; bottom: 30px; right: 90px; width: 240px; height: auto;">
 
 :::{.notes}
+Scant den QR-Code oder geht auf wooclap.com und gebt den Code ein. 
+
+Zwei Aussagen, die euch KI als Antwort auf eine Frage geben könnte. Ihr sollt beurteilen, ob die KI Antwort wahr oder falsch ist. 
+
+Zu Wooclap wechseln. 
+
+Demonstriert dass Fähigkeit zur kritischen Einordnung von Fachwissen abhängt. 
+
+Eure Studierenden haben per Definition nicht in allen Situationen alles Fachwissen.
+Das ist wichtig zu berücksichtigen.
+
+T: Weitere Kompetenzen, die sowohl für **Produktion** als auch für **Lernen** mit KI wichtig sind. 
+
 1. Falsch, weil: Fehlerreduktion ist zwar wertvoll, aber nicht dasselbe wie Engpassmanagement. Der Gesamtdurchsatz wird primär durch die kapazitätsschwächste Station begrenzt, nicht durch gleichmässig verteilte Fehlerquoten. Die falsche Aussage klingt plausibel, weil Fehlerreduktion tatsächlich ein legitimes Optimierungsziel ist — sie beantwortet aber eine andere Frage.
 
 2. Falsch, weil: Transfette zwar tatsächlich als besonders schädlich gelten, die Revision des Forschungsstands zu gesättigten Fettsäuren aber nicht primär darauf zurückzuführen ist. Die Vermischung beider Argumente klingt plausibel, ist aber eine unzulässige Vereinfachung.
 
-T: Demonstriert dass Fähigkeit zur kritischen Einordnung von Fachwissen abhängt. Sie ist wichtig, aber nicht unabhängig.
 :::
 
 ## Kompetenzen für KI-Nutzuung 
@@ -983,7 +982,6 @@ T: Demonstriert dass Fähigkeit zur kritischen Einordnung von Fachwissen abhäng
 Weiterer Aspekt: Zugang zu Tools.
 
 :::{.notes}
-Auch wichtig für **Produktion**!
 
 Implizit einleuchtend: Kenntnis "hilfreicher" Einsatzformen für KI beim Lernen. 
 
