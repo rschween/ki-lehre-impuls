@@ -48,3 +48,6 @@ pages/config.yaml
 
 # Generated files
 /docs/*
+slides.pptx
+slides.pdf
+handout.pdf
