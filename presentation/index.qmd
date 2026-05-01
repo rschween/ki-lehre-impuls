@@ -14,11 +14,12 @@ Nutze die Pfeiltasten oder die Leertaste um durch die Präsentation zu navigiere
 
 #### Weiterbildungsangebot
 
-Dieser Refresher bietet einen kompakten Überblick über den aktuellen Forschungsstand und die lernwissenschaftlichen Grundlagen. Die BFH bietet drei aufbauende Kurse an, die diese Themen vertiefen:
+Dieser Impuls bietet einen kompakten Überblick über den aktuellen Forschungsstand und die lernwissenschaftlichen Grundlagen. Die Virtuelle Akademie der BFH bietet im Rahmen des [Weiterebildungsprogramms](https://www.bfh.ch/de/ueber-die-bfh/service-beratung/virtuelle-akademie/#weiterbildungsangebote) drei aufbauende Kurse an, die diese Themen vertiefen:
 
-[KI in der Lehre: Beginner](https://virtuelleakademie.github.io/ki-lehre-beginner/): Grundlagen zu Sprachmodellen und Chatbots.
+[KI in der Lehre: Einführung](https://virtuelleakademie.github.io/ki-lehre-beginner/): Grundlagen zu Sprachmodellen und Chatbots.
 
-[KI in der Lehre: Intermediate](https://virtuelleakademie.github.io/ki-lehre-intermediate/): Lernpsychologie und KI-gestütztes Lerndesign.
+[KI in der Lehre: Lernen mit KI verstehen](https://virtuelleakademie.github.io/ki-lehre-intermediate/): Lernpsychologie und KI-gestütztes Lerndesign.
 
-[KI in der Lehre: Advanced](https://virtuelleakademie.github.io/ki-lehre-advanced/): Workshop zur Entwicklung eines eigenen KI-gestützten Lerntools.
+[KI in der Lehre: Lerntools bauen](https://virtuelleakademie.github.io/ki-lehre-advanced/): Workshop zur Entwicklung eines eigenen KI-gestützten Lerntools.
 
+Aussderdem bieten wir ein [Zertifikat (7 ECTS)](https://www.bfh.ch/de/weiterbildung/kurse/zertifikatskurs-hochschuldidaktik/) und einen [CAS (10 ECTS)](https://www.bfh.ch/de/weiterbildung/cas/hochschuldidaktik/) in Hochschuldidaktik an, der unter anderem diese Themen aufgreift. 
