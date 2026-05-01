@@ -30,8 +30,24 @@ website:
   navbar:
     background: light
     right:
-      - icon: archive
-        text: Archiv
+      - icon: file-earmark-text
+        text: "BFH Dokumente"
+        menu:
+          - text: "KI Policy der BFH"
+            href: https://www.bfh.ch/dam/jcr:3b64bdc7-c5d6-4c62-8dc5-0e6a60901c70/KI-Policy_BFH_FHL7Mai25_verabschiedet-1.pdf
+            target: _blank
+          - text: "Abgeklärte KI-Tools (Intranet)"
+            href: https://bernerfachhochschule.sharepoint.com/sites/mybfh-Informationssicherheit-Datenschutz-de/SitePages/Abgekl%C3%A4rte-KI-Tools.aspx
+            target: _blank
+          - text: "Datenklassifikation (Intranet)"
+            href: https://bernerfachhochschule.sharepoint.com/sites/mybfh-Informationssicherheit-Datenschutz-de/SitePages/Datenklassifikation.aspx
+            target: _blank
+          - text: "Begleitdokument: KI Weiterbildung"
+            href: assets/pdfs/Begleitdokument.pdf
+            target: _blank
+          - text: "Orientierungshilfe"
+            href: assets/pdfs/Orientierungshilfe.pdf
+            target: _blank
     tools:
       - icon: mortarboard-fill
         text: "BFH Weiterbildung: KI in der Lehre"
@@ -48,6 +64,7 @@ page-footer:
       href: https://github.com/virtuelleakademie/ki-lehre-impuls/
 
 lang: de
+license: CC BY 4.0
 
 format:
   html:
